@@ -9,93 +9,141 @@ import de from "../../locales/de.json";
 
 const locales = { es, en, fr, de };
 
-const AutoSlider = ({ interval = 10000 }) => { // 5 min = 300000 ms
+const AutoSlider = ({ interval = 10000 }) => {
+  const location = useLocation();
+  const lang = location.pathname.split("/")[1] || "es";
+  const slider = locales[lang].slider;
 
-    const location = useLocation();
-    const lang = location.pathname.split("/")[1] || "es";
-    const slider = locales[lang].slider;
+  const slides = [slider.slide_1, slider.slide_2, slider.slide_3];
 
-    const slides = [
-        slider.slide_1,
-        slider.slide_2,
-        slider.slide_3
-    ];
+  const [index, setIndex] = useState(0);
 
-    const [index, setIndex] = useState(0);
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setIndex((prev) => (prev + 1) % slides.length);
+    }, interval);
+    return () => clearInterval(timer);
+  }, [slides.length, interval]);
 
-    // Autoplay
-    useEffect(() => {
-        const timer = setInterval(() => {
-            setIndex((prev) => (prev + 1) % slides.length);
-        }, interval);
+  const next = () => setIndex((prev) => (prev + 1) % slides.length);
+  const prev = () => setIndex((prev) => (prev - 1 + slides.length) % slides.length);
 
-        return () => clearInterval(timer);
-    }, [slides.length, interval]);
+  return (
+    <div
+      className="
+        relative w-full 
+        h-[70vh] md:h-[75vh] lg:h-[80vh]      /* altura más baja en móviles */
+        overflow-hidden
+      "
+    >
+      {slides.map((slide, i) => (
+        <div
+          key={i}
+          className={`
+            absolute inset-0 transition-opacity duration-700 ease-in-out
+            ${i === index ? "opacity-100" : "opacity-0"}
+          `}
+        >
+          {/* Fondo */}
+          <img
+            src={`/slider/${i + 1}.jpg`}
+            className="w-full h-full object-cover"
+            alt=""
+          />
 
-    const next = () => setIndex((prev) => (prev + 1) % slides.length);
-    const prev = () => setIndex((prev) => (prev - 1 + slides.length) % slides.length);
+          <div className="absolute inset-0 bg-black/50" />
 
-    return (
-        <div className="relative w-full h-[80vh] md:h-[70vh] overflow-hidden">
+          {/* Contenido centrado */}
+          <div
+            className="
+              absolute inset-0
+              flex flex-col justify-center items-center
+              px-4 sm:px-6 md:px-10
+              text-white text-center md:text-left
+            "
+          >
+            <div className="max-w-[320px] sm:max-w-xl md:max-w-2xl">
+              <h1
+                className="
+                  font-bold leading-tight drop-shadow
+                  text-xl xs:text-2xl sm:text-3xl md:text-4xl lg:text-5xl
+                "
+              >
+                {slide.title}
+              </h1>
 
-            {/* SLIDES */}
-            {slides.map((slide, i) => (
-                <div
-                    key={i}
-                    className={`absolute inset-0 transition-opacity duration-700 ease-in-out
-                    ${i === index ? "opacity-100" : "opacity-0"}
-                    flex items-center`}
+              <p
+                className="
+                  mt-3 sm:mt-4
+                  text-xs sm:text-sm md:text-base lg:text-lg
+                "
+              >
+                {slide.description}
+              </p>
+
+              {/* Botones centrados en móvil */}
+              <div
+                className="
+                  mt-5 sm:mt-6
+                  flex flex-col sm:flex-row gap-3 sm:gap-4
+                  justify-center md:justify-start
+                "
+              >
+                <button
+                  className="
+                    bg-brand text-black font-medium
+                    px-4 sm:px-5 py-2
+                    text-xs sm:text-sm md:text-base
+                    rounded-lg border-0 cursor-pointer
+                  "
                 >
-                    {/* Background Image — tú puedes personalizar el src */}
-                    <img
-                        src={`/slider/${i + 1}.jpg`}
-                        className="w-full h-full object-cover"
-                        alt=""
-                    />
+                  {slider.button}
+                </button>
 
-                    {/* Overlay oscuro */}
-                    <div className="absolute inset-0 bg-black/50"></div>
-
-                    {/* Textos */}
-                    <div className="absolute left-6 md:left-40 top-1/2 -translate-y-1/2 max-w-xl text-white">
-                        <h1 className="text-3xl md:text-5xl font-bold leading-tight drop-shadow">
-                            {slide.title}
-                        </h1>
-
-                        <p className="mt-4 text-sm md:text-lg  px-1 py-2 rounded-md inline-block">
-                            {slide.description}
-                        </p>
-
-                        {/* Botones */}
-                        <div className="mt-6 flex gap-4">
-                            <button className="bg-brand text-black font-medium px-5 py-2 rounded-lg border-0  cursor-pointer">
-                                {slider.button}
-                            </button>
-
-                            <button className="bg-transparent text-white border border-white px-5 py-2 rounded-lg hover:bg-black hover:text-white transition cursor-pointer">
-                                {slider.button_2}
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            ))}
-
-            {/* Controles */}
-            <button
-                onClick={prev}
-                className="absolute bottom-6 left-1/2 -translate-x-16 bg-black/60 text-white p-3 rounded-full md:-translate-x-24"
-            >
-                <FaArrowLeft />
-            </button>
-
-            <button
-                onClick={next}
-                className="absolute bottom-6 left-1/2 translate-x-16 bg-black/60 text-white p-3 rounded-full md:translate-x-24"
-            >
-                <FaArrowRight />
-            </button>
+                <button
+                  className="
+                    bg-transparent text-white border border-white
+                    px-4 sm:px-5 py-2
+                    text-xs sm:text-sm md:text-base
+                    rounded-lg hover:bg-black hover:text-white transition cursor-pointer
+                  "
+                >
+                  {slider.button_2}
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
-    );
+      ))}
+
+      {/* Flechas centradas en la parte baja */}
+      <div
+        className="
+          absolute bottom-4 sm:bottom-6 left-1/2 -translate-x-1/2
+          flex items-center gap-6
+        "
+      >
+        <button
+          onClick={prev}
+          className="
+            bg-black/60 text-white p-2 sm:p-3 rounded-full
+          "
+        >
+          <FaArrowLeft />
+        </button>
+
+        <button
+          onClick={next}
+          className="
+            bg-black/60 text-white p-2 sm:p-3 rounded-full
+          "
+        >
+          <FaArrowRight />
+        </button>
+      </div>
+    </div>
+  );
 };
 
 export default AutoSlider;
+
