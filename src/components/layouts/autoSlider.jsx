@@ -125,6 +125,8 @@ const AutoSlider = ({ interval = 10000 }) => {
                       focus-visible:outline-none
                       focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-transparent
                     "
+                    {/**Que el botón leve a la sección con id contacto */}
+                    onClick ={() => { document.getElementById("contact-form").scrollIntoView({ behavior: "smooth" }); }
                   >
                     {slider.button_2}
                   </button>

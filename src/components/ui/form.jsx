@@ -77,7 +77,7 @@ export default function ContactForm() {
           {formText?.title}
         </h2>
 
-        <form onSubmit={handleSubmit} className="mt-8 space-y-6">
+        <form onSubmit={handleSubmit} className="mt-8 space-y-6" id="contact-form">
           {/* 2 columnas en desktop */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Nombre */}
