@@ -1,14 +1,13 @@
 import es from "../../../locales/es.json";
 import en from "../../../locales/en.json";
 import fr from "../../../locales/fr.json";
-import de from "../../../locales/de.json";
+import de from "../../locales/de.json";
 
 const translationsByLang = { es, en, fr, de };
 
 const Description = ({ category, lang }) => {
     const t = translationsByLang[lang] || translationsByLang.es;
 
-    // Mapea el slug de la URL a la clave del JSON
     const slugToServiceKey = {
         "reformas_de_baños": "baños",
         "albañileria": "albañileria",
@@ -25,20 +24,26 @@ const Description = ({ category, lang }) => {
     const serviceData = t.services_subservices[serviceKey];
 
     return (
-    
-      <div className="container-main bottom-0 left-0  w-full h-25 bg-gradient-to-t from-white/90 to-transparent " >
-
-             { serviceData?.description && (
-              <div className=" flex flex-col items-center justify-center py-8 px-5 md:px-0">
-                <p className="text-gray-800 text-sm md:text-base max-w-[900px] mx-auto">
-                  {serviceData.description}
-                </p>
-              </div>
-    
-            )}
+        <div className="w-full py-12 md:py-16 lg:py-20 bg-gradient-to-t from-white/95 via-white/80 to-transparent">
+            <div className="container-main flex flex-col items-center justify-center min-h-[200px] md:min-h-[250px]">
+                
+                {/* Separador decorativo */}
+                <div className="w-24 h-1 bg-brand rounded-full mb-6 md:mb-8" />
+                
+                {/* Contenido centrado */}
+                {serviceData?.description && (
+                    <div className="text-center px-4 sm:px-6">
+                        <p className="text-gray-700 text-sm sm:text-base md:text-lg max-w-2xl leading-relaxed">
+                            {serviceData.description}
+                        </p>
+                    </div>
+                )}
+                
+                {/* Separador inferior opcional */}
+                <div className="w-20 h-px bg-brand/50 mt-8" />
+            </div>
         </div>
-        );
-}
- 
-    
+    );
+};
+
 export default Description;
