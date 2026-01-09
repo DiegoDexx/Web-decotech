@@ -1,0 +1,673 @@
+{
+  "navbar": {
+    "links": {
+      "home": "Inicio",
+      "services": "Servicios",
+      "projects": "Proyectos",
+      "about": "Nosotros"
+    },
+    "contact": "Contacto",
+    "languages": {
+      "es": "Español",
+      "en": "Inglés",
+      "fr": "Francés",
+      "de": "Alemán"
+    }
+  },
+  "slider": {
+    "slide_1": {
+      "title": "Reforma tu cocina a un diseño hecho para ti.",
+      "description": "Más de 15 años de experiencia en reformas y todo tipo de servicios. Calidad, profesionalidad y compromiso en cada proyecto."
+    },
+    "slide_2": {
+      "title": "Transforma tu baño en un espacio moderno y funcional.",
+      "description": "Especialistas en reformas de baños con materiales de alta calidad y diseños innovadores."
+    },
+    "slide_3": {
+      "title": "Renueva tu hogar con nuestras soluciones integrales.",
+      "description": "Ofrecemos servicios completos de reforma para cada rincón de tu casa, adaptándonos a tus necesidades y estilo."
+    },
+    "button": "Solicitar presupuesto",
+    "button_2": "Ver proyectos"
+
+},
+
+
+  "services": {
+    "title": "Nuestros Servicios",
+    "description": "Ofrecemos una amplia gama de servicios para satisfacer todas tus necesidades de reforma y mantenimiento del hogar.",
+    "service_1": {
+      "title": "Reformas de baños",
+      "description": "Especialistas en reformas de baños con materiales de alta calidad y diseños innovadores.",
+      "slug": "reformas_de_baños"
+      
+    },
+    "service_2": {
+      "title": "Albañilería",
+      "description": "Trabajos de albañilería precisos y duraderos y mejoras estéticas en cualquier espacio.",
+      "slug": "albañileria"
+    },
+    "service_3": {
+      "title": "Reformas Integrales",
+      "description": "Servicios de reformas integrales para tu vivienda o local comercial adaptándolo a tus necesidades.",
+      "slug": "reformas_integrales"
+    },
+    "service_4": {
+      "title": "Antenas",
+      "description": "Montaje, reparación y configuración de antenas para una señal estable y de alta calidad en todo el hogar.",
+      "slug": "antenas"
+    },
+    "service_5": {
+      "title": "Fontanería",
+      "description": "Servicios de fontanería rápidos y fiables: reparación de fugas, instalación de tuberías...etc",
+      "slug": "fontaneria"
+    },
+    "service_6": {
+      "title": "Reformas de cocina",
+      "description": "Transforma tu cocina con nuestros servicios de reforma personalizados y funcionales.",
+      "slug": "reformas_de_cocina"
+    },
+    "service_7": {
+      "title": "Pintura",
+      "description": "Acabados profesionales en interiores y exteriores, con materiales de calidad y resultados limpios.",
+      "slug": "pintura"
+    },
+    "service_8": {
+      "title": "Electricidad",
+      "description": "Instalaciones y reparaciones eléctricas profesionales, garantizando seguridad, eficiencia y soluciones eficientes.",
+      "slug": "electricidad"
+    },
+    "service_9": {
+      "title": "Limpieza",
+      "description": "Servicio de limpieza integral con resultados impecables para viviendas, oficinas y espacios comerciales.",
+      "slug": "limpieza"
+    }
+  },
+ 
+
+  "services_subservices": {
+    "title": "Subservicios",
+
+    "baños": {
+      "subtitle": "Reformas de baños profesionales con materiales de alta calidad y acabados impecables.",
+      "short_description": "Especialistas en reformas de baños completas. Diseño moderno, materiales premium y acabados de calidad para transformar tu espacio.",
+       "description": "Convertimos tu baño en un espacio moderno, funcional y elegante. Nos especializamos en reformas integrales de baño, desde el diseño hasta la instalación final. Utilizamos materiales de alta calidad y las últimas tendencias en diseño de interiores para crear el baño de tus sueños.",
+      "subservicios": {
+        "reformas_integrales_banos": {
+          "title": "Reformas integrales de baños",
+          "description": "Renovación completa del baño para mejorar diseño, funcionalidad y confort.",
+          "slug": "reformas-integrales-banos"
+        },
+        "reemplazo_instalaciones": {
+          "title": "Instalaciones y reemplazo de instalaciones",
+          "description": "Actualización de tuberías, acometidas y sistemas de agua.",
+          "slug": "reemplazo-instalaciones"
+        },
+        "cambio_banera_ducha": {
+          "title": "Cambio de bañera o plato de ducha",
+          "description": "Sustitución por sistemas modernos, seguros y funcionales.",
+          "slug": "cambio-banera-ducha"
+        },
+        "reemplazo_sanitarios": {
+          "title": "Reemplazo de sanitarios",
+          "description": "Instalación de sanitarios nuevos para mejorar el rendimiento y la estética.",
+          "slug": "reemplazo-sanitarios"
+        },
+        "reemplazo_griferia": {
+          "title": "Reemplazo de grifería",
+          "description": "Sustitución por grifos modernos y eficientes.",
+          "slug": "reemplazo-griferia"
+        },
+        "azulejos_pavimentos": {
+          "title": "Azulejos y pavimentos",
+          "description": "Colocación de revestimientos duraderos y estéticos.",
+          "slug": "azulejos-pavimentos"
+        }
+      }
+    },
+
+    "albañileria": {
+      "subtitle": "Trabajos de albañilería duraderos y adaptados a cada proyecto.",
+      "short_description": "Servicios profesionales de albañilería con técnicas avanzadas. Rehabilitaciones, tabiquería y soluciones efectivas contra humedades.",
+      "description": "Realizamos trabajos de albañilería con materiales de alta calidad y técnicas profesionales para garantizar resultados duraderos y estéticamente agradables.",
+      "subservicios": {
+        "reformas_integrales": {
+          "title": "Reformas integrales",
+          "description": "Transformación completa de espacios para mejorar estructura y estética.",
+          "slug": "reformas-integrales"
+        },
+        "tabiqueria_suelos_techos": {
+          "title": "Tabiquerías, suelos y techos",
+          "description": "Construcción o renovación de elementos interiores.",
+          "slug": "tabiquerias-suelos-techos"
+        },
+        "rehabilitaciones": {
+          "title": "Rehabilitaciones",
+          "description": "Restauración de zonas antiguas o dañadas.",
+          "slug": "rehabilitaciones"
+        },
+        "tratamiento_humedades": {
+          "title": "Tratamiento de humedades",
+          "description": "Soluciones para eliminar humedad y prevenir filtraciones.",
+          "slug": "tratamiento-humedades"
+        },
+        "impermeabilizaciones": {
+          "title": "Impermeabilizaciones",
+          "description": "Protección contra filtraciones y humedad.",
+          "slug": "impermeabilizaciones"
+        },
+        "derrumbes_desescombros": {
+          "title": "Derrumbe y desescombro",
+          "description": "Demolición controlada y retirada segura de escombros.",
+          "slug": "derrumbes-desescombros"
+        }
+      }
+    },
+
+    "reformas_integrales": {
+      "subtitle": "Reformas integrales adaptadas a tus necesidades.",
+      "short_description": "Transformación completa de viviendas y locales. Diseño personalizado, coordinación profesional y cumplimiento garantizado de plazos.",
+      "description": "Transformamos tu espacio con reformas integrales personalizadas, combinando funcionalidad y diseño para crear ambientes únicos.",
+      "subservicios": {
+        "diseno_personalizado": {
+          "title": "Diseño personalizado",
+          "description": "Planificación detallada según tus gustos y necesidades.",
+          "slug": "diseno-personalizado"
+        },
+        "gestion_permisos": {
+          "title": "Gestión de permisos",
+          "description": "Tramitación legal necesaria para iniciar los trabajos.",
+          "slug": "gestion-permisos"
+        },
+        "coordinacion_oficios": {
+          "title": "Coordinación de oficios",
+          "description": "Gestión profesional de los diferentes equipos de trabajo.",
+          "slug": "coordinacion-oficios"
+        },
+        "acabados_calidad": {
+          "title": "Acabados de calidad",
+          "description": "Finituras duraderas y de excelente estética.",
+          "slug": "acabados-calidad"
+        },
+        "cumplimiento_plazos": {
+          "title": "Cumplimiento de plazos",
+          "description": "Entrega garantizada dentro del tiempo acordado.",
+          "slug": "cumplimiento-plazos"
+        },
+        "presupuesto_detallado": {
+          "title": "Presupuesto detallado",
+          "description": "Desglose transparente y preciso de los costes.",
+          "slug": "presupuesto-detallado"
+        }
+      }
+    },
+
+    "antenas": {
+      "subtitle": "Instalación y reparación de antenas con señal estable y de alta calidad.",
+      "short_description": "Instalación y mantenimiento de antenas TDT, parabólicas y comunitarias. Señal óptima garantizada para tu hogar.",
+      "description": "Montaje, reparación y configuración de antenas para una señal estable y de alta calidad en todo el hogar.",
+      "subservicios": {
+        "instalacion_antenas": {
+          "title": "Instalación de antenas",
+          "description": "Montaje profesional de antenas TDT y parabólicas.",
+          "slug": "instalacion-antenas"
+        },
+        "reparacion_antenas": {
+          "title": "Reparación de antenas",
+          "description": "Solución rápida a problemas de señal.",
+          "slug": "reparacion-antenas"
+        },
+        "antenas_particulares": {
+          "title": "Antenas particulares TDT",
+          "description": "Instalación individual para viviendas privadas.",
+          "slug": "antenas-particulares"
+        },
+        "antenas_comunitarias": {
+          "title": "Antenas comunitarias",
+          "description": "Instalaciones para edificios y comunidades.",
+          "slug": "antenas-comunitarias"
+        },
+        "antenas_parabolicas": {
+          "title": "Antenas parabólicas",
+          "description": "Montaje y orientación para señal satelital.",
+          "slug": "antenas-parabolicas"
+        },
+        "mantenimiento_antenas": {
+          "title": "Mantenimiento de antenas",
+          "description": "Revisión periódica para asegurar óptima recepción.",
+          "slug": "mantenimiento-antenas"
+        }
+      }
+    },
+
+    "fontaneria": {
+      "subtitle": "Servicios de fontanería rápidos, profesionales y fiables.",
+      "short_description": "Fontaneros profesionales 24/7. Reparaciones urgentes, instalaciones completas y mantenimiento preventivo con garantía de calidad.",
+      "description": "Servicios completos de fontanería para hogares y negocios. Desde pequeñas reparaciones hasta instalaciones completas, nuestro equipo está preparado para resolver cualquier problema de fontanería con rapidez y eficiencia. Disponemos de servicio de urgencias 24/7.",
+      "subservicios": {
+        "revision_reparacion": {
+          "title": "Revisión y reparación",
+          "description": "Inspección y solución de fugas y averías.",
+          "slug": "revision-reparacion"
+        },
+        "mantenimiento_preventivo": {
+          "title": "Mantenimiento preventivo",
+          "description": "Prevención de fallas y mejoras de instalaciones.",
+          "slug": "mantenimiento-preventivo"
+        },
+        "instalacion_tuberias": {
+          "title": "Instalación de tuberías",
+          "description": "Montaje de sistemas de agua eficientes y duraderos.",
+          "slug": "instalacion-tuberias"
+        },
+        "urgencias": {
+          "title": "Urgencias",
+          "description": "Atención inmediata para averías graves.",
+          "slug": "urgencias"
+        },
+        "reemplazo_sanitarios": {
+          "title": "Reemplazo de sanitarios",
+          "description": "Instalación de piezas modernas y funcionales.",
+          "slug": "reemplazo-sanitarios"
+        },
+        "reemplazo_griferia": {
+          "title": "Reemplazo de grifería",
+          "description": "Sustitución de grifos antiguos por modelos actuales.",
+          "slug": "reemplazo-griferia"
+        }
+      }
+    },
+
+    "reformas_cocina": {
+      "subtitle": "Reformas de cocinas modernas y completamente funcionales.",
+      "short_description": "Reformas de cocinas integrales y personalizadas. Diseño funcional, mobiliario de calidad y electrodomésticos de primeras marcas.",
+      "description": "Creamos cocinas que combinan diseño, funcionalidad y calidad. Desde el diseño inicial hasta la instalación final, nos encargamos de todo para que disfrutes de la cocina de tus sueños. Trabajamos con las mejores marcas de electrodomésticos y muebles de cocina.",
+      "subservicios": {
+        "reformas_integrales_cocina": {
+          "title": "Reformas integrales de cocina",
+          "description": "Transformación total de la cocina.",
+          "slug": "reformas-integrales-cocina"
+        },
+        "instalacion_mobiliario": {
+          "title": "Instalación de mobiliario",
+          "description": "Montaje profesional de muebles de cocina.",
+          "slug": "instalacion-mobiliario"
+        },
+        "reemplazo_encimeras": {
+          "title": "Reemplazo de encimeras",
+          "description": "Instalación de superficies resistentes y estéticas.",
+          "slug": "reemplazo-encimeras"
+        },
+        "instalacion_electrodomesticos": {
+          "title": "Instalación de electrodomésticos",
+          "description": "Integración segura de electrodomésticos modernos.",
+          "slug": "instalacion-electrodomesticos"
+        },
+        "reemplazo_griferia_cocina": {
+          "title": "Reemplazo de grifería",
+          "description": "Actualización de grifería para mayor eficiencia.",
+          "slug": "reemplazo-griferia-cocina"
+        },
+        "azulejos_pavimentos_cocina": {
+          "title": "Azulejos y pavimentos",
+          "description": "Revestimiento profesional de suelos y paredes.",
+          "slug": "azulejos-pavimentos-cocina"
+        }
+      }
+    },
+
+    "pintura": {
+      "subtitle": "Trabajos de pintura con acabados profesionales.",
+      "short_description": "Pintores profesionales especializados en interiores, exteriores y fachadas. Microcemento, tratamiento de humedades y acabados impecables.",
+      "description": "Realizamos trabajos de pintura con acabados profesionales utilizando materiales de alta calidad y técnicas avanzadas para garantizar resultados duraderos y estéticamente agradables.",
+      "subservicios": {
+        "pintura_interior_exterior": {
+          "title": "Pintura interior y exterior",
+          "description": "Aplicación de pintura de alta durabilidad.",
+          "slug": "pintura-interior-exterior"
+        },
+        "microcemento": {
+          "title": "Microcemento",
+          "description": "Revestimiento moderno con acabado continuo.",
+          "slug": "microcemento"
+        },
+        "comunidades_fachadas": {
+          "title": "Comunidades y fachadas",
+          "description": "Decoración y mantenimiento de edificios.",
+          "slug": "comunidades-fachadas"
+        },
+        "tratamiento_humedades_pintura": {
+          "title": "Tratamiento de humedades",
+          "description": "Preparación y reparación de zonas afectadas.",
+          "slug": "tratamiento-humedades-pintura"
+        },
+        "retirada_gotele": {
+          "title": "Retirada de gotelé",
+          "description": "Alisado profesional de paredes.",
+          "slug": "retirada-gotele"
+        },
+        "impermeabilizaciones_pintura": {
+          "title": "Impermeabilizaciones",
+          "description": "Protección contra filtraciones.",
+          "slug": "impermeabilizaciones-pintura"
+        }
+      }
+    },
+
+    "electricidad": {
+      "subtitle": "Instalaciones y reparaciones eléctricas profesionales.",
+      "short_description": "Electricistas certificados disponibles 24h. Instalaciones seguras, boletines eléctricos y reparaciones con normativa vigente.",
+      "description": "Servicios completos de electricidad para hogares y negocios. Nuestro equipo de electricistas certificados garantiza instalaciones seguras y reparaciones eficientes, cumpliendo con todas las normativas vigentes.",
+      "subservicios": {
+        "urgencias_24h": {
+          "title": "Urgencias 24h",
+          "description": "Atención inmediata en fallos eléctricos.",
+          "slug": "urgencias-24h"
+        },
+        "boletines_electricos": {
+          "title": "Boletines eléctricos",
+          "description": "Certificación de instalaciones eléctricas.",
+          "slug": "boletines-electricos"
+        },
+        "instalaciones_reparaciones_electricidad": {
+          "title": "Instalaciones eléctricas y reparaciones",
+          "description": "Servicios completos de electricidad.",
+          "slug": "instalaciones-electricas-reparaciones"
+        },
+        "aumentos_potencia": {
+          "title": "Aumentos de potencia",
+          "description": "Adaptación del suministro eléctrico.",
+          "slug": "aumentos-potencia"
+        },
+        "particulares_comunidades": {
+          "title": "Particulares y comunidades",
+          "description": "Servicios para viviendas y edificios.",
+          "slug": "particulares-comunidades"
+        },
+        "administradores_fincas": {
+          "title": "Administradores de fincas",
+          "description": "Mantenimiento para comunidades y fincas.",
+          "slug": "administradores-fincas"
+        }
+      }
+    },
+
+    "limpieza": {
+      "subtitle": "Servicios de limpieza para hogares, oficinas y comercios.",
+      "short_description": "Empresa de limpieza profesional para viviendas, comunidades y locales comerciales. Servicios flexibles y resultados impecables.",
+      "description": "Servicios completos de limpieza para mantener tus espacios impecables. Ofrecemos limpiezas profundas, mantenimiento periódico y servicios especializados para todo tipo de propiedades, adaptándonos a tus necesidades específicas.",
+      "subservicios": {
+        "limpieza_viviendas": {
+          "title": "Limpieza de viviendas",
+          "description": "Limpiezas profundas y mantenimiento periódico.",
+          "slug": "limpieza-viviendas"
+        },
+        "limpieza_por_horas": {
+          "title": "Limpieza por horas",
+          "description": "Servicio flexible según tus necesidades.",
+          "slug": "limpieza-por-horas"
+        },
+        "limpieza_obras": {
+          "title": "Limpieza de obras",
+          "description": "Limpieza tras obras y reformas.",
+          "slug": "limpieza-obras"
+        },
+        "limpieza_comunidades": {
+          "title": "Limpieza de comunidades",
+          "description": "Mantenimiento de zonas comunes.",
+          "slug": "limpieza-comunidades"
+        },
+        "limpieza_parcelas": {
+          "title": "Limpieza de parcelas",
+          "description": "Limpieza y desbroce de exteriores.",
+          "slug": "limpieza-parcelas"
+        },
+        "limpieza_locales": {
+          "title": "Limpieza de locales comerciales",
+          "description": "Limpieza para negocios y locales.",
+          "slug": "limpieza-locales"
+        }
+      }
+    }
+
+  },
+
+  "about": {
+    "title": "Acerca de nosotross",
+    "description" : "Somos una empresa especializada en reformas e instalaciones con más de 15 años de experiencia en el sector. Nuestro compromiso es ofrecer servicios de la más alta calidad, cumpliendo con los plazos acordados y superando las expectativas de nuestros clientes.Contamos con un equipo de profesionales altamente cualificados y utilizamos materiales de primera calidad en todos nuestros proyectos. Desde pequeñas reformas hasta grandes obras, nos adaptamos a tus necesidades.",
+    "bullets": {
+      "bullet_1": "Más de 15 años de experiencia en el sector.",
+      "bullet_2": "Equipo de profesionales altamente cualificados.",
+      "bullet_3": "Compromiso con la calidad y la satisfacción del cliente.",
+      "bullet_4": "Uso de materiales de primera calidad.",
+      "bullet_5": "Adaptabilidad a las necesidades del cliente.",
+      "bullet_6":  "Presupuestos sin compromiso"
+    }
+  },
+
+  
+  "gallery": {
+    "title": "Galería de proyectos",
+    "description": "¡Échale un vistazo a nuestros vídeos y fotos de los proyectos realizados en nuestra trayectoria profesional!",
+    "filters": [
+      { "value": "all", "label": "Todos" },
+      { "value": "kitchens", "label": "Cocinas" },
+      { "value": "premium_bathrooms", "label": "Baños premium" },
+      { "value": "interiors", "label": "Interiores" }
+    ],
+    "items": [
+      {
+        "id": "kitchen_renovation",
+        "title": "Renovación de cocina",
+        "category": "kitchens",
+        "image": "/gallery/cocina_portada2.png",
+        "button": "Ver galería"
+      },
+      {
+        "id": "premium_bathrooms",
+        "title": "Baños premium",
+        "category": "premium_bathrooms",
+        "image": "/gallery/aseo_portada2.png",
+        "button": "Ver galería"
+      },
+      {
+        "id": "facade_renovation",
+        "title": "Renovación de fachada",
+        "category": "interiors",
+        "image": "/gallery/fachada_portada.png",
+        "button": "Ver galería"
+      }
+    ],
+    "cta": "Pedir presupuesto"
+  },
+
+
+
+
+  "contact": {
+    "contact_title": "Solicita nuestros serviciios!",
+    "contact_description": "Contáctanos hoy mismo para solicitar tu presupuesto personalizado. Nuestro equipo estará encantado de ayudarte a hacer realidad la reforma de tus sueños.",
+
+      "form_text": {
+        "title": "Contacta con nosotros",
+        "fields": {   
+          "name": "Nombre completo",
+          "phone": "Teléfono de contacto",
+          "email": "Correo Electrónico",
+          "proyect": "Selecciona un servicio",
+          "subcategory": "Selecciona un subservicio",
+          "message": "Escribe una descripción a añadir",
+          "submit": "Solicitar mi presupuesto",
+          "success": "Gracias por contactarnos. ¡Te responderemos pronto!"
+        }
+
+},
+    "whatsApp_text":{
+      "title": "¡Consúltanos por mensaje directo!",
+      "description": "Haz clic en el botón de abajo para iniciar una conversación directa con nuestro equipo a través de WhatsApp. Estamos aquí para responder a todas tus preguntas y ayudarte con tu proyecto de reforma.",
+      "button": "Iniciar conversacion en WhatsApp"
+    }
+},
+
+ "footer": {
+    "brand": {
+      "name": "DECOTECH",
+      "description": "Especialistas multiservicios en Reformas Integrales en Murcia y Alicante"
+    },
+    "social": {
+      "facebook": "https://facebook.com",
+      "instagram": "https://instagram.com",
+      "tiktok": "https://tiktok.com"
+    },
+    "quick_links": {
+      "title": "Enlaces rápidos",
+      "items": [
+        { "label": "Inicio", "href": "/es" },
+        { "label": "Servicios", "href": "/es#services" },
+        { "label": "Proyectos", "href": "/es#projects" },
+        { "label": "Nosotros", "href": "/es#about" },
+        { "label": "Contacto", "href": "/es#contact" }
+      ]
+    },
+    "services": {
+      "title": "Nuestros servicios",
+      "items": [
+        { "label": "Reformas de cocina", "href": "/es/service/reformas_de_cocina" },
+        { "label": "Reformas de baños", "href": "/es/service/reformas_de_baños" },
+        { "label": "Rehabilitación de fachada", "href": "/es/service/reformas_integrales" },
+        { "label": "Interiores", "href": "/es/service/reformas_integrales" },
+        { "label": "Instalación de parquet", "href": "/es/service/reformas_integrales" },
+        { "label": "Pintura & decoración", "href": "/es/service/pintura" }
+      ]
+    },
+    "contact": {
+      "title": "Contacto",
+      "phone": "0123456789",
+      "phone_display": "01 23 45 67 89",
+      "email": "contacto@decotech.es",
+      "address": "Av. Academia Gral. del Aire, 295i, Santiago de la Ribera, 30720 Murcia"
+    },
+    "bottom": {
+      "copyright": "© 2025 REFORMAS INTEGRALES DECOTECH S.L.S.",
+      "legal_links": [
+        { "label": "Menciones legales", "href": "/es/legal" },
+        { "label": "Política de confidencialidad", "href": "/es/privacy" },
+        { "label": "CGV", "href": "/es/terms" }
+      ]
+    }
+  },
+
+  "terms": {
+      "title": "Términos y Condiciones",
+      "updatedAt": "Última actualización: 9 de enero de 2026",
+      "sections": [
+        {
+          "h": "1. Objeto",
+          "p": [
+            "Estas Condiciones regulan el uso del sitio web {domain} (en adelante, el “Sitio Web”) y la contratación de servicios ofrecidos por {companyName}.",
+            "Al navegar o solicitar información/presupuesto, aceptas estas condiciones."
+          ]
+        },
+        {
+          "h": "2. Identificación del Prestador",
+          "p": [
+            "Denominación social: {companyName}.",
+            "Domicilio: {address}.",
+            "{taxIdLabel}: {taxIdValue}.",
+            "Correo electrónico: {email}.",
+            "Teléfono: {phone}."
+          ]
+        },
+        {
+          "h": "3. Servicios Ofrecidos",
+          "p": ["Prestamos servicios profesionales de reformas e instalaciones, entre otros:"],
+          "list": [
+            "Reformas integrales de viviendas y locales",
+            "Reformas de cocinas y baños",
+            "Albañilería y construcción",
+            "Instalaciones eléctricas y fontanería"
+          ]
+        },
+        {
+          "h": "4. Presupuestos y Contratación",
+          "p": [
+            "Los presupuestos se facilitan a solicitud del cliente y pueden estar sujetos a visita técnica, mediciones y disponibilidad de materiales.",
+            "La contratación se formaliza mediante aceptación expresa del presupuesto, condiciones de pago y calendario de obra."
+          ]
+        },
+        {
+          "h": "5. Responsabilidad",
+          "p": [
+            "Nos esforzamos por mantener la información actualizada, pero el contenido del Sitio Web tiene carácter informativo.",
+            "No nos hacemos responsables de interrupciones del servicio por causas ajenas (mantenimiento, fallos de red, etc.)."
+          ]
+        },
+        {
+          "h": "6. Propiedad Intelectual",
+          "p": [
+            "Los textos, imágenes, logotipos y diseño del Sitio Web son titularidad de {companyName} o de terceros autorizados.",
+            "Queda prohibida su reproducción sin autorización."
+          ]
+        },
+        {
+          "h": "7. Legislación Aplicable",
+          "p": ["Estas condiciones se rigen por la legislación española. Para cualquier disputa, se estará a lo dispuesto por la normativa aplicable."]
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Política de Privacidad",
+      "updatedAt": "9 de enero de 2026",
+      "sections": [
+        {
+          "h": "1. Responsable del Tratamiento",
+          "p": [
+            "Responsable: {companyName}.",
+            "Contacto: {email}."
+          ]
+        },
+        {
+          "h": "2. Datos que Recopilamos",
+          "p": [
+            "Datos de contacto (nombre, email, teléfono) y detalles del proyecto cuando nos escribes o solicitas presupuesto.",
+            "Datos técnicos básicos (por ejemplo, IP) para seguridad y funcionamiento."
+          ]
+        },
+        {
+          "h": "3. Finalidades",
+          "list": [
+            "Atender consultas y solicitudes de presupuesto",
+            "Gestionar la relación comercial y comunicaciones relacionadas",
+            "Mejorar el Sitio Web y su seguridad"
+          ]
+        },
+        {
+          "h": "4. Base Legal",
+          "p": [
+            "Tratamos tus datos para ejecutar medidas precontractuales/contractuales (presupuestos y servicios) y por interés legítimo (seguridad y mejora).",
+            "Si enviamos comunicaciones comerciales, se harán conforme a la normativa aplicable."
+          ]
+        },
+        {
+          "h": "5. Conservación",
+          "p": [
+            "Conservaremos los datos el tiempo necesario para atender tu solicitud y, en su caso, durante los plazos legales aplicables."
+          ]
+        },
+        {
+          "h": "6. Destinatarios",
+          "p": [
+            "No cedemos datos a terceros salvo obligación legal o proveedores necesarios para prestar el servicio (por ejemplo, hosting), bajo acuerdos de confidencialidad."
+          ]
+        },
+        {
+          "h": "7. Derechos",
+          "p": [
+            "Puedes solicitar acceso, rectificación, supresión, oposición y otros derechos escribiendo a {email}."
+          ]
+        }
+      ]
+    }
+}
+
+

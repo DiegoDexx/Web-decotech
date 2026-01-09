@@ -1,0 +1,158 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800;900&display=swap");
+@reference "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* -----------------------------------------------------------
+   RESET PERSONALIZADO (MEJORA EL RESPONSIVE)
+----------------------------------------------------------- */
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  @apply m-0 p-0 bg-white text-black;
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-brand {
+  background-color: #FFD600; /* Color de marca personalizado */
+}
+
+/* -----------------------------------------------------------
+   UTILIDADES PERSONALIZADAS
+----------------------------------------------------------- */
+.pointer {
+  cursor: pointer;
+}
+
+/* -----------------------------------------------------------
+   LAYOUT SYSTEM (🔥 IMPORTANTE PARA QUE TODO QUEDE PERFECTO)
+----------------------------------------------------------- */
+/* Contenedor principal reutilizable */
+/* global.scss */
+.container-main {
+  @apply w-full mx-auto px-4 sm:px-6 lg:px-8 xl:px-12;
+  max-width: 1400px;
+}
+
+/* Contenedor más pequeño (para textos o secciones centradas) */
+.container-md {
+  @apply w-full mx-auto px-4 md:px-6;
+  max-width: 1200px;
+}
+
+/* Contenedor estrecho */
+.container-sm {
+  @apply w-full mx-auto px-4;
+  max-width: 800px;
+}
+
+/* -----------------------------------------------------------
+   UTILITY HELPERS (REEMPLAZAN tus grid-12, row-center, etc.)
+----------------------------------------------------------- */
+/* Centrado horizontal/vertical */
+.flex-center {
+  @apply flex items-center justify-center;
+}
+
+.flex-between {
+  @apply flex items-center justify-between;
+}
+
+.flex-col-center {
+  @apply flex flex-col items-center justify-center;
+}
+
+.flex-col-between {
+  @apply flex flex-col items-center justify-between;
+}
+
+/*ninguna decoración ni subrayado y color negro*/
+.no-decoration {
+  text-decoration: none;
+  color: black;
+}
+
+/* -----------------------------------------------------------
+   CARDS Y COMPONENTES
+----------------------------------------------------------- */
+.card {
+  @apply bg-white rounded-2xl shadow-lg p-6 relative overflow-visible transition-all duration-300;
+}
+
+.card-hover {
+  @apply hover:shadow-xl hover:-translate-y-1;
+}
+
+/* Caja de ícono redondeado (como en Services) */
+.icon-box {
+  @apply p-3 rounded-xl flex items-center justify-center;
+}
+
+/* -----------------------------------------------------------
+   BOTONES
+----------------------------------------------------------- */
+.btn {
+  @apply px-5 py-2 rounded-lg font-medium cursor-pointer transition-all duration-300;
+}
+
+.btn-primary {
+  @apply text-black hover:brightness-110;
+}
+
+.btn-outline {
+  @apply text-black px-3 font-medium px-5 py-2 border-0 hover:bg-yellow-400 cursor-pointer transition-all duration-300;
+}
+
+/* -----------------------------------------------------------
+   VIEW TRANSITIONS
+----------------------------------------------------------- */
+/* Animación global simple */
+/* Duración y easing global */
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 320ms;
+  animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+/* La página anterior sale a la izquierda y se atenúa */
+::view-transition-old(root) {
+  animation-name: vt-slide-out;
+}
+
+/* La nueva entra desde la derecha con un pelín de zoom */
+::view-transition-new(root) {
+  animation-name: vt-slide-in;
+}
+
+@keyframes vt-slide-out {
+  from {
+    transform: translateX(0) scale(1);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(-18px) scale(0.98);
+    opacity: 0;
+  }
+}
+@keyframes vt-slide-in {
+  from {
+    transform: translateX(18px) scale(0.98);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0) scale(1);
+    opacity: 1;
+  }
+}
+
+/*# sourceMappingURL=global.css.map */

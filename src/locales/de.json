@@ -1,0 +1,659 @@
+{
+  "navbar": {
+    "links": {
+      "home": "Startseite",
+      "services": "Dienstleistungen",
+      "projects": "Projekte",
+      "about": "Über uns"
+    },
+    "contact": "Kontakt",
+    "languages": {
+      "es": "Spanisch",
+      "en": "Englisch",
+      "fr": "Französisch",
+      "de": "Deutsch"
+    }
+  },
+  "slider": {
+    "slide_1": {
+      "title": "Renovieren Sie Ihre Küche mit einem Design, das für Sie gemacht ist.",
+      "description": "Über 15 Jahre Erfahrung in Renovierungen und allen Arten von Dienstleistungen. Qualität, Professionalität und Engagement in jedem Projekt."
+    },
+    "slide_2": {
+      "title": "Verwandeln Sie Ihr Badezimmer in einen modernen und funktionalen Raum.",
+      "description": "Spezialisten für Badrenovierungen mit hochwertigen Materialien und innovativen Designs."
+    },
+    "slide_3": {
+      "title": "Erneuern Sie Ihr Zuhause mit unseren umfassenden Lösungen.",
+      "description": "Wir bieten komplette Renovierungsdienstleistungen für jede Ecke Ihres Hauses und passen uns Ihren Bedürfnissen und Ihrem Stil an."
+    },
+    "button": "Angebot anfordern",
+    "button_2": "Projekte ansehen"
+  },
+  "services": {
+    "title": "Unsere Dienstleistungen",
+    "description": "Wir bieten eine breite Palette von Dienstleistungen, um all Ihre Renovierungs- und Wartungsbedürfnisse im Haushalt zu erfüllen.",
+    "service_1": {
+      "title": "Badsanierungen",
+      "description": "Spezialisten für Badrenovierungen mit hochwertigen Materialien und innovativen Designs.",
+      "slug": "reformas_de_baños"
+    },
+    "service_2": {
+      "title": "Maurerarbeiten",
+      "description": "Präzise und langlebige Maurerarbeiten sowie ästhetische Verbesserungen in jedem Raum.",
+      "slug": "albañileria"
+    },
+    "service_3": {
+      "title": "Komplettrenovierungen",
+      "description": "Dienstleistungen für Komplettrenovierungen für Ihr Zuhause oder Ihren Geschäftsraum, angepasst an Ihre Bedürfnisse.",
+      "slug": "reformas_integrales"
+    },
+    "service_4": {
+      "title": "Antennen",
+      "description": "Installation, Reparatur und Konfiguration von Antennen für ein stabiles und hochwertiges Signal im gesamten Haus.",
+      "slug": "antenas"
+    },
+    "service_5": {
+      "title": "Klempnerei",
+      "description": "Schnelle und zuverlässige Klempnerdienste: Leckreparaturen, Rohrinstallationen usw.",
+      "slug": "fontaneria"
+    },
+    "service_6": {
+      "title": "Küchenrenovierungen",
+      "description": "Verwandeln Sie Ihre Küche mit unseren fachkundigen Renovierungsdiensten in einen funktionalen und stilvollen Raum.",
+      "slug": "reformas_de_cocina"
+    },
+    "service_7": {
+      "title": "Malerarbeiten",
+      "description": "Professionelle Malerarbeiten mit hochwertigen und sauberen Oberflächen.",
+      "slug": "pintura"
+    },
+    "service_8": {
+      "title": "Elektrik",
+      "description": "Sichere und effiziente elektrische Installationen und Reparaturen für Ihr Zuhause oder Ihr Unternehmen.",
+      "slug": "electricidad"
+    },
+    "service_9": {
+      "title": "Reinigung",
+      "description": "Umfassende Reinigungsdienste für Häuser, Büros und Geschäftsräume.",
+      "slug": "limpieza"
+    }
+  },
+  
+ "services_subservices": {
+  "title": "Teilleistungen",
+
+  "baños": {
+    "subtitle": "Professionelle Badsanierungen mit hochwertigen Materialien und perfekten Oberflächen.",
+    "short_description": "Spezialisten für komplette Badsanierungen. Modernes Design, Premium-Materialien und hochwertige Oberflächen für Ihr Badezimmer.",
+    "description": "Wir sind auf Badsanierungen spezialisiert und bieten individuelle Designs und hochwertige Materialien, um funktionale und stilvolle Räume zu schaffen. Von kompletten Renovierungen bis zu gezielten Verbesserungen passen wir uns Ihren Bedürfnissen und Wünschen an.",
+    "subservicios": {
+      "reformas_integrales_banos": {
+        "title": "Komplette Badsanierungen",
+        "description": "Umfassende Sanierung zur Verbesserung von Design, Funktionalität und Komfort.",
+        "slug": "reformas-integrales-banos"
+      },
+      "reemplazo_instalaciones": {
+        "title": "Erneuerung von Installationen",
+        "description": "Modernisierung von Leitungen, Anschlüssen und Wassersystemen.",
+        "slug": "reemplazo-instalaciones"
+      },
+      "cambio_banera_ducha": {
+        "title": "Badewannen- oder Duschtausch",
+        "description": "Einbau moderner, sicherer und funktionaler Dusch- oder Badewannensysteme.",
+        "slug": "cambio-banera-ducha"
+      },
+      "reemplazo_sanitarios": {
+        "title": "Sanitärersatz",
+        "description": "Einbau neuer Sanitärelemente für bessere Leistung und Optik.",
+        "slug": "reemplazo-sanitarios"
+      },
+      "reemplazo_griferia": {
+        "title": "Armaturenwechsel",
+        "description": "Umrüstung auf moderne und effiziente Armaturensysteme.",
+        "slug": "reemplazo-griferia"
+      },
+      "azulejos_pavimentos": {
+        "title": "Fliesen und Bodenbeläge",
+        "description": "Verlegung langlebiger und optisch ansprechender Keramikoberflächen.",
+        "slug": "azulejos-pavimentos"
+      }
+    }
+  },
+
+  "albañileria": {
+    "subtitle": "Robuste Maurerarbeiten für jedes Renovierungs- oder Verbesserungsprojekt.",
+    "short_description": "Professionelle Maurerarbeiten mit fortschrittlichen Techniken. Sanierungen, Trennwände und effektive Feuchtigkeitslösungen.",
+    "description": "Wir führen Maurerarbeiten mit hochwertigen Materialien und professionellen Techniken aus, um langlebige und ästhetisch ansprechende Ergebnisse zu gewährleisten.",
+    "subservicios": {
+      "reformas_integrales": {
+        "title": "Komplettsanierungen",
+        "description": "Umfassende Umgestaltung von Räumen mit Verbesserungen an Struktur und Optik.",
+        "slug": "reformas-integrales"
+      },
+      "tabiqueria_suelos_techos": {
+        "title": "Wände, Böden und Decken",
+        "description": "Bau oder Sanierung von innenliegenden Bauelementen.",
+        "slug": "tabiquerias-suelos-techos"
+      },
+      "rehabilitaciones": {
+        "title": "Sanierungen",
+        "description": "Wiederherstellung beschädigter oder gealterter Bereiche.",
+        "slug": "rehabilitaciones"
+      },
+      "tratamiento_humedades": {
+        "title": "Feuchtigkeitsbehandlung",
+        "description": "Professionelle Lösungen zur Beseitigung von Feuchtigkeit und Vermeidung künftiger Leckagen.",
+        "slug": "tratamiento-humedades"
+      },
+      "impermeabilizaciones": {
+        "title": "Abdichtungen",
+        "description": "Schutz vor Leckagen und eindringendem Wasser.",
+        "slug": "impermeabilizaciones"
+      },
+      "derrumbes_desescombros": {
+        "title": "Abbruch und Schuttentsorgung",
+        "description": "Kontrollierter Abbruch und sichere Entsorgung von Bauschutt.",
+        "slug": "derrumbes-desescombros"
+      }
+    }
+  },
+
+  "reformas_integrales": {
+    "subtitle": "Komplettsanierungen, vollständig auf Ihre Bedürfnisse zugeschnitten.",
+    "short_description": "Komplette Umgestaltung von Wohnungen und Gewerberäumen. Individuelle Planung, professionelle Koordination und garantierte Termintreue.",
+    "description": "Umfassende Renovierungsleistungen, die auf Ihre spezifischen Anforderungen abgestimmt sind. Wir übernehmen alle Projektphasen, um Qualität, Effizienz und Zufriedenheit sicherzustellen.",
+    "subservicios": {
+      "diseno_personalizado": {
+        "title": "Individuelle Planung",
+        "description": "Detaillierte Planung auf Basis Ihrer Vorlieben und funktionalen Anforderungen.",
+        "slug": "diseno-personalizado"
+      },
+      "gestion_permisos": {
+        "title": "Genehmigungsmanagement",
+        "description": "Abwicklung aller notwendigen behördlichen Unterlagen vor Beginn der Arbeiten.",
+        "slug": "gestion-permisos"
+      },
+      "coordinacion_oficios": {
+        "title": "Koordination der Gewerke",
+        "description": "Professionelle Steuerung aller am Projekt beteiligten Teams.",
+        "slug": "coordinacion-oficios"
+      },
+      "acabados_calidad": {
+        "title": "Hochwertige Oberflächen",
+        "description": "Langlebige und optisch ansprechende Abschlussdetails.",
+        "slug": "acabados-calidad"
+      },
+      "cumplimiento_plazos": {
+        "title": "Termintreue",
+        "description": "Garantierte Fertigstellung innerhalb der vereinbarten Frist.",
+        "slug": "cumplimiento-plazos"
+      },
+      "presupuesto_detallado": {
+        "title": "Detaillierte Kostenvoranschläge",
+        "description": "Klare und transparente Aufschlüsselung der Kosten.",
+        "slug": "presupuesto-detallado"
+      }
+    }
+  },
+
+  "antenas": {
+    "subtitle": "Montage und Reparatur von Antennen für ein stabiles, hochwertiges Signal.",
+    "short_description": "Installation und Wartung von DVB-T-, Satelliten- und Gemeinschaftsantennen. Optimales Signal garantiert für Ihr Zuhause.",
+    "description": "Umfassende Antennendienste einschließlich Montage, Reparatur und Wartung, um eine optimale Signalqualität in Ihrem Zuhause oder Betrieb zu gewährleisten.",
+    "subservicios": {
+      "instalacion_antenas": {
+        "title": "Antennenmontage",
+        "description": "Fachgerechte Installation von TV- und Satellitenantennen.",
+        "slug": "instalacion-antenas"
+      },
+      "reparacion_antenas": {
+        "title": "Antennenreparatur",
+        "description": "Schnelle und effektive Lösungen bei Signalproblemen.",
+        "slug": "reparacion-antenas"
+      },
+      "antenas_particulares": {
+        "title": "Private DVB-T-Antennen",
+        "description": "Installation individueller Antennen für Privathaushalte.",
+        "slug": "antenas-particulares"
+      },
+      "antenas_comunitarias": {
+        "title": "Gemeinschaftsantennen",
+        "description": "Montage und Reparatur für Wohngebäude.",
+        "slug": "antenas-comunitarias"
+      },
+      "antenas_parabolicas": {
+        "title": "Satellitenschüsseln",
+        "description": "Installation und Ausrichtung für ein optimales Satellitensignal.",
+        "slug": "antenas-parabolicas"
+      },
+      "mantenimiento_antenas": {
+        "title": "Antennenwartung",
+        "description": "Regelmäßige Kontrollen für eine optimale Signalqualität.",
+        "slug": "mantenimiento-antenas"
+      }
+    }
+  },
+
+  "fontaneria": {
+    "subtitle": "Schnelle, zuverlässige und professionelle Klempnerservices.",
+    "short_description": "Professionelle Klempner 24/7. Notfallreparaturen, komplette Installationen und vorbeugende Wartung mit Qualitätsgarantie.",
+    "description": "Umfassende Sanitärdienste wie Leckortung, Reparaturen, Installationen und Notdienste, damit Ihre Wassersysteme einwandfrei funktionieren.",
+    "subservicios": {
+      "revision_reparacion": {
+        "title": "Inspektion und Reparatur",
+        "description": "Erkennung und Behebung von Lecks und Störungen.",
+        "slug": "revision-reparacion"
+      },
+      "mantenimiento_preventivo": {
+        "title": "Vorbeugende Wartung",
+        "description": "Vermeidung von Ausfällen und Pflege der Installationen.",
+        "slug": "mantenimiento-preventivo"
+      },
+      "instalacion_tuberias": {
+        "title": "Rohrinstallation",
+        "description": "Einbau moderner und langlebiger Sanitärsysteme.",
+        "slug": "instalacion-tuberias"
+      },
+      "urgencias": {
+        "title": "Notdienst",
+        "description": "Soforteinsatz bei schweren Lecks oder Störungen.",
+        "slug": "urgencias"
+      },
+      "reemplazo_sanitarios": {
+        "title": "Sanitäraustausch",
+        "description": "Einbau neuer, moderner Sanitäreinrichtungen.",
+        "slug": "reemplazo-sanitarios"
+      },
+      "reemplazo_griferia": {
+        "title": "Armaturenersatz",
+        "description": "Austausch alter Armaturen durch moderne und effiziente Systeme.",
+        "slug": "reemplazo-griferia"
+      }
+    }
+  },
+
+  "reformas_cocina": {
+    "subtitle": "Moderne, funktionale und vollständig maßgeschneiderte Küchensanierungen.",
+    "short_description": "Umfassende und maßgeschneiderte Küchensanierungen. Funktionales Design, hochwertige Möbel und Markenelektrogeräte.",
+    "description": "Wir gestalten Küchen, die Design, Funktionalität und Qualität vereinen. Vom ersten Entwurf bis zur endgültigen Montage kümmern wir uns um alles, damit Sie Ihre Traumküche genießen können. Wir arbeiten mit renommierten Marken für Elektrogeräte und Küchenmöbel.",
+    "subservicios": {
+      "reformas_integrales_cocina": {
+        "title": "Komplette Küchensanierungen",
+        "description": "Umfassende Umgestaltung der Küche zur Verbesserung von Layout und Funktionalität.",
+        "slug": "reformas-integrales-cocina"
+      },
+      "instalacion_mobiliario": {
+        "title": "Möbelmontage",
+        "description": "Fachgerechter Aufbau von Küchenmöbeln.",
+        "slug": "instalacion-mobiliario"
+      },
+      "reemplazo_encimeras": {
+        "title": "Arbeitsplattenwechsel",
+        "description": "Einbau langlebiger und optisch ansprechender Oberflächen.",
+        "slug": "reemplazo-encimeras"
+      },
+      "instalacion_electrodomesticos": {
+        "title": "Einbau von Elektrogeräten",
+        "description": "Sichere Integration moderner Küchengeräte.",
+        "slug": "instalacion-electrodomesticos"
+      },
+      "reemplazo_griferia_cocina": {
+        "title": "Armaturenwechsel in der Küche",
+        "description": "Umrüstung auf moderne und effiziente Küchenarmaturen.",
+        "slug": "reemplazo-griferia-cocina"
+      },
+      "azulejos_pavimentos_cocina": {
+        "title": "Fliesen und Bodenbeläge",
+        "description": "Fachgerechte Verlegung von Wand- und Bodenbelägen.",
+        "slug": "azulejos-pavimentos-cocina"
+      }
+    }
+  },
+
+  "pintura": {
+    "subtitle": "Professionelle Malerarbeiten mit sauberen, hochwertigen Oberflächen.",
+    "short_description": "Professionelle Maler spezialisiert auf Innen-, Außen- und Fassadenanstriche. Mikrozement, Feuchtigkeitsbehandlung und perfekte Oberflächen.",
+    "description": "Wir bieten Malerarbeiten für Innen- und Außenbereiche und sorgen mit langlebigen Qualitätsmaterialien für ein einwandfreies Finish.",
+    "subservicios": {
+      "pintura_interior_exterior": {
+        "title": "Innen- und Außenanstriche",
+        "description": "Auftrag langlebiger, hochwertiger Farben.",
+        "slug": "pintura-interior-exterior"
+      },
+      "microcemento": {
+        "title": "Mikrozement",
+        "description": "Moderner, fugenloser Dekorbelag.",
+        "slug": "microcemento"
+      },
+      "comunidades_fachadas": {
+        "title": "Wohnanlagen und Fassaden",
+        "description": "Anstrich und Pflege von Wohngebäuden.",
+        "slug": "comunidades-fachadas"
+      },
+      "tratamiento_humedades_pintura": {
+        "title": "Feuchtigkeitsbehandlung",
+        "description": "Instandsetzung und Vorbereitung betroffener Bereiche.",
+        "slug": "tratamiento-humedades-pintura"
+      },
+      "retirada_gotele": {
+        "title": "Entfernung von Strukturen",
+        "description": "Fachgerechtes Entfernen strukturierter Wandbeschichtungen.",
+        "slug": "retirada-gotele"
+      },
+      "impermeabilizaciones_pintura": {
+        "title": "Abdichtungsanstriche",
+        "description": "Schutz vor Leckagen und Feuchtigkeit.",
+        "slug": "impermeabilizaciones-pintura"
+      }
+    }
+  },
+
+  "electricidad": {
+    "subtitle": "Professionelle Elektroinstallationen und Reparaturen.",
+    "short_description": "Zertifizierte Elektriker rund um die Uhr verfügbar. Sichere Installationen, Elektrozertifikate und Reparaturen nach geltenden Vorschriften.",
+    "description": "Wir bieten umfassende Elektrodienste, darunter Installationen, Reparaturen, Notdienste und Bescheinigungen für Wohn- und Gewerbeobjekte.",
+    "subservicios": {
+      "urgencias_24h": {
+        "title": "24-Stunden-Notdienst",
+        "description": "Sofortige Hilfe bei Stromausfällen.",
+        "slug": "urgencias-24h"
+      },
+      "boletines_electricos": {
+        "title": "Elektrozertifikate",
+        "description": "Offizielle Dokumentation für Elektroinstallationen.",
+        "slug": "boletines-electricos"
+      },
+      "instalaciones_reparaciones_electricidad": {
+        "title": "Elektroinstallationen und -reparaturen",
+        "description": "Komplettservice für Wohnungen und Geschäftsräume.",
+        "slug": "instalaciones-electricas-reparaciones"
+      },
+      "aumentos_potencia": {
+        "title": "Leistungserhöhungen",
+        "description": "Anpassung der Anlage an höhere Verbrauchsanforderungen.",
+        "slug": "aumentos-potencia"
+      },
+      "particulares_comunidades": {
+        "title": "Privathaushalte und Wohnanlagen",
+        "description": "Leistungen für einzelne Wohnungen und Mehrfamilienhäuser.",
+        "slug": "particulares-comunidades"
+      },
+      "administradores_fincas": {
+        "title": "Hausverwaltungen",
+        "description": "Wartungsservice für Wohnanlagen und Gebäude.",
+        "slug": "administradores-fincas"
+      }
+    }
+  },
+
+  "limpieza": {
+    "subtitle": "Reinigungsdienste für Wohnungen, Büros und Gewerbeflächen.",
+    "short_description": "Professionelles Reinigungsunternehmen für Wohnungen, Wohnanlagen und Gewerbeflächen. Flexible Services und makellose Ergebnisse.",
+    "description": "Umfassende Reinigungslösungen für Wohn-, Gewerbe- und Industriebereiche. Wir sorgen für eine makellose Umgebung mit einem professionellen und zuverlässigen Service.",
+    "subservicios": {
+      "limpieza_viviendas": {
+        "title": "Wohnungsreinigung",
+        "description": "Grundreinigung und regelmäßige Pflege.",
+        "slug": "limpieza-viviendas"
+      },
+      "limpieza_por_horas": {
+        "title": "Stundenweise Reinigung",
+        "description": "Flexible Reinigung, angepasst an Ihren Zeitplan.",
+        "slug": "limpieza-por-horas"
+      },
+      "limpieza_obras": {
+        "title": "Baureinigung",
+        "description": "Entfernung von Staub, Schutt und Baurückständen.",
+        "slug": "limpieza-obras"
+      },
+      "limpieza_comunidades": {
+        "title": "Treppenhaus- und Gemeinschaftsreinigung",
+        "description": "Reinigung der Gemeinschaftsbereiche in Wohnanlagen.",
+        "slug": "limpieza-comunidades"
+      },
+      "limpieza_parcelas": {
+        "title": "Grundstücksreinigung",
+        "description": "Außenreinigung und Beseitigung von Bewuchs.",
+        "slug": "limpieza-parcelas"
+      },
+      "limpieza_locales": {
+        "title": "Gewerbereinigung",
+        "description": "Reinigungsdienste für Geschäfte und Unternehmen.",
+        "slug": "limpieza-locales"
+      }
+    }
+  }
+},
+
+  "about": {
+    "title": "Über uns",
+    "description": "Decotech ist leidenschaftlich daran interessiert, Wohn- und Arbeitsräume zu verwandeln. Mit über 15 Jahren Erfahrung in der Renovierungsbranche verpflichten wir uns, Dienstleistungen von höchster Qualität anzubieten, die auf die spezifischen Bedürfnisse jedes Kunden zugeschnitten sind. Unser Team qualifizierter Fachleute arbeitet mit Engagement und Professionalität, um bei jedem Projekt außergewöhnliche Ergebnisse zu gewährleisten. Egal, ob Sie Ihre Küche, Ihr Badezimmer oder einen anderen Raum renovieren möchten, wir sind hier, um Sie bei jedem Schritt des Prozesses zu begleiten. Entdecken Sie, wie Decotech Ihre Ideen in die Realität umsetzen kann.",
+    "bullets": {
+      "bullet_1": "Über 15 Jahre Erfahrung in der Branche.",
+      "bullet_2": "Team hochqualifizierter Fachleute.",
+      "bullet_3": "Engagement für Qualität und Kundenzufriedenheit.",
+      "bullet_4": "Verwendung von Materialien erstklassiger Qualität.",
+      "bullet_5": "Anpassungsfähigkeit an die Bedürfnisse der Kunden.",
+      "bullet_6": "Kostenlose Kostenvoranschläge"
+    }
+  },
+
+   "gallery": {
+    "title": "Projektgalerie",
+    "description": "Werfen Sie einen Blick auf unsere Videos und Fotos der Projekte, die wir in unserer beruflichen Laufbahn umgesetzt haben!",
+    "filters": [
+      { "value": "all", "label": "Alle" },
+      { "value": "kitchens", "label": "Küchen" },
+      { "value": "premium_bathrooms", "label": "Premium-Bäder" },
+      { "value": "interiors", "label": "Innenbereiche" }
+    ],
+    "items": [
+      {
+        "id": "kitchen_renovation",
+        "title": "Küchenrenovierung",
+        "category": "kitchens",
+        "image": "/gallery/cocina_portada2.png",
+        "button": "Galerie ansehen"
+      },
+      {
+        "id": "premium_bathrooms",
+        "title": "Premium-Bäder",
+        "category": "premium_bathrooms",
+        "image": "/gallery/aseo_portada2.png",
+        "button": "Galerie ansehen"
+      },
+      {
+        "id": "facade_renovation",
+        "title": "Fassadenrenovierung",
+        "category": "interiors",
+        "image": "/gallery/fachada_portada.png",
+        "button": "Galerie ansehen"
+      }
+    ],
+    "cta": "Angebot anfordern"
+  },
+
+  
+
+  "contact": {
+    "contact_title": "Kontaktieren Sie uns",
+    "contact_description": "Haben Sie Fragen oder möchten Sie ein Angebot anfordern? Zögern Sie nicht, uns zu kontaktieren. Wir sind hier, um Ihnen zu helfen!",
+    "form_text": {
+      "title": "Fordern Sie Ihr kostenloses Angebot an",
+      "fields": {
+        "name": "Vollständiger Name",
+        "email": "E-Mail-Adresse",
+        "phone": "Telefonnummer",
+        "proyect": "Art des Projekts",
+        "message": "Ihre Nachricht",
+        "submit": "Angebot anfordern"
+      }
+    },
+    "whatsApp_text":
+    {
+      "title": "Kontaktieren Sie uns direkt über WhatsApp!",
+      "description": "Senden Sie uns eine Nachricht und wir werden Ihnen so schnell wie möglich antworten.",
+      "button": "Gespräch beginnen"
+  }
+},
+"footer": {
+  "brand": {
+    "name": "DECOTECH",
+    "description": "Multiservice-Spezialisten für Komplettsanierungen in Murcia und Alicante"
+  },
+  "social": {
+    "facebook": "https://facebook.com",
+    "instagram": "https://instagram.com",
+    "tiktok": "https://tiktok.com"
+  },
+  "quick_links": {
+    "title": "Schnellzugriffe",
+    "items": [
+      { "label": "Startseite", "href": "/de" },
+      { "label": "Leistungen", "href": "/de#services" },
+      { "label": "Projekte", "href": "/de#projects" },
+      { "label": "Über uns", "href": "/de#about" },
+      { "label": "Kontakt", "href": "/de#contact" }
+    ]
+  },
+  "services": {
+    "title": "Unsere Leistungen",
+    "items": [
+      { "label": "Küchenrenovierungen", "href": "/de/service/reformas_de_cocina" },
+      { "label": "Badezimmerrenovierungen", "href": "/de/service/reformas_de_baños" },
+      { "label": "Komplettsanierungen", "href": "/de/service/reformas_integrales" },
+      { "label": "Innenausbau", "href": "/de/service/reformas_integrales" },
+      { "label": "Parkettverlegung", "href": "/de/service/reformas_integrales" },
+      { "label": "Malerarbeiten & Dekoration", "href": "/de/service/pintura" }
+    ]
+  },
+  "contact": {
+    "title": "Kontakt",
+    "phone": "0123456789",
+    "phone_display": "01 23 45 67 89",
+    "email": "contacto@decotech.es",
+    "address": "Av. Academia Gral. del Aire, 295i, Santiago de la Ribera, 30720 Murcia"
+  },
+  "bottom": {
+    "copyright": "© 2025 REFORMAS INTEGRALES DECOTECH S.L.S.",
+    "legal_links": [
+      { "label": "Impressum", "href": "/de/legal" },
+      { "label": "Datenschutzerklärung", "href": "/de/privacy" },
+      { "label": "AGB", "href": "/de/terms" }
+    ]
+  }
+},
+
+"terms": {
+  "title": "Allgemeine Geschäftsbedingungen",
+  "updatedAt": "Zuletzt aktualisiert: 9. Januar 2026",
+  "sections": [
+    {
+      "h": "1. Zweck",
+      "p": [
+        "Diese Bedingungen regeln die Nutzung der Website {domain} (die „Website“) sowie die Erbringung von Dienstleistungen durch {companyName}.",
+        "Durch das Surfen auf der Website oder die Anforderung eines Angebots akzeptieren Sie diese Bedingungen."
+      ]
+    },
+    {
+      "h": "2. Anbieterkennzeichnung",
+      "p": [
+        "Unternehmen: {companyName}.",
+        "Adresse: {address}.",
+        "{taxIdLabel}: {taxIdValue}.",
+        "E-Mail: {email}.",
+        "Telefon: {phone}."
+      ]
+    },
+    {
+      "h": "3. Leistungen",
+      "p": ["Wir bieten professionelle Renovierungs- und Installationsleistungen an, insbesondere:"],
+      "list": [
+        "Komplettsanierungen von Wohnungen und Gewerbeimmobilien",
+        "Renovierung von Küchen und Badezimmern",
+        "Maurer- und Bauarbeiten",
+        "Elektro- und Sanitärinstallationen"
+      ]
+    },
+    {
+      "h": "4. Angebote und Vertrag",
+      "p": [
+        "Angebote werden auf Anfrage erstellt und können von einer Besichtigung, Aufmaßen und der Materialverfügbarkeit abhängen.",
+        "Ein Vertrag kommt durch die ausdrückliche Annahme des Angebots, der Zahlungsbedingungen und des Zeitplans zustande."
+      ]
+    },
+    {
+      "h": "5. Haftung",
+      "p": [
+        "Die Inhalte der Website dienen ausschließlich Informationszwecken. Wir bemühen uns um Aktualität.",
+        "Wir haften nicht für Unterbrechungen aufgrund externer Ursachen."
+      ]
+    },
+    {
+      "h": "6. Urheberrecht",
+      "p": [
+        "Die Inhalte (Texte, Bilder, Logos, Design) sind Eigentum von {companyName} oder autorisierten Dritten.",
+        "Eine Vervielfältigung ohne vorherige Genehmigung ist untersagt."
+      ]
+    },
+    {
+      "h": "7. Anwendbares Recht",
+      "p": ["Diese Bedingungen unterliegen dem spanischen Recht und den geltenden Vorschriften."]
+    }
+  ]
+},
+
+"privacy": {
+  "title": "Datenschutzerklärung",
+  "updatedAt": "9. Januar 2026",
+  "sections": [
+    {
+      "h": "1. Verantwortlicher",
+      "p": [
+        "Verantwortlich: {companyName}.",
+        "Kontakt: {email}."
+      ]
+    },
+    {
+      "h": "2. Erhobene Daten",
+      "p": [
+        "Kontaktdaten (Name, E-Mail, Telefonnummer) sowie Projektinformationen bei Angebotsanfragen.",
+        "Grundlegende technische Daten (z. B. IP-Adresse) zur Sicherheit und Funktion der Website."
+      ]
+    },
+    {
+      "h": "3. Zwecke",
+      "list": [
+        "Beantwortung von Anfragen und Angebotserstellung",
+        "Verwaltung der Geschäftsbeziehung",
+        "Verbesserung der Sicherheit und der Website"
+      ]
+    },
+    {
+      "h": "4. Rechtsgrundlage",
+      "p": [
+        "Die Verarbeitung erfolgt zur Durchführung vorvertraglicher und vertraglicher Maßnahmen sowie aufgrund unseres berechtigten Interesses (Sicherheit).",
+        "Marketingkommunikation erfolgt gegebenenfalls gemäß den geltenden gesetzlichen Vorschriften."
+      ]
+    },
+    {
+      "h": "5. Speicherdauer",
+      "p": ["Die Daten werden nur so lange gespeichert, wie es erforderlich ist und entsprechend den gesetzlichen Aufbewahrungsfristen."]
+    },
+    {
+      "h": "6. Empfänger",
+      "p": [
+        "Keine Weitergabe der Daten, außer bei gesetzlicher Verpflichtung oder an notwendige Dienstleister (z. B. Hosting) unter Vertraulichkeitsvereinbarung."
+      ]
+    },
+    {
+      "h": "7. Rechte",
+      "p": ["Sie können Ihre Rechte ausüben, indem Sie eine E-Mail an {email} senden."]
+    }
+  ]
+}
+
+
+
+}
