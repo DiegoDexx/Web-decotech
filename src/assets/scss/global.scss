@@ -48,7 +48,7 @@ body {
 /* global.scss */
 .container-main {
   @apply w-full mx-auto px-4 sm:px-6 lg:px-8 xl:px-12;
-  max-width: 1400px;
+  width: min(92vw, 1320px);  /* 92% del viewport con tope de 1320px */
 }
 
 
