@@ -47,7 +47,7 @@ const Subcategories = ({ category, lang }) => {
 
 
       {/* SECCIÓN "¿QUÉ OFRECEMOS?" (como en la imagen) */}
-      <section className="w-full mt-25 bg-white-50 py-16 md:py-20 px-4 ">
+      <section className="w-full mt-10 bg-white-50 py-16 md:py-20 px-4 ">
         <div className="container-main ">
           <h2 className="text-2xl md:text-4xl font-semibold text-center text-black">
             ¿Qué Ofrecemos?
