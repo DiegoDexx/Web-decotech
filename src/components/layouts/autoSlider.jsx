@@ -51,7 +51,8 @@ const AutoSlider = ({ interval = 10000 }) => {
             alt=""
           />
 
-          <div className="absolute inset-0 bg-black/50" />
+          {/* Overlay un poco más oscuro para mejor contraste */}
+          <div className="absolute inset-0 bg-black/60" />
 
           {/* Contenido: móvil centrado, resto a la izquierda dentro del container */}
           <div
@@ -69,11 +70,11 @@ const AutoSlider = ({ interval = 10000 }) => {
                 text-center sm:text-left
               "
             >
-              <div className="max-w-[320px] sm:max-w-xl md:max-w-2xl">
+              <div className="max-w-xs sm:max-w-xl md:max-w-2xl">
                 <h1
                   className="
-                    font-bold leading-tight drop-shadow
-                    text-xl xs:text-2xl sm:text-3xl md:text-4xl lg:text-5xl
+                    font-extrabold leading-snug md:leading-tight drop-shadow
+                    text-lg xs:text-xl sm:text-2xl md:text-3xl lg:text-4xl
                   "
                 >
                   {slide.title}
@@ -81,8 +82,10 @@ const AutoSlider = ({ interval = 10000 }) => {
 
                 <p
                   className="
-                    mt-3 sm:mt-4
-                    text-xs sm:text-sm md:text-base lg:text-lg
+                    mt-4 md:mt-5
+                    font-normal
+                    text-[11px] sm:text-xs md:text-sm lg:text-base
+                    leading-relaxed
                   "
                 >
                   {slide.description}
@@ -90,17 +93,22 @@ const AutoSlider = ({ interval = 10000 }) => {
 
                 <div
                   className="
-                    mt-5 sm:mt-6
-                    flex flex-col sm:flex-row gap-3 sm:gap-4
+                    mt-6 md:mt-7
+                    flex flex-col sm:flex-row gap-4 sm:gap-5
                     justify-center sm:justify-start
                   "
                 >
                   <button
                     className="
                       bg-brand text-black font-medium
-                      px-4 sm:px-5 py-2
+                      px-5 sm:px-6 py-3
                       text-xs sm:text-sm md:text-base
                       rounded-lg border-0 cursor-pointer
+                      shadow-md
+                      transition
+                      hover:shadow-lg hover:scale-[1.02]
+                      focus-visible:outline-none
+                      focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2 focus-visible:ring-offset-transparent
                     "
                   >
                     {slider.button}
@@ -109,9 +117,13 @@ const AutoSlider = ({ interval = 10000 }) => {
                   <button
                     className="
                       bg-transparent text-white border border-white
-                      px-4 sm:px-5 py-2
+                      px-5 sm:px-6 py-3
                       text-xs sm:text-sm md:text-base
-                      rounded-lg hover:bg-black hover:text-white transition cursor-pointer
+                      rounded-lg
+                      transition
+                      hover:bg-white/10 hover:shadow-lg hover:scale-[1.02]
+                      focus-visible:outline-none
+                      focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-transparent
                     "
                   >
                     {slider.button_2}
@@ -123,23 +135,39 @@ const AutoSlider = ({ interval = 10000 }) => {
         </div>
       ))}
 
-      {/* Flechas centradas en la parte baja */}
+      {/* Flechas centradas en la parte baja, con mejor zona táctil */}
       <div
         className="
-          absolute bottom-4 sm:bottom-6 left-1/2 -translate-x-1/2
-          flex items-center gap-6
+          absolute bottom-6 md:bottom-8 left-1/2 -translate-x-1/2
+          flex items-center gap-7
         "
       >
         <button
           onClick={prev}
-          className="bg-black/60 text-white p-2 sm:p-3 rounded-full"
+          className="
+            bg-black/60 text-white
+            p-3 sm:p-4
+            rounded-full
+            transition
+            hover:bg-black/80 hover:scale-[1.05]
+            focus-visible:outline-none
+            focus-visible:ring-2 focus-visible:ring-white
+          "
         >
           <FaArrowLeft />
         </button>
 
         <button
           onClick={next}
-          className="bg-black/60 text-white p-2 sm:p-3 rounded-full"
+          className="
+            bg-black/60 text-white
+            p-3 sm:p-4
+            rounded-full
+            transition
+            hover:bg-black/80 hover:scale-[1.05]
+            focus-visible:outline-none
+            focus-visible:ring-2 focus-visible:ring-white
+          "
         >
           <FaArrowRight />
         </button>
