@@ -1,7 +1,7 @@
 import es from "../../../locales/es.json";
 import en from "../../../locales/en.json";
-import fr from "../../locales/fr.json";
-import de from "../../locales/de.json";
+import fr from "../../../locales/fr.json";
+import de from "../../../locales/de.json";
 
 const translationsByLang = { es, en, fr, de };
 
