@@ -14,19 +14,51 @@
       "de": "Deutsch"
     }
   },
+
+
+
   "slider": {
     "slide_1": {
-      "title": "Renovieren Sie Ihre Küche mit einem Design, das für Sie gemacht ist.",
-      "description": "Über 15 Jahre Erfahrung in Renovierungen und allen Arten von Dienstleistungen. Qualität, Professionalität und Engagement in jedem Projekt."
+      "title": "Experten für Renovierungen und Hauswartung.",
+      "description": "Wir bieten umfassende Lösungen zur Transformation und Verbesserung Ihres Wohn- oder Geschäftsraums mit Qualität und Professionalität."
     },
     "slide_2": {
+      "title": "Wir verwandeln Ihren Raum mit maßgeschneiderten Komplettsanierungen.",
+      "description": "Wir verbinden Funktionalität und Design, um einzigartige Umgebungen zu schaffen, die Ihren Bedürfnissen und Ihrem Lebensstil entsprechen."
+    },
+    "slide_3": {
       "title": "Verwandeln Sie Ihr Badezimmer in einen modernen und funktionalen Raum.",
       "description": "Spezialisten für Badrenovierungen mit hochwertigen Materialien und innovativen Designs."
     },
-    "slide_3": {
-      "title": "Erneuern Sie Ihr Zuhause mit unseren umfassenden Lösungen.",
-      "description": "Wir bieten komplette Renovierungsdienstleistungen für jede Ecke Ihres Hauses und passen uns Ihren Bedürfnissen und Ihrem Stil an."
+    "slide_4": {
+      "title": "Moderne und voll funktionsfähige Küchenrenovierungen.",
+      "description": "Wir schaffen Küchen, die Design, Funktionalität und Qualität vereinen. Von der ersten Planung bis zur finalen Installation kümmern wir uns um alles, damit Sie die Küche Ihrer Träume genießen können."
     },
+    "slide_5": {
+      "title": "Sichere und effiziente elektrische Lösungen für Ihr Zuhause.",
+      "description": "Wir bieten professionelle Elektroinstallationen und -reparaturen und garantieren Sicherheit, Effizienz und auf Ihre Bedürfnisse zugeschnittene Lösungen."
+    },
+    "slide_6": {
+      "title": "Installation und Reparatur von Antennen mit stabilem, hochwertigem Signal.",
+      "description": "Montage, Reparatur und Konfiguration von Antennen für ein stabiles, hochwertiges Signal im gesamten Zuhause."
+    },
+    "slide_7": {
+      "title": "Schnelle, professionelle und zuverlässige Klempnerdienste.",
+      "description": "Von kleinen Reparaturen bis hin zu kompletten Installationen ist unser Team bereit, jedes Sanitärproblem schnell und effizient zu lösen."
+    },
+    "slide_8": {
+      "title": "Langlebige Maurerarbeiten, passend für jedes Projekt.",
+      "description": "Wir führen Maurerarbeiten mit hochwertigen Materialien und professionellen Techniken aus, um langlebige und ästhetisch ansprechende Ergebnisse zu gewährleisten."
+    },
+    "slide_9": {
+      "title": "Professionelle Malerarbeiten für Innen- und Außenbereiche.",
+      "description": "Wir bieten Malerdienstleistungen mit hochwertigen Oberflächen, die langlebige Materialien und professionelle Techniken verwenden, um Ihre Räume zu erneuern."
+    },
+    "slide_10": {
+      "title": "Umfassende Reinigungsdienste für Häuser und Unternehmen.",
+      "description": "Wir bieten professionelle Reinigungsdienste an, um Ihr Zuhause oder Ihr Geschäft makellos zu halten, unter Verwendung effektiver Produkte und Techniken."
+    },
+
     "button": "Angebot anfordern",
     "button_2": "Projekte ansehen"
   },
@@ -79,353 +111,460 @@
       "slug": "limpieza"
     }
   },
-  
- "services_subservices": {
-  "title": "Teilleistungen",
+    "services_subservices": {
+    "title": "Unterleistungen",
 
-  "baños": {
-    "subtitle": "Professionelle Badsanierungen mit hochwertigen Materialien und perfekten Oberflächen.",
-    "short_description": "Spezialisten für komplette Badsanierungen. Modernes Design, Premium-Materialien und hochwertige Oberflächen für Ihr Badezimmer.",
-    "description": "Wir sind auf Badsanierungen spezialisiert und bieten individuelle Designs und hochwertige Materialien, um funktionale und stilvolle Räume zu schaffen. Von kompletten Renovierungen bis zu gezielten Verbesserungen passen wir uns Ihren Bedürfnissen und Wünschen an.",
-    "subservicios": {
-      "reformas_integrales_banos": {
-        "title": "Komplette Badsanierungen",
-        "description": "Umfassende Sanierung zur Verbesserung von Design, Funktionalität und Komfort.",
-        "slug": "reformas-integrales-banos"
-      },
-      "reemplazo_instalaciones": {
-        "title": "Erneuerung von Installationen",
-        "description": "Modernisierung von Leitungen, Anschlüssen und Wassersystemen.",
-        "slug": "reemplazo-instalaciones"
-      },
-      "cambio_banera_ducha": {
-        "title": "Badewannen- oder Duschtausch",
-        "description": "Einbau moderner, sicherer und funktionaler Dusch- oder Badewannensysteme.",
-        "slug": "cambio-banera-ducha"
-      },
-      "reemplazo_sanitarios": {
-        "title": "Sanitärersatz",
-        "description": "Einbau neuer Sanitärelemente für bessere Leistung und Optik.",
-        "slug": "reemplazo-sanitarios"
-      },
-      "reemplazo_griferia": {
-        "title": "Armaturenwechsel",
-        "description": "Umrüstung auf moderne und effiziente Armaturensysteme.",
-        "slug": "reemplazo-griferia"
-      },
-      "azulejos_pavimentos": {
-        "title": "Fliesen und Bodenbeläge",
-        "description": "Verlegung langlebiger und optisch ansprechender Keramikoberflächen.",
-        "slug": "azulejos-pavimentos"
+    "baños": {
+      "subtitle": "Professionelle Badezimmerrenovierungen mit hochwertigen Materialien und makellosen Oberflächen.",
+      "short_description": "Spezialisten für komplette Badezimmerrenovierungen. Modernes Design, Premium-Materialien und hochwertige Ausführung zur Verwandlung Ihres Raums.",
+      "description": "Wir verwandeln Ihr Badezimmer in einen modernen, funktionalen und eleganten Raum. Wir sind auf komplette Badrenovierungen spezialisiert – von der Planung bis zur finalen Montage. Wir verwenden hochwertige Materialien und die neuesten Trends im Interior Design, um Ihr Traumbad zu realisieren.",
+      "subservicios": {
+        "reformas_integrales_banos": {
+          "title": "Komplette Badezimmerrenovierungen",
+          "description": "Komplette Badrenovierung zur Verbesserung von Design, Funktionalität und Komfort.",
+          "slug": "reformas-integrales-banos",
+          "long_description": "Wir realisieren komplette Badezimmerrenovierungen von Anfang bis Ende und achten dabei auf jedes Detail, um ein modernes, praktisches und langlebiges Ergebnis zu erzielen. Wir übernehmen Planung, Rückbau und Untergrundvorbereitung sowie – falls erforderlich – die Erneuerung von Sanitär- und Elektroinstallationen. Wir arbeiten mit feuchtigkeitsbeständigen Wand- und Bodenbelägen und legen besonderen Wert auf Abdichtung und saubere Abschlüsse. Wir beraten Sie zu Grundriss, Beleuchtung, Sanitärkeramik und Armaturen, um den Raum optimal zu nutzen und den Komfort zu erhöhen – mit sauberer, organisierter Ausführung und Fokus auf höchste Qualität.",
+          "image": "/subservices/bathrooms/reformas-integrales-banos.jpg"
+        },
+        "reemplazo_instalaciones": {
+          "title": "Installationen und Austausch von Installationen",
+          "description": "Modernisierung von Leitungen, Anschlüssen und Wassersystemen.",
+          "slug": "reemplazo-instalaciones",
+          "long_description": "Wir modernisieren und ersetzen veraltete Installationen, um Sicherheit, Wasserdruck und Effizienz zu verbessern. Wir prüfen den Zustand von Leitungen, Absperrventilen, Abflüssen und Anschlüssen und erkennen mögliche Leckagen, Korrosion oder Verstopfungen, die zu Schäden und Feuchtigkeitsproblemen führen können. Der Austausch erfolgt mit zuverlässigen Materialien und auf die Immobilie abgestimmten Lösungen, wobei wir die Beeinträchtigungen minimieren und das System optimal für die spätere Montage von Sanitärkeramik, Armaturen und Möbeln vorbereiten.",
+          "image": "/subservices/bathrooms/reemplazo-instalaciones.jpg"
+        },
+        "cambio_banera_ducha": {
+          "title": "Austausch von Badewanne oder Duschwanne",
+          "description": "Ersatz durch moderne, sichere und funktionale Systeme.",
+          "slug": "cambio-banera-ducha",
+          "long_description": "Wir ersetzen Badewannen durch Duschwannen oder führen – je nach Bedarf – auch den umgekehrten Wechsel durch, wobei Komfort, Sicherheit und Stil im Vordergrund stehen. Wir verbessern die Barrierefreiheit mit rutschhemmenden Lösungen, Duschabtrennungen und modernen Armaturen und reduzieren so das Sturzrisiko. Wir übernehmen Demontage, Anpassung der Abläufe, Nivellierung, Abdichtung und Fliesenarbeiten, damit alles perfekt integriert ist. Das Ergebnis ist ein praktischerer, zeitgemäßer und pflegeleichter Raum mit sauberen, feuchtigkeitsbeständigen Abschlüssen.",
+          "image": "/subservices/bathrooms/cambio-banera-ducha.jpg"
+        },
+        "reemplazo_sanitarios": {
+          "title": "Austausch von Sanitärkeramik",
+          "description": "Einbau neuer Sanitärprodukte zur Verbesserung von Leistung und Optik.",
+          "slug": "reemplazo-sanitarios",
+          "long_description": "Wir installieren und ersetzen Sanitärkeramik, um das Bad zu modernisieren und Komfort sowie Effizienz zu steigern. Wir demontieren alte Elemente und montieren WC, Waschbecken, Bidet oder weitere Komponenten, prüfen Anschlüsse, Abflüsse und Dichtheit. Wir beraten Sie zu Modellen, die Wasser sparen und zum Stil des Raums passen, und sorgen für eine präzise, sauber ausgerichtete Montage. Ziel ist eine funktionale, langlebige und optisch stimmige Lösung mit sicherer Installation und makellosen Abschlüssen.",
+          "image": "/subservices/bathrooms/reemplazo-sanitarios.jpg"
+        },
+        "reemplazo_griferia": {
+          "title": "Austausch von Armaturen",
+          "description": "Ersatz durch moderne, effiziente Armaturen.",
+          "slug": "reemplazo-griferia",
+          "long_description": "Wir erneuern Armaturen im Badezimmer, um Leistung, Wassereinsparung und Optik zu verbessern. Wir ersetzen alte Armaturen durch moderne, effizientere und komfortablere Modelle mit passenden Oberflächen. Dabei prüfen wir Anschlussstellen, Flexschläuche, Ventile und Verbindungen, um Dichtheit und optimalen Betrieb sicherzustellen und Tropfen sowie Druckverluste zu vermeiden. Auf Wunsch installieren wir auch Thermostat- oder Einhebelmischer, um Komfort und Sicherheit zu erhöhen – mit sauberer, zuverlässiger Ausführung.",
+          "image": "/subservices/bathrooms/reemplazo-griferia.jpg"
+        },
+        "azulejos_pavimentos": {
+          "title": "Fliesen und Bodenbeläge",
+          "description": "Verlegung langlebiger und ästhetischer Beläge.",
+          "slug": "azulejos-pavimentos",
+          "long_description": "Wir verlegen Wandfliesen und Bodenbeläge mit professionellen Oberflächen und achten auf ein sauberes Verlegemuster, gleichmäßige Fugen und exakte Nivellierung für ein harmonisches Ergebnis. Wir verwenden langlebige Materialien, die für Nassbereiche geeignet sind, und sorgen für Widerstandsfähigkeit, einfache Reinigung und modernes Design. Wir übernehmen Untergrundvorbereitung, Kleberauftrag und fachgerechte Verlegung inklusive Kanten, Ecken und Abdichtfugen zur Verbesserung der Wasserbeständigkeit. Ziel ist ein optisch makelloses Bad, das dem täglichen Gebrauch dauerhaft standhält.",
+          "image": "/subservices/bathrooms/azulejos-pavimentos.jpg"
+        }
       }
-    }
-  },
+    },
 
-  "albañileria": {
-    "subtitle": "Robuste Maurerarbeiten für jedes Renovierungs- oder Verbesserungsprojekt.",
-    "short_description": "Professionelle Maurerarbeiten mit fortschrittlichen Techniken. Sanierungen, Trennwände und effektive Feuchtigkeitslösungen.",
-    "description": "Wir führen Maurerarbeiten mit hochwertigen Materialien und professionellen Techniken aus, um langlebige und ästhetisch ansprechende Ergebnisse zu gewährleisten.",
-    "subservicios": {
-      "reformas_integrales": {
-        "title": "Komplettsanierungen",
-        "description": "Umfassende Umgestaltung von Räumen mit Verbesserungen an Struktur und Optik.",
-        "slug": "reformas-integrales"
-      },
-      "tabiqueria_suelos_techos": {
-        "title": "Wände, Böden und Decken",
-        "description": "Bau oder Sanierung von innenliegenden Bauelementen.",
-        "slug": "tabiquerias-suelos-techos"
-      },
-      "rehabilitaciones": {
-        "title": "Sanierungen",
-        "description": "Wiederherstellung beschädigter oder gealterter Bereiche.",
-        "slug": "rehabilitaciones"
-      },
-      "tratamiento_humedades": {
-        "title": "Feuchtigkeitsbehandlung",
-        "description": "Professionelle Lösungen zur Beseitigung von Feuchtigkeit und Vermeidung künftiger Leckagen.",
-        "slug": "tratamiento-humedades"
-      },
-      "impermeabilizaciones": {
-        "title": "Abdichtungen",
-        "description": "Schutz vor Leckagen und eindringendem Wasser.",
-        "slug": "impermeabilizaciones"
-      },
-      "derrumbes_desescombros": {
-        "title": "Abbruch und Schuttentsorgung",
-        "description": "Kontrollierter Abbruch und sichere Entsorgung von Bauschutt.",
-        "slug": "derrumbes-desescombros"
+    "albañileria": {
+      "subtitle": "Langlebige Maurerarbeiten, passend für jedes Projekt.",
+      "short_description": "Professionelle Maurerarbeiten mit fortschrittlichen Techniken. Sanierungen, Trockenbau/Trennwände und effektive Feuchtigkeitslösungen.",
+      "description": "Wir führen Maurerarbeiten mit hochwertigen Materialien und professionellen Techniken aus, um langlebige und ästhetisch ansprechende Ergebnisse zu gewährleisten.",
+      "subservicios": {
+        "reformas_integrales": {
+          "title": "Komplettsanierungen",
+          "description": "Komplette Umgestaltung von Räumen zur Verbesserung von Struktur und Optik.",
+          "slug": "reformas-integrales",
+          "long_description": "Wir realisieren Komplettsanierungen mit einem ganzheitlichen Ansatz: Planung, Rückbau, Neuaufteilung und hochwertige Endausführung, um Räume funktional und optisch zu transformieren. Wir übernehmen alle notwendigen Maurerarbeiten, um Trennwände, Öffnungen und Oberflächen anzupassen und schaffen eine solide Basis für Installationen und Endarbeiten. Wir priorisieren Ausführungsqualität, saubere Baustellenorganisation und Materialbeständigkeit und koordinieren jede Phase, um Verzögerungen zu vermeiden und ein stimmiges Endergebnis zu sichern. Ziel ist mehr Wohnqualität, bessere Raumnutzung und eine Wertsteigerung der Immobilie.",
+          "image": "/subservices/masonry/reformas-integrales.jpg"
+        },
+        "tabiqueria_suelos_techos": {
+          "title": "Trennwände, Böden und Decken",
+          "description": "Bau oder Renovierung von Innenbauelementen.",
+          "slug": "tabiquerias-suelos-techos",
+          "long_description": "Wir erstellen und renovieren Trennwände, Böden und Decken, um Innenräume neu zu strukturieren und aufzuwerten. Wir bauen oder verändern Trennwände zur Optimierung der Raumaufteilung, verstärken und nivellieren Böden für eine perfekte Verlegung von Belägen und modernisieren Decken, um Optik, Dämmung und Lichtintegration zu verbessern. Wir setzen Lösungen ein, die auf den Bedarf abgestimmt sind, und achten auf Fluchten, Lot und saubere Abschlüsse. Das Ergebnis ist ein komfortabler, moderner Innenraum, der für intensive Nutzung und hochwertige Oberflächen vorbereitet ist.",
+          "image": "/subservices/masonry/tabiquerias-suelos-techos.jpg"
+        },
+        "rehabilitaciones": {
+          "title": "Sanierungen",
+          "description": "Wiederherstellung alter oder beschädigter Bereiche.",
+          "slug": "rehabilitaciones",
+          "long_description": "Wir sanieren ältere oder beschädigte Bereiche, um Sicherheit, Funktionalität und Erscheinungsbild wiederherzustellen. Wir prüfen den Untergrund, entfernen geschädigte Teile und setzen – je nach Situation – passende Reparatur- und Verstärkungslösungen um, um die Dauerhaftigkeit zu erhöhen. Wir arbeiten an Wänden, Böden, Decken oder betroffenen Bauteilen, um Stabilität und Ästhetik zurückzubringen. Unser Fokus liegt auf soliden Reparaturen, sorgfältigen Abschlüssen und geeigneten Materialien, damit der Raum langfristig nutzbar bleibt.",
+          "image": "/subservices/masonry/rehabilitaciones.jpg"
+        },
+        "tratamiento_humedades": {
+          "title": "Feuchtigkeitsbehandlung",
+          "description": "Lösungen zur Beseitigung von Feuchtigkeit und zur Vermeidung von Leckagen.",
+          "slug": "tratamiento-humedades",
+          "long_description": "Wir behandeln Feuchtigkeitsprobleme professionell: Wir ermitteln die Ursache (aufsteigende Feuchte, eindringendes Wasser, Kondensation oder Leckagen) und setzen die passende Lösung um, um das Problem zu beseitigen und ein Wiederauftreten zu verhindern. Wir sanieren Oberflächen, reparieren betroffene Stellen und führen Abdichtungen sowie ergänzende Maßnahmen aus. Zudem bereiten wir Flächen für widerstandsfähige Endbeschichtungen vor, um Schimmel, Abplatzungen und Gerüche zu vermeiden. Ziel ist ein gesundes Raumklima, Schutz der Bausubstanz und eine sichtbare Verbesserung der Optik.",
+          "image": "/subservices/masonry/tratamiento-humedades.jpg"
+        },
+        "impermeabilizaciones": {
+          "title": "Abdichtungen",
+          "description": "Schutz vor Leckagen und Feuchtigkeit.",
+          "slug": "impermeabilizaciones",
+          "long_description": "Wir setzen Abdichtungslösungen um, um Dächer, Terrassen, Wände und exponierte Bereiche vor Regen und Feuchtigkeit zu schützen. Wir bereiten Untergründe korrekt vor, dichten kritische Punkte ab und verwenden systemspezifische Lösungen passend zum Untergrund, um eine wirksame und langlebige Sperre zu gewährleisten. Gute Abdichtungen verhindern Eindringen von Wasser, Flecken, Abplatzungen und strukturelle Schäden und reduzieren zukünftige Reparaturen. Unser Ziel sind Dichtheit und professionelle Abschlüsse, mit besonderem Augenmerk auf Anschlüsse, Fugen und Details.",
+          "image": "/subservices/masonry/impermeabilizaciones.jpg"
+        },
+        "derrumbes_desescombros": {
+          "title": "Rückbau und Schuttentsorgung",
+          "description": "Kontrollierter Rückbau und sichere Entsorgung von Bauschutt.",
+          "slug": "derrumbes-desescombros",
+          "long_description": "Wir führen Rückbau- und Abbrucharbeiten kontrolliert durch und legen dabei Wert auf Sicherheit, Ordnung und die Einhaltung von Vorschriften. Wir demontieren Bauteile, managen den anfallenden Schutt und entsorgen Abfälle fachgerecht, sodass die Fläche für die nächste Bauphase bereit ist. Wir planen den Ablauf, um Beeinträchtigungen zu reduzieren, angrenzende Bereiche zu schützen und effizient zu arbeiten. Das Ergebnis ist ein sauberer, vorbereiteter Bereich, mit verantwortungsvoller Abfallentsorgung und sorgfältiger Ausführung.",
+          "image": "/subservices/masonry/derrumbes-desescombros.jpg"
+        }
       }
-    }
-  },
+    },
 
-  "reformas_integrales": {
-    "subtitle": "Komplettsanierungen, vollständig auf Ihre Bedürfnisse zugeschnitten.",
-    "short_description": "Komplette Umgestaltung von Wohnungen und Gewerberäumen. Individuelle Planung, professionelle Koordination und garantierte Termintreue.",
-    "description": "Umfassende Renovierungsleistungen, die auf Ihre spezifischen Anforderungen abgestimmt sind. Wir übernehmen alle Projektphasen, um Qualität, Effizienz und Zufriedenheit sicherzustellen.",
-    "subservicios": {
-      "diseno_personalizado": {
-        "title": "Individuelle Planung",
-        "description": "Detaillierte Planung auf Basis Ihrer Vorlieben und funktionalen Anforderungen.",
-        "slug": "diseno-personalizado"
-      },
-      "gestion_permisos": {
-        "title": "Genehmigungsmanagement",
-        "description": "Abwicklung aller notwendigen behördlichen Unterlagen vor Beginn der Arbeiten.",
-        "slug": "gestion-permisos"
-      },
-      "coordinacion_oficios": {
-        "title": "Koordination der Gewerke",
-        "description": "Professionelle Steuerung aller am Projekt beteiligten Teams.",
-        "slug": "coordinacion-oficios"
-      },
-      "acabados_calidad": {
-        "title": "Hochwertige Oberflächen",
-        "description": "Langlebige und optisch ansprechende Abschlussdetails.",
-        "slug": "acabados-calidad"
-      },
-      "cumplimiento_plazos": {
-        "title": "Termintreue",
-        "description": "Garantierte Fertigstellung innerhalb der vereinbarten Frist.",
-        "slug": "cumplimiento-plazos"
-      },
-      "presupuesto_detallado": {
-        "title": "Detaillierte Kostenvoranschläge",
-        "description": "Klare und transparente Aufschlüsselung der Kosten.",
-        "slug": "presupuesto-detallado"
+    "reformas_integrales": {
+      "subtitle": "Komplettsanierungen, angepasst an Ihre Bedürfnisse.",
+      "short_description": "Komplette Umgestaltung von Wohnungen und Gewerbeflächen. Individuelles Design, professionelle Koordination und garantierte Termintreue.",
+      "description": "Wir transformieren Ihren Raum mit maßgeschneiderten Komplettsanierungen und verbinden Funktionalität mit Design, um einzigartige Umgebungen zu schaffen.",
+      "subservicios": {
+        "diseno_personalizado": {
+          "title": "Individuelles Design",
+          "description": "Detaillierte Planung nach Ihren Wünschen und Bedürfnissen.",
+          "slug": "diseno-personalizado",
+          "long_description": "Wir entwickeln ein individuelles Design, das von Ihren tatsächlichen Bedürfnissen und dem Potenzial des Raums ausgeht. Wir analysieren Grundriss, Wegeführung, Licht und Materialien, um ein ausgewogenes Konzept aus Ästhetik und Funktion zu schaffen. Wir helfen bei Stilentscheidungen und praktikablen Lösungen für den Alltag und vermeiden spontane Entscheidungen, die Kosten erhöhen können. Ziel ist, dass jedes Detail passt – von der Aufteilung bis zu den Oberflächen – für ein stimmiges, modernes Ergebnis, das zu Ihrer Lebens- oder Arbeitsweise passt.",
+          "image": "/subservices/integral/diseno-personalizado.jpg"
+        },
+        "gestion_permisos": {
+          "title": "Genehmigungsmanagement",
+          "description": "Rechtliche Abwicklung, die zum Start der Arbeiten erforderlich ist.",
+          "slug": "gestion-permisos",
+          "long_description": "Wir übernehmen Genehmigungen und notwendige Formalitäten, damit Ihr Projekt reibungslos starten kann. Wir beraten zu erforderlichen Unterlagen, Lizenzen und Meldungen je nach Art der Arbeiten und koordinieren die Schritte, um Verzögerungen zu vermeiden. Dazu gehören Informationssammlung, Einreichung von Anträgen und die Nachverfolgung des Prozesses, um Wartezeiten zu reduzieren und Probleme zu vermeiden. Ziel ist, den administrativen Aufwand für Sie zu minimieren und die Umsetzung regelkonform und planmäßig zu ermöglichen.",
+          "image": "/subservices/integral/gestion-permisos.jpg"
+        },
+        "coordinacion_oficios": {
+          "title": "Gewerkekoordination",
+          "description": "Professionelles Management der verschiedenen Arbeitsteams.",
+          "slug": "coordinacion-oficios",
+          "long_description": "Wir koordinieren alle beteiligten Gewerke, damit jede Phase in der richtigen Reihenfolge und in der erwarteten Qualität ausgeführt wird. Wir planen Zeiten, Lieferungen und Abhängigkeiten zwischen den Arbeiten (Maurer, Elektro, Sanitär, Maler usw.) und vermeiden Stillstände und Nacharbeiten. Wir überwachen Fortschritt und Details, um ein einheitliches, professionelles Endergebnis sicherzustellen. Diese Koordination hilft, Termine einzuhalten, Kosten zu optimieren und den Ablauf effizient und organisiert zu gestalten.",
+          "image": "/subservices/integral/coordinacion-oficios.jpg"
+        },
+        "acabados_calidad": {
+          "title": "Hochwertige Ausführung",
+          "description": "Langlebige Oberflächen mit exzellenter Optik.",
+          "slug": "acabados-calidad",
+          "long_description": "Wir legen großen Wert auf die Ausführung, damit das Endergebnis durch Qualität, Ästhetik und Langlebigkeit überzeugt. Wir wählen geeignete Materialien und achten auf Details wie Abschlüsse, Fugen, Ecken, Niveaus und Übergänge. Eine gute Ausführung sieht nicht nur besser aus, sondern hält dem Alltag länger stand und benötigt weniger Pflege. Ziel ist, Räume mit makellosen Details zu übergeben – passend zum gewählten Design und mit professionellem Standard umgesetzt.",
+          "image": "/subservices/integral/acabados-calidad.jpg"
+        },
+        "cumplimiento_plazos": {
+          "title": "Termintreue",
+          "description": "Garantierte Fertigstellung innerhalb des vereinbarten Zeitrahmens.",
+          "slug": "cumplimiento-plazos",
+          "long_description": "Wir arbeiten mit sorgfältiger Planung und Baustellenkontrolle, um die vereinbarten Termine von Beginn an einzuhalten. Wir strukturieren die Ausführung in Phasen, koordinieren Teams und Materialien und verfolgen den Fortschritt, um Abweichungen frühzeitig zu erkennen. Termintreue ist entscheidend, um Belastungen zu reduzieren und Zusatzkosten durch Verzögerungen zu vermeiden. Unser Ansatz basiert auf Organisation, Kommunikation und vorausschauender Planung – mit dem Ziel, pünktlich und in der erwarteten Qualität zu übergeben.",
+          "image": "/subservices/integral/cumplimiento-plazos.jpg"
+        },
+        "presupuesto_detallado": {
+          "title": "Detailliertes Angebot",
+          "description": "Transparente und präzise Kostenaufstellung.",
+          "slug": "presupuesto-detallado",
+          "long_description": "Wir erstellen detaillierte und transparente Angebote, damit Sie genau wissen, was jede Position umfasst. Wir gliedern Arbeiten, Materialien und Phasen, vermeiden Überraschungen und erleichtern die Entscheidungsfindung. Ein klares Angebot ermöglicht Vergleiche, Priorisierung und Kontrolle des Projektumfangs. Ziel ist, Ihnen von Anfang an echte Kostentransparenz zu geben – mit einem seriösen, verständlichen Vorschlag, abgestimmt auf den gewünschten Qualitätsstandard und Ihre Ziele.",
+          "image": "/subservices/integral/presupuesto-detallado.jpg"
+        }
       }
-    }
-  },
+    },
 
-  "antenas": {
-    "subtitle": "Montage und Reparatur von Antennen für ein stabiles, hochwertiges Signal.",
-    "short_description": "Installation und Wartung von DVB-T-, Satelliten- und Gemeinschaftsantennen. Optimales Signal garantiert für Ihr Zuhause.",
-    "description": "Umfassende Antennendienste einschließlich Montage, Reparatur und Wartung, um eine optimale Signalqualität in Ihrem Zuhause oder Betrieb zu gewährleisten.",
-    "subservicios": {
-      "instalacion_antenas": {
-        "title": "Antennenmontage",
-        "description": "Fachgerechte Installation von TV- und Satellitenantennen.",
-        "slug": "instalacion-antenas"
-      },
-      "reparacion_antenas": {
-        "title": "Antennenreparatur",
-        "description": "Schnelle und effektive Lösungen bei Signalproblemen.",
-        "slug": "reparacion-antenas"
-      },
-      "antenas_particulares": {
-        "title": "Private DVB-T-Antennen",
-        "description": "Installation individueller Antennen für Privathaushalte.",
-        "slug": "antenas-particulares"
-      },
-      "antenas_comunitarias": {
-        "title": "Gemeinschaftsantennen",
-        "description": "Montage und Reparatur für Wohngebäude.",
-        "slug": "antenas-comunitarias"
-      },
-      "antenas_parabolicas": {
-        "title": "Satellitenschüsseln",
-        "description": "Installation und Ausrichtung für ein optimales Satellitensignal.",
-        "slug": "antenas-parabolicas"
-      },
-      "mantenimiento_antenas": {
-        "title": "Antennenwartung",
-        "description": "Regelmäßige Kontrollen für eine optimale Signalqualität.",
-        "slug": "mantenimiento-antenas"
+    "antenas": {
+      "subtitle": "Installation und Reparatur von Antennen mit stabilem, hochwertigem Signal.",
+      "short_description": "Installation und Wartung von TDT-, Satelliten- und Gemeinschaftsantennen. Optimales Signal für Ihr Zuhause garantiert.",
+      "description": "Montage, Reparatur und Konfiguration von Antennen für ein stabiles, hochwertiges Signal im gesamten Zuhause.",
+      "subservicios": {
+        "instalacion_antenas": {
+          "title": "Antenneninstallation",
+          "description": "Professionelle Montage von TDT- und Satellitenantennen.",
+          "slug": "instalacion-antenas",
+          "long_description": "Wir installieren TDT- und Satellitenantennen und sorgen für eine stabile, hochwertige Empfangsqualität. Wir wählen den optimalen Montageort, befestigen sicher und justieren die Ausrichtung, um das Signal zu maximieren. Zudem prüfen wir Kabel, Stecker und Dosen, um Verluste zu minimieren und eine optimale Leistung in allen Räumen zu gewährleisten. Ziel ist zuverlässiger Empfang mit einer sauberen, ordentlichen Installation für langfristige Nutzung.",
+          "image": "/subservices/antennas/instalacion-antenas.jpg"
+        },
+        "reparacion_antenas": {
+          "title": "Antennenreparatur",
+          "description": "Schnelle Lösung bei Signalproblemen.",
+          "slug": "reparacion-antenas",
+          "long_description": "Wir beheben Störungen und Signalprobleme in TDT- und Satellitensystemen schnell und zuverlässig. Wir diagnostizieren die Ursache (Ausrichtung, Verkabelung, Verstärker, Anschlüsse, Dosen oder verschlissene Komponenten) und setzen die passende Lösung um. Wir stellen die Empfangsqualität wieder her und prüfen kritische Punkte, um Wiederholungen zu vermeiden. Ergebnis: stabiles Signal und eine eingestellte, geprüfte Anlage für optimale Leistung.",
+          "image": "/subservices/antennas/reparacion-antenas.jpg"
+        },
+        "antenas_particulares": {
+          "title": "Private TDT-Antennen",
+          "description": "Individuelle Installation für private Wohnhäuser.",
+          "slug": "antenas-particulares",
+          "long_description": "Wir installieren individuelle TDT-Antennen für private Haushalte und passen die Lösung an Standort und verfügbare Abdeckung an. Wir optimieren die Ausrichtung und konfigurieren das System für bestmöglichen Empfang, prüfen bei Bedarf auch Innenverkabelung und Verteilung. Wir setzen auf eine sichere, unauffällige Montage mit geschützter Verkabelung und hochwertigen Verbindungen, um Störungen und Verluste zu reduzieren. So erhalten Sie einen stabilen Empfang ohne Aussetzer.",
+          "image": "/subservices/antennas/antenas-particulares.jpg"
+        },
+        "antenas_comunitarias": {
+          "title": "Gemeinschaftsantennen",
+          "description": "Installationen für Gebäude und Wohnanlagen.",
+          "slug": "antenas-comunitarias",
+          "long_description": "Wir installieren und warten Gemeinschaftsantennenanlagen für Mehrfamilienhäuser und sorgen für eine korrekte Signalverteilung in alle Wohnungen. Wir prüfen Kopfstation, Verstärker, Verteiler und das Verteilnetz, um Pegel auszugleichen und Verluste zu vermeiden. Wir führen Einstellungen und Verbesserungen durch, um die Empfangsqualität zu optimieren und Ausfälle zu reduzieren. Ziel ist ein stabiles, korrekt konfiguriertes System mit zuverlässiger Funktion und geringem Wartungsaufwand.",
+          "image": "/subservices/antennas/antenas-comunitarias.jpg"
+        },
+        "antenas_parabolicas": {
+          "title": "Satellitenschüsseln",
+          "description": "Montage und Ausrichtung für Satellitensignal.",
+          "slug": "antenas-parabolicas",
+          "long_description": "Wir montieren und richten Satellitenschüsseln für stabilen Empfang aus und achten auf korrekte Positionierung, sichere Befestigung und feine Signaljustierung. Wir konfigurieren LNB, Verkabelung und Anschlüsse und prüfen die Signalqualität am Receiver. Außerdem beheben wir Signalverluste durch Wind, Verstellung oder Komponentenverschleiß. Ergebnis ist eine sichere, kalibrierte Anlage für den bestmöglichen Satellitenempfang.",
+          "image": "/subservices/antennas/antenas-parabolicas.jpg"
+        },
+        "mantenimiento_antenas": {
+          "title": "Antennenwartung",
+          "description": "Regelmäßige Kontrolle für optimalen Empfang.",
+          "slug": "mantenimiento-antenas",
+          "long_description": "Wir bieten vorbeugende Antennenwartung an, um Ausfälle und Signalverschlechterungen zu vermeiden. Wir kontrollieren Befestigungen, Ausrichtung, Kabel, Stecker und Verstärkerkomponenten und beheben Abnutzung, bevor sie zu Störungen führt. Das ist besonders sinnvoll bei Anlagen, die Wind und Wetter ausgesetzt sind. Ziel ist dauerhaft stabile Leistung und weniger Störungen durch regelmäßige Prüfungen und professionelle Nachjustierung.",
+          "image": "/subservices/antennas/mantenimiento-antenas.jpg"
+        }
       }
-    }
-  },
+    },
 
-  "fontaneria": {
-    "subtitle": "Schnelle, zuverlässige und professionelle Klempnerservices.",
-    "short_description": "Professionelle Klempner 24/7. Notfallreparaturen, komplette Installationen und vorbeugende Wartung mit Qualitätsgarantie.",
-    "description": "Umfassende Sanitärdienste wie Leckortung, Reparaturen, Installationen und Notdienste, damit Ihre Wassersysteme einwandfrei funktionieren.",
-    "subservicios": {
-      "revision_reparacion": {
-        "title": "Inspektion und Reparatur",
-        "description": "Erkennung und Behebung von Lecks und Störungen.",
-        "slug": "revision-reparacion"
-      },
-      "mantenimiento_preventivo": {
-        "title": "Vorbeugende Wartung",
-        "description": "Vermeidung von Ausfällen und Pflege der Installationen.",
-        "slug": "mantenimiento-preventivo"
-      },
-      "instalacion_tuberias": {
-        "title": "Rohrinstallation",
-        "description": "Einbau moderner und langlebiger Sanitärsysteme.",
-        "slug": "instalacion-tuberias"
-      },
-      "urgencias": {
-        "title": "Notdienst",
-        "description": "Soforteinsatz bei schweren Lecks oder Störungen.",
-        "slug": "urgencias"
-      },
-      "reemplazo_sanitarios": {
-        "title": "Sanitäraustausch",
-        "description": "Einbau neuer, moderner Sanitäreinrichtungen.",
-        "slug": "reemplazo-sanitarios"
-      },
-      "reemplazo_griferia": {
-        "title": "Armaturenersatz",
-        "description": "Austausch alter Armaturen durch moderne und effiziente Systeme.",
-        "slug": "reemplazo-griferia"
+    "fontaneria": {
+      "subtitle": "Schnelle, professionelle und zuverlässige Sanitär-/Installationsleistungen.",
+      "short_description": "Professionelle Installateure 24/7. Notfallreparaturen, Komplettinstallationen und vorbeugende Wartung mit Qualitätsgarantie.",
+      "description": "Umfassende Sanitär-/Installationsleistungen für Haushalte und Unternehmen. Von kleinen Reparaturen bis zu kompletten Installationen ist unser Team bereit, jedes Problem schnell und effizient zu lösen. Wir bieten einen 24/7-Notdienst.",
+      "subservicios": {
+        "revision_reparacion": {
+          "title": "Prüfung und Reparatur",
+          "description": "Inspektion und Behebung von Leckagen und Störungen.",
+          "slug": "revision-reparacion",
+          "long_description": "Wir führen Prüfungen und Reparaturen durch, um Leckagen, Tropfen, Verstopfungen und Störungen schnell und effektiv zu beheben. Wir identifizieren die Ursache, reparieren den Schaden und prüfen die Dichtheit, um ein erneutes Auftreten zu verhindern. Wir verwenden hochwertige Teile und Materialien und arbeiten sauber und ordentlich. Ziel ist die Wiederherstellung eines zuverlässigen Betriebs und die Vermeidung größerer Folgeschäden in Wohnung oder Gewerbe.",
+          "image": "/subservices/plumbing/revision-reparacion.jpg"
+        },
+        "mantenimiento_preventivo": {
+          "title": "Vorbeugende Wartung",
+          "description": "Vorbeugung von Ausfällen und Verbesserungen der Installation.",
+          "slug": "mantenimiento-preventivo",
+          "long_description": "Wir bieten vorbeugende Wartung an, um die Lebensdauer der Installation zu verlängern und unerwartete Ausfälle zu vermeiden. Wir prüfen kritische Punkte wie Ventile, Verbindungen, Abflüsse, Druck sowie mögliche verdeckte Leckagen und beheben kleine Probleme, bevor sie groß werden. Dieser Service steigert die Effizienz, reduziert Verbrauch und hilft, Feuchtigkeit und Bauschäden vorzubeugen. Ziel ist ein stabiles System und geringere Reparaturkosten in der Zukunft.",
+          "image": "/subservices/plumbing/mantenimiento-preventivo.jpg"
+        },
+        "instalacion_tuberias": {
+          "title": "Leitungsinstallation",
+          "description": "Montage effizienter und langlebiger Wassersysteme.",
+          "slug": "instalacion-tuberias",
+          "long_description": "Wir installieren Rohrleitungen und Wassernetze passend zur Aufteilung und Nutzung der Immobilie – mit Fokus auf Effizienz und Langlebigkeit. Wir sorgen für korrekte Leitungsführung, passende Dimensionierung, sichere Befestigungen und dichte Verbindungen für einen zuverlässigen Betrieb. Wir arbeiten sowohl bei Neuinstallationen als auch bei teilweisen oder kompletten Erneuerungen und minimieren das Risiko von Leckagen und Druckverlust. Das Ergebnis ist ein modernes, effizientes System für langfristige Nutzung.",
+          "image": "/subservices/plumbing/instalacion-tuberias.jpg"
+        },
+        "urgencias": {
+          "title": "Notdienst",
+          "description": "Soforthilfe bei schwerwiegenden Störungen.",
+          "slug": "urgencias",
+          "long_description": "Wir helfen bei Sanitär-Notfällen, wenn sofortiges Handeln nötig ist – z. B. bei starken Leckagen, Rohrbrüchen, kritischen Verstopfungen oder Ausfällen der Wasserversorgung. Wir konzentrieren uns zunächst auf die Eindämmung, verhindern Folgeschäden und führen eine wirksame Reparatur durch, um den Betrieb schnellstmöglich wiederherzustellen. Wir arbeiten zügig, sicher und ordentlich und informieren Sie transparent über Diagnose und Lösung. Ziel ist schnelle Entlastung und professionelle Hilfe im Ernstfall.",
+          "image": "/subservices/plumbing/urgencias.jpg"
+        },
+        "reemplazo_sanitarios": {
+          "title": "Austausch von Sanitärkeramik",
+          "description": "Einbau moderner, funktionaler Komponenten.",
+          "slug": "reemplazo-sanitarios",
+          "long_description": "Wir ersetzen Sanitärkeramik, um das Bad zu modernisieren oder die Leistung der Installation zu verbessern. Wir demontieren, passen Zu- und Abläufe an, montieren das neue Element und führen Abschlussprüfungen durch, damit alles dicht und komfortabel nutzbar ist. Wir beraten zu effizienten, praktischen Optionen und achten auf gute Raumnutzung und zeitgemäße Optik. Ergebnis ist eine sichere, sauber ausgeführte Installation für den täglichen Gebrauch.",
+          "image": "/subservices/plumbing/reemplazo-sanitarios.jpg"
+        },
+        "reemplazo_griferia": {
+          "title": "Austausch von Armaturen",
+          "description": "Ersatz alter Armaturen durch aktuelle Modelle.",
+          "slug": "reemplazo-griferia",
+          "long_description": "Wir ersetzen Armaturen in Bad oder Küche, um Komfort, Verbrauch und Optik zu verbessern. Wir montieren moderne, effizientere Modelle und prüfen Anschlüsse und Komponenten auf Dichtheit und guten Durchfluss. Auf Wunsch installieren wir auch Thermostatlösungen oder Systeme für mehr Sicherheit und Temperaturkontrolle. Ziel ist, Tropfen zu beseitigen, die Leistung zu verbessern und dem Raum ein modernes Erscheinungsbild zu geben – mit professioneller Montage.",
+          "image": "/subservices/plumbing/reemplazo-griferia.jpg"
+        }
       }
-    }
-  },
+    },
 
-  "reformas_cocina": {
-    "subtitle": "Moderne, funktionale und vollständig maßgeschneiderte Küchensanierungen.",
-    "short_description": "Umfassende und maßgeschneiderte Küchensanierungen. Funktionales Design, hochwertige Möbel und Markenelektrogeräte.",
-    "description": "Wir gestalten Küchen, die Design, Funktionalität und Qualität vereinen. Vom ersten Entwurf bis zur endgültigen Montage kümmern wir uns um alles, damit Sie Ihre Traumküche genießen können. Wir arbeiten mit renommierten Marken für Elektrogeräte und Küchenmöbel.",
-    "subservicios": {
-      "reformas_integrales_cocina": {
-        "title": "Komplette Küchensanierungen",
-        "description": "Umfassende Umgestaltung der Küche zur Verbesserung von Layout und Funktionalität.",
-        "slug": "reformas-integrales-cocina"
-      },
-      "instalacion_mobiliario": {
-        "title": "Möbelmontage",
-        "description": "Fachgerechter Aufbau von Küchenmöbeln.",
-        "slug": "instalacion-mobiliario"
-      },
-      "reemplazo_encimeras": {
-        "title": "Arbeitsplattenwechsel",
-        "description": "Einbau langlebiger und optisch ansprechender Oberflächen.",
-        "slug": "reemplazo-encimeras"
-      },
-      "instalacion_electrodomesticos": {
-        "title": "Einbau von Elektrogeräten",
-        "description": "Sichere Integration moderner Küchengeräte.",
-        "slug": "instalacion-electrodomesticos"
-      },
-      "reemplazo_griferia_cocina": {
-        "title": "Armaturenwechsel in der Küche",
-        "description": "Umrüstung auf moderne und effiziente Küchenarmaturen.",
-        "slug": "reemplazo-griferia-cocina"
-      },
-      "azulejos_pavimentos_cocina": {
-        "title": "Fliesen und Bodenbeläge",
-        "description": "Fachgerechte Verlegung von Wand- und Bodenbelägen.",
-        "slug": "azulejos-pavimentos-cocina"
+    "reformas_cocina": {
+      "subtitle": "Moderne, voll funktionsfähige Küchenrenovierungen.",
+      "short_description": "Komplette und maßgeschneiderte Küchenrenovierungen. Funktionales Design, hochwertige Möbel und Markengeräte.",
+      "description": "Wir schaffen Küchen, die Design, Funktionalität und Qualität verbinden. Von der ersten Planung bis zur finalen Installation übernehmen wir alles, damit Sie Ihre Traumküche genießen können. Wir arbeiten mit führenden Marken für Geräte und Küchenmöbel.",
+      "subservicios": {
+        "reformas_integrales_cocina": {
+          "title": "Komplette Küchenrenovierungen",
+          "description": "Komplette Umgestaltung der Küche.",
+          "slug": "reformas-integrales-cocina",
+          "long_description": "Wir realisieren komplette Küchenrenovierungen, um den Raum vollständig zu transformieren und Aufteilung, Stauraum und Funktion zu verbessern. Wir übernehmen Planung, Bauarbeiten und Endmontage und koordinieren alle erforderlichen Arbeiten für ein stimmiges, langlebiges Ergebnis. Wir arbeiten mit Materialien, die dem täglichen Gebrauch standhalten, und Lösungen, die Ergonomie, Beleuchtung und Belüftung optimieren. Ziel ist eine moderne, komfortable Küche, die zu Ihrem Lebensstil passt, mit hochwertigen Oberflächen.",
+          "image": "/subservices/kitchens/reformas-integrales-cocina.jpg"
+        },
+        "instalacion_mobiliario": {
+          "title": "Möbelmontage",
+          "description": "Professionelle Montage von Küchenmöbeln.",
+          "slug": "instalacion-mobiliario",
+          "long_description": "Wir montieren Küchenmöbel präzise, damit Passgenauigkeit, Funktion und Optik stimmen. Wir nivellieren und verankern Unterschränke und Oberschränke, richten Fronten aus und montieren Beschläge fachgerecht, damit alles im Alltag langlebig ist. Wir prüfen Maße und Übergänge zu Wänden und Böden, um Schiefstände zu vermeiden. Ergebnis ist eine aufgeräumte, funktionale Küche mit stabilen, sauber montierten Möbeln, die lange halten.",
+          "image": "/subservices/kitchens/instalacion-mobiliario.jpg"
+        },
+        "reemplazo_encimeras": {
+          "title": "Austausch von Arbeitsplatten",
+          "description": "Einbau widerstandsfähiger und ästhetischer Oberflächen.",
+          "slug": "reemplazo-encimeras",
+          "long_description": "Wir tauschen Arbeitsplatten aus, um die Küche optisch aufzuwerten und die Widerstandsfähigkeit im Alltag zu erhöhen. Wir beraten zu Materialien, Oberflächen und praktischen Lösungen je nach Pflegeaufwand und Stil. Wir demontieren die alte Platte, bereiten den Untergrund vor, montieren und dichten sorgfältig ab und achten auf saubere Fugen, Übergänge und Ebenheit. Ziel ist eine langlebige, funktionale und attraktive Arbeitsfläche für komfortables Arbeiten.",
+          "image": "/subservices/kitchens/reemplazo-encimeras.jpg"
+        },
+        "instalacion_electrodomesticos": {
+          "title": "Gerätemontage",
+          "description": "Sichere Integration moderner Elektrogeräte.",
+          "slug": "instalacion-electrodomesticos",
+          "long_description": "Wir installieren Elektrogeräte sicher und sorgen für korrekten Betrieb sowie optisch saubere Integration in die Küche. Wir führen die notwendigen Anschlüsse aus (Strom, Wasser, Ablauf, Belüftung je nach Gerät) und stellen sicher, dass alles korrekt nivelliert und befestigt ist. Bei Bedarf passen wir Nischen und Anschlüsse an, um Kompatibilität und Leistung zu gewährleisten. Ergebnis ist eine effizientere Küche mit fachgerecht installierten Geräten, die sofort einsatzbereit sind.",
+          "image": "/subservices/kitchens/instalacion-electrodomesticos.jpg"
+        },
+        "reemplazo_griferia_cocina": {
+          "title": "Austausch von Armaturen",
+          "description": "Erneuerung der Armatur für mehr Effizienz.",
+          "slug": "reemplazo-griferia-cocina",
+          "long_description": "Wir ersetzen Küchenarmaturen, um Durchfluss, Komfort und Wassereffizienz zu verbessern. Wir installieren moderne Modelle passend zu Spüle und Nutzung und prüfen Anschlüsse und Dichtungen, um Leckagen zu vermeiden. Auf Wunsch integrieren wir praktische Optionen wie ausziehbare Brausen oder wassersparende Systeme. Ziel ist eine zuverlässige, funktionale Armatur mit zeitgemäßem Finish und professioneller Montage.",
+          "image": "/subservices/kitchens/reemplazo-griferia-cocina.jpg"
+        },
+        "azulejos_pavimentos_cocina": {
+          "title": "Fliesen und Bodenbeläge",
+          "description": "Professionelle Verkleidung von Böden und Wänden.",
+          "slug": "azulejos-pavimentos-cocina",
+          "long_description": "Wir verlegen Küchenfliesen und Bodenbeläge mit professionellen Abschlüssen, um Haltbarkeit, Reinigungsfreundlichkeit und Optik zu verbessern. Wir bereiten Untergründe vor, planen das Verlegemuster und verlegen präzise, mit sauberen Fugen, Kantenabschlüssen und exakter Nivellierung. Wir verwenden Materialien, die für stark beanspruchte Bereiche geeignet sind und gegen Flecken, Wärme und Feuchtigkeit resistent sind. Ziel ist eine praktischere, attraktivere Küche mit langlebigen Belägen und sauberen Details.",
+          "image": "/subservices/kitchens/azulejos-pavimentos-cocina.jpg"
+        }
       }
-    }
-  },
+    },
 
-  "pintura": {
-    "subtitle": "Professionelle Malerarbeiten mit sauberen, hochwertigen Oberflächen.",
-    "short_description": "Professionelle Maler spezialisiert auf Innen-, Außen- und Fassadenanstriche. Mikrozement, Feuchtigkeitsbehandlung und perfekte Oberflächen.",
-    "description": "Wir bieten Malerarbeiten für Innen- und Außenbereiche und sorgen mit langlebigen Qualitätsmaterialien für ein einwandfreies Finish.",
-    "subservicios": {
-      "pintura_interior_exterior": {
-        "title": "Innen- und Außenanstriche",
-        "description": "Auftrag langlebiger, hochwertiger Farben.",
-        "slug": "pintura-interior-exterior"
-      },
-      "microcemento": {
-        "title": "Mikrozement",
-        "description": "Moderner, fugenloser Dekorbelag.",
-        "slug": "microcemento"
-      },
-      "comunidades_fachadas": {
-        "title": "Wohnanlagen und Fassaden",
-        "description": "Anstrich und Pflege von Wohngebäuden.",
-        "slug": "comunidades-fachadas"
-      },
-      "tratamiento_humedades_pintura": {
-        "title": "Feuchtigkeitsbehandlung",
-        "description": "Instandsetzung und Vorbereitung betroffener Bereiche.",
-        "slug": "tratamiento-humedades-pintura"
-      },
-      "retirada_gotele": {
-        "title": "Entfernung von Strukturen",
-        "description": "Fachgerechtes Entfernen strukturierter Wandbeschichtungen.",
-        "slug": "retirada-gotele"
-      },
-      "impermeabilizaciones_pintura": {
-        "title": "Abdichtungsanstriche",
-        "description": "Schutz vor Leckagen und Feuchtigkeit.",
-        "slug": "impermeabilizaciones-pintura"
+    "pintura": {
+      "subtitle": "Malerarbeiten mit professionellen Oberflächen.",
+      "short_description": "Professionelle Maler für Innen, Außen und Fassaden. Mikrozement, Feuchtigkeitsbehandlung und makellose Ausführung.",
+      "description": "Wir führen Malerarbeiten mit professionellen Oberflächen aus und verwenden hochwertige Materialien sowie moderne Techniken, um langlebige und ästhetisch ansprechende Ergebnisse zu erzielen.",
+      "subservicios": {
+        "pintura_interior_exterior": {
+          "title": "Innen- und Außenanstrich",
+          "description": "Auftrag von besonders langlebigen Anstrichen.",
+          "slug": "pintura-interior-exterior",
+          "long_description": "Wir streichen Innen- und Außenbereiche mit sorgfältiger Untergrundvorbereitung für ein gleichmäßiges, langlebiges Ergebnis. Wir reparieren kleine Unebenheiten, schleifen, grundieren bei Bedarf und tragen die Farbe mit professionellen Techniken auf. Wir wählen Produkte passend zu Untergrund und Belastung, um Widerstand gegen Abnutzung, Sonne und Feuchtigkeit zu erhöhen. Ziel ist eine optische Auffrischung mit sauberem, ästhetischem und dauerhaften Finish – inklusive präziser Kanten und Details.",
+          "image": "/subservices/painting/pintura-interior-exterior.jpg"
+        },
+        "microcemento": {
+          "title": "Mikrozement",
+          "description": "Moderner Belag mit fugenloser Optik.",
+          "slug": "microcemento",
+          "long_description": "Wir tragen Mikrozement auf, um fugenlose, moderne und elegante Oberflächen auf Böden und Wänden zu schaffen. Dieser Belag sorgt für eine zeitgemäße Optik und ein großzügiges Raumgefühl und ist zugleich pflegeleicht. Wir bereiten den Untergrund vor, arbeiten in Schichten mit fachgerechter Technik und versiegeln, um Widerstand und Langlebigkeit zu erhöhen. Das Ergebnis ist ein gleichmäßiges, hochwertiges und anpassbares Finish – ideal, um Räume modern zu gestalten, ohne invasive Maßnahmen.",
+          "image": "/subservices/painting/microcemento.jpg"
+        },
+        "comunidades_fachadas": {
+          "title": "Wohnanlagen und Fassaden",
+          "description": "Gestaltung und Instandhaltung von Gebäuden.",
+          "slug": "comunidades-fachadas",
+          "long_description": "Wir streichen und pflegen Fassaden und Gemeinschaftsbereiche, verbessern die Optik und schützen Oberflächen vor Witterungseinflüssen. Wir reinigen, reparieren Risse, sanieren beschädigte Stellen und tragen wetterbeständige Außenbeschichtungen auf. Wir achten auf ein gleichmäßiges Erscheinungsbild und saubere Details, damit das Gebäude wieder einen renovierten, professionellen Eindruck macht. Ziel ist eine langlebigere Fassade und ein gepflegtes Erscheinungsbild über lange Zeit.",
+          "image": "/subservices/painting/comunidades-fachadas.jpg"
+        },
+        "tratamiento_humedades_pintura": {
+          "title": "Feuchtigkeitsbehandlung",
+          "description": "Vorbereitung und Reparatur betroffener Bereiche.",
+          "slug": "tratamiento-humedades-pintura",
+          "long_description": "Wir behandeln feuchte Stellen vor dem Streichen, um Flecken, Abblättern und Schimmel zu verhindern. Wir sanieren die Oberfläche, reparieren Schäden und setzen geeignete Produkte ein, um Haftung und Widerstand der Endbeschichtung zu verbessern. Zudem beraten wir zur wahrscheinlichen Ursache und zu ergänzenden Maßnahmen, damit das Problem nicht wiederkehrt. Ziel ist eine gesunde Wand und ein langlebiger, sauberer und optisch makelloser Anstrich.",
+          "image": "/subservices/painting/tratamiento-humedades-pintura.jpg"
+        },
+        "retirada_gotele": {
+          "title": "Entfernung von Gotelé",
+          "description": "Professionelles Glätten von Wänden.",
+          "slug": "retirada-gotele",
+          "long_description": "Wir entfernen Gotelé-Struktur und glätten Wände, um moderne, ebene Flächen zu schaffen, die sich ideal zum Streichen oder Tapezieren eignen. Wir bereiten korrekt vor und spachteln sowie nivellieren, um Unebenheiten zu beseitigen und eine gleichmäßige Oberfläche zu erzielen. Wir achten auf Details an Ecken, Anschlüssen und Übergängen, um ein hochwertiges Ergebnis zu erreichen. Ziel ist ein moderner Look, bessere Lichtwirkung und elegante, pflegeleichte Wände.",
+          "image": "/subservices/painting/retirada-gotele.jpg"
+        },
+        "impermeabilizaciones_pintura": {
+          "title": "Abdichtung",
+          "description": "Schutz vor eindringendem Wasser.",
+          "slug": "impermeabilizaciones-pintura",
+          "long_description": "Wir tragen abdichtende Beschichtungen und Anstriche auf, um Oberflächen vor Feuchtigkeit und Regen zu schützen. Wir bereiten den Untergrund vor, dichten kritische Punkte ab und verwenden geeignete Produkte, um Dichtheit zu verbessern und Leckagen zu verhindern. Dadurch sinkt das Risiko von Flecken, Abplatzungen und Materialschäden, und die Lebensdauer der Oberfläche steigt. Ziel ist ein wirksamer Schutz mit sauberem, widerstandsfähigem und langlebigem Finish.",
+          "image": "/subservices/painting/impermeabilizaciones-pintura.jpg"
+        }
       }
-    }
-  },
+    },
 
-  "electricidad": {
-    "subtitle": "Professionelle Elektroinstallationen und Reparaturen.",
-    "short_description": "Zertifizierte Elektriker rund um die Uhr verfügbar. Sichere Installationen, Elektrozertifikate und Reparaturen nach geltenden Vorschriften.",
-    "description": "Wir bieten umfassende Elektrodienste, darunter Installationen, Reparaturen, Notdienste und Bescheinigungen für Wohn- und Gewerbeobjekte.",
-    "subservicios": {
-      "urgencias_24h": {
-        "title": "24-Stunden-Notdienst",
-        "description": "Sofortige Hilfe bei Stromausfällen.",
-        "slug": "urgencias-24h"
-      },
-      "boletines_electricos": {
-        "title": "Elektrozertifikate",
-        "description": "Offizielle Dokumentation für Elektroinstallationen.",
-        "slug": "boletines-electricos"
-      },
-      "instalaciones_reparaciones_electricidad": {
-        "title": "Elektroinstallationen und -reparaturen",
-        "description": "Komplettservice für Wohnungen und Geschäftsräume.",
-        "slug": "instalaciones-electricas-reparaciones"
-      },
-      "aumentos_potencia": {
-        "title": "Leistungserhöhungen",
-        "description": "Anpassung der Anlage an höhere Verbrauchsanforderungen.",
-        "slug": "aumentos-potencia"
-      },
-      "particulares_comunidades": {
-        "title": "Privathaushalte und Wohnanlagen",
-        "description": "Leistungen für einzelne Wohnungen und Mehrfamilienhäuser.",
-        "slug": "particulares-comunidades"
-      },
-      "administradores_fincas": {
-        "title": "Hausverwaltungen",
-        "description": "Wartungsservice für Wohnanlagen und Gebäude.",
-        "slug": "administradores-fincas"
+    "electricidad": {
+      "subtitle": "Professionelle Elektroinstallationen und Reparaturen.",
+      "short_description": "Zertifizierte Elektriker 24/7 verfügbar. Sichere Installationen, Elektro-Nachweise und Reparaturen nach aktuellen Vorschriften.",
+      "description": "Komplette Elektroservices für Haushalte und Unternehmen. Unser Team zertifizierter Elektriker gewährleistet sichere Installationen und effiziente Reparaturen gemäß allen geltenden Vorschriften.",
+      "subservicios": {
+        "urgencias_24h": {
+          "title": "Notdienst 24/7",
+          "description": "Soforthilfe bei elektrischen Störungen.",
+          "slug": "urgencias-24h",
+          "long_description": "Wir bieten schnelle Hilfe bei Stromausfällen, Kurzschlüssen, Problemen am Sicherungskasten sowie defekten Steckdosen oder Lichtpunkten. Wir diagnostizieren sicher, isolieren Risiken und führen die erforderliche Reparatur aus, um den Betrieb schnellstmöglich wiederherzustellen. Dabei schützen wir Personen und Geräte und prüfen die Installation, bevor wir abschließen. Ziel ist eine wirksame, sichere Lösung gemäß den aktuellen Vorschriften.",
+          "image": "/subservices/electricity/urgencias-24h.jpg"
+        },
+        "boletines_electricos": {
+          "title": "Elektro-Nachweise",
+          "description": "Zertifizierung elektrischer Anlagen.",
+          "slug": "boletines-electricos",
+          "long_description": "Wir erstellen die erforderlichen Elektro-Nachweise, um Anlagen zu legalisieren oder zu aktualisieren – z. B. bei Neuanschluss, Leistungsänderung oder Compliance-Anforderungen. Wir prüfen den Zustand der Installation, beheben Mängel und stellen die entsprechende Dokumentation aus, je nach Umfang der Arbeiten. Ziel ist, dass Ihre Anlage die technischen und sicherheitsrelevanten Anforderungen erfüllt und Sie bei Versorgern oder Prüfungen keine Probleme haben.",
+          "image": "/subservices/electricity/boletines-electricos.jpg"
+        },
+        "instalaciones_reparaciones_electricidad": {
+          "title": "Elektroinstallationen und Reparaturen",
+          "description": "Umfassende Elektroservices.",
+          "slug": "instalaciones-electricas-reparaciones",
+          "long_description": "Wir führen neue Elektroinstallationen und Reparaturen in Wohnungen und Gewerbe aus und passen sie an Raum und Nutzung an. Wir installieren Lichtpunkte, Steckdosen, Sicherungskästen und Leitungswege und beheben Störungen für mehr Sicherheit und Effizienz. Wir arbeiten mit hochwertigen Materialien und führen Abschlussprüfungen durch, um einen stabilen Betrieb sicherzustellen. Ziel ist eine zuverlässige, ordentliche Anlage nach Vorschrift mit professioneller, langlebiger Ausführung.",
+          "image": "/subservices/electricity/instalaciones-electricas-reparaciones.jpg"
+        },
+        "aumentos_potencia": {
+          "title": "Leistungserhöhungen",
+          "description": "Anpassung der Stromversorgung.",
+          "slug": "aumentos-potencia",
+          "long_description": "Wir bereiten Ihre Installation für Leistungserhöhungen vor und stellen sicher, dass das System die zusätzliche Last sicher trägt. Wir prüfen Sicherungskasten, Schutzorgane, Kabelquerschnitte und den Gesamtzustand, um Überlastungen zu vermeiden. Bei Bedarf empfehlen wir Verbesserungen, um Vorschriften einzuhalten und den Betrieb Ihrer Geräte zu gewährleisten. Ziel ist eine sichere Anpassung, weniger Auslösungen und eine bessere elektrische Stabilität der Immobilie.",
+          "image": "/subservices/electricity/aumentos-potencia.jpg"
+        },
+        "particulares_comunidades": {
+          "title": "Privathaushalte und Wohnanlagen",
+          "description": "Services für Wohnungen und Gebäude.",
+          "slug": "particulares-comunidades",
+          "long_description": "Wir bieten Elektroservices für Privathaushalte und Wohnanlagen: Wartung, Reparaturen und Installationen. Wir arbeiten in Gemeinschaftsbereichen, an Beleuchtung, Hauptverteilungen, Eingängen und Garagen sowie in einzelnen Wohnungen. Wir handeln organisiert und sicher und minimieren Beeinträchtigungen. Ziel ist, Anlagen in gutem Zustand zu halten, Störungen zu reduzieren und einen zuverlässigen, vorschriftsmäßigen Betrieb zu gewährleisten.",
+          "image": "/subservices/electricity/particulares-comunidades.jpg"
+        },
+        "administradores_fincas": {
+          "title": "Hausverwaltungen",
+          "description": "Wartung für Wohnanlagen und Immobilien.",
+          "slug": "administradores-fincas",
+          "long_description": "Wir arbeiten mit Hausverwaltungen zusammen und bieten elektrische Wartung, Störungsbeseitigung und Support für Gemeinschaftsanlagen. Wir schlagen effiziente Lösungen vor, koordinieren schnelle Einsätze und liefern bei Bedarf Berichte und Nachverfolgung. Wir priorisieren Sicherheit, Compliance und Servicekontinuität in Gemeinschaftsbereichen. Ziel ist eine einfachere Instandhaltungsorganisation, kürzere Reaktionszeiten und Anlagen in optimalem Zustand.",
+          "image": "/subservices/electricity/administradores-fincas.jpg"
+        }
       }
-    }
-  },
+    },
 
-  "limpieza": {
-    "subtitle": "Reinigungsdienste für Wohnungen, Büros und Gewerbeflächen.",
-    "short_description": "Professionelles Reinigungsunternehmen für Wohnungen, Wohnanlagen und Gewerbeflächen. Flexible Services und makellose Ergebnisse.",
-    "description": "Umfassende Reinigungslösungen für Wohn-, Gewerbe- und Industriebereiche. Wir sorgen für eine makellose Umgebung mit einem professionellen und zuverlässigen Service.",
-    "subservicios": {
-      "limpieza_viviendas": {
-        "title": "Wohnungsreinigung",
-        "description": "Grundreinigung und regelmäßige Pflege.",
-        "slug": "limpieza-viviendas"
-      },
-      "limpieza_por_horas": {
-        "title": "Stundenweise Reinigung",
-        "description": "Flexible Reinigung, angepasst an Ihren Zeitplan.",
-        "slug": "limpieza-por-horas"
-      },
-      "limpieza_obras": {
-        "title": "Baureinigung",
-        "description": "Entfernung von Staub, Schutt und Baurückständen.",
-        "slug": "limpieza-obras"
-      },
-      "limpieza_comunidades": {
-        "title": "Treppenhaus- und Gemeinschaftsreinigung",
-        "description": "Reinigung der Gemeinschaftsbereiche in Wohnanlagen.",
-        "slug": "limpieza-comunidades"
-      },
-      "limpieza_parcelas": {
-        "title": "Grundstücksreinigung",
-        "description": "Außenreinigung und Beseitigung von Bewuchs.",
-        "slug": "limpieza-parcelas"
-      },
-      "limpieza_locales": {
-        "title": "Gewerbereinigung",
-        "description": "Reinigungsdienste für Geschäfte und Unternehmen.",
-        "slug": "limpieza-locales"
+    "limpieza": {
+      "subtitle": "Reinigungsservices für Haushalte, Büros und Gewerberäume.",
+      "short_description": "Professionelle Reinigungsfirma für Wohnungen, Wohnanlagen und Gewerbeflächen. Flexible Services und makellose Ergebnisse.",
+      "description": "Umfassende Reinigungsservices, damit Ihre Räume stets makellos bleiben. Wir bieten Grundreinigungen, regelmäßige Pflege und spezialisierte Leistungen für alle Immobilientypen – angepasst an Ihre individuellen Bedürfnisse.",
+      "subservicios": {
+        "limpieza_viviendas": {
+          "title": "Wohnungsreinigung",
+          "description": "Grundreinigung und regelmäßige Pflege.",
+          "slug": "limpieza-viviendas",
+          "long_description": "Wir reinigen Wohnungen gründlich und detailorientiert, damit Ihr Zuhause sauber und angenehm bleibt. Wir bieten einmalige Einsätze oder regelmäßige Reinigungen und passen uns Ihren Routinen und Bedürfnissen an. Wir kümmern uns besonders um Küche, Bad, Böden, Staub und stark genutzte Bereiche und verwenden geeignete Produkte für jede Oberfläche. Ziel ist ein sauberes, ordentliches und komfortables Zuhause mit professionellem, flexiblem Service auf höchstem Qualitätsniveau.",
+          "image": "/subservices/cleaning/limpieza-viviendas.jpg"
+        },
+        "limpieza_por_horas": {
+          "title": "Reinigung stundenweise",
+          "description": "Flexibler Service nach Bedarf.",
+          "slug": "limpieza-por-horas",
+          "long_description": "Wir bieten stundenweise Reinigung, damit Sie den Umfang genau anpassen können: konkrete Aufgaben, bestimmte Bereiche oder punktuelle Unterstützung. Gemeinsam legen wir Prioritäten und Ziele fest, um die Zeit optimal zu nutzen – von der allgemeinen Reinigung bis zu Details wie Fenster, Küche oder Bad. Ideal, wenn Sie Flexibilität, Kontrolle und professionelle Ergebnisse ohne starre Bindung wünschen. Ziel ist ein effizienter, vertrauenswürdiger Service, der sich Ihrem Tempo anpasst.",
+          "image": "/subservices/cleaning/limpieza-por-horas.jpg"
+        },
+        "limpieza_obras": {
+          "title": "Bauendreinigung",
+          "description": "Reinigung nach Bau- und Renovierungsarbeiten.",
+          "slug": "limpieza-obras",
+          "long_description": "Wir führen Bauendreinigungen durch, damit Räume nach Renovierungen oder Bauarbeiten sofort nutzbar sind. Wir entfernen feinen Baustaub, Materialreste, Flecken und Schmutz von Böden, Wänden, Glasflächen und Oberflächen. Wir achten besonders auf Ecken, Fugen, Rahmen und Bauteile, die nach Arbeiten häufig betroffen sind. Ziel ist ein makelloses, sicheres und bezugsfertiges Ergebnis mit professioneller Tiefenreinigung, die den Unterschied macht.",
+          "image": "/subservices/cleaning/limpieza-obras.jpg"
+        },
+        "limpieza_comunidades": {
+          "title": "Reinigung von Wohnanlagen",
+          "description": "Pflege von Gemeinschaftsbereichen.",
+          "slug": "limpieza-comunidades",
+          "long_description": "Wir reinigen Gemeinschaftsbereiche in Wohnanlagen: Eingänge, Treppenhäuser, Podeste, Aufzüge und Zugänge. Wir bieten regelmäßige Pflegepläne, um ein gepflegtes Erscheinungsbild und hygienische Umgebung zu gewährleisten und Staub- sowie Schmutzansammlungen zu reduzieren. Wir passen uns an Zeitpläne und Bedürfnisse des Gebäudes an und arbeiten ordentlich und diskret. Ziel ist eine Wohnanlage, die stets sauber, präsentabel und gut gepflegt wirkt.",
+          "image": "/subservices/cleaning/limpieza-comunidades.jpg"
+        },
+        "limpieza_parcelas": {
+          "title": "Grundstücksreinigung",
+          "description": "Außenreinigung und Freischneiden.",
+          "slug": "limpieza-parcelas",
+          "long_description": "Wir reinigen Grundstücke und Außenbereiche, damit Gärten, Höfe und offene Flächen in gutem Zustand bleiben. Wir entfernen Schmutz, Laub und Abfälle und führen bei Bedarf Freischneidearbeiten durch, um Sicherheit und Gesamtbild zu verbessern. Dieser Service eignet sich ideal, um ein Grundstück vor einer Saison, einem Ereignis oder nach längerer Vernachlässigung vorzubereiten. Ziel ist ein sauberer, freier und angenehmer Außenbereich, bereit zur Nutzung oder weiteren Pflege.",
+          "image": "/subservices/cleaning/limpieza-parcelas.jpg"
+        },
+        "limpieza_locales": {
+          "title": "Reinigung von Gewerberäumen",
+          "description": "Reinigung für Geschäfte und Unternehmen.",
+          "slug": "limpieza-locales",
+          "long_description": "Wir bieten professionelle Reinigung für Gewerberäume, Büros und Unternehmen, damit Kunden und Mitarbeitende ein makelloses Umfeld vorfinden. Wir passen uns an Öffnungszeiten, Hygienestandards und branchenspezifische Anforderungen an. Wir reinigen Böden, Sanitärbereiche, Empfangszonen, Glasflächen und Arbeitsflächen mit passenden Reinigungsmitteln. Ziel ist ein gepflegter, professioneller Eindruck mit konstant hoher Sauberkeit und zuverlässigem Service.",
+          "image": "/subservices/cleaning/limpieza-locales.jpg"
+        }
       }
-    }
+    
   }
 },
-
   "about": {
     "title": "Über uns",
     "description": "Decotech ist leidenschaftlich daran interessiert, Wohn- und Arbeitsräume zu verwandeln. Mit über 15 Jahren Erfahrung in der Renovierungsbranche verpflichten wir uns, Dienstleistungen von höchster Qualität anzubieten, die auf die spezifischen Bedürfnisse jedes Kunden zugeschnitten sind. Unser Team qualifizierter Fachleute arbeitet mit Engagement und Professionalität, um bei jedem Projekt außergewöhnliche Ergebnisse zu gewährleisten. Egal, ob Sie Ihre Küche, Ihr Badezimmer oder einen anderen Raum renovieren möchten, wir sind hier, um Sie bei jedem Schritt des Prozesses zu begleiten. Entdecken Sie, wie Decotech Ihre Ideen in die Realität umsetzen kann.",
@@ -474,7 +613,47 @@
     "cta": "Angebot anfordern"
   },
 
-  
+
+  "service_process": {
+    "title":  "Umfassender Renovierungsprozess",
+    "description": "Ein klarer und strukturierter Prozess, um Ihren Raum professionell umzugestalten",
+    "cta_button": "Starten Sie Ihre Renovierung heute! ",
+    "steps": [
+      {
+        "id": 1,
+        "number": "01",
+        "title": "Planung und Design",
+        "description": "Wir analysieren den Raum und entwerfen einen personalisierten Vorschlag, um jede Ecke Ihres Hauses zu optimieren.",
+        "image":  "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=500&h=350&fit=crop",
+        "icon": "📋"
+      },
+      {
+        "id": 2,
+        "number": "02",
+        "title": "Abriss und Vorbereitung",
+        "description": "Wir entfernen alte Elemente und bereiten die Struktur für die neue Renovierung vor.",
+        "image": "../../public/subservices/masonry/derrumbes-desescombros.jpg",
+        "icon": "🏗️"
+      },
+      {
+        "id": 3,
+        "number": "03",
+        "title": "Installationen und Maurerarbeiten",
+        "description": "Wir renovieren Elektro- und Sanitärinstallationen und führen Maurerarbeiten durch.",
+        "image":  "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=500&h=350&fit=crop",
+        "icon": "⚙️"
+      },
+      {
+        "id": 4,
+        "number": "04",
+        "title": "Veredelung und Dekoration",
+        "description": "Wir bringen die endgültigen Veredelungen wie Malerei, Böden und Schreinerei an, um einen einzigartigen Touch zu verleihen.",
+        "image":  "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=500&h=350&fit=crop",
+        "icon": "🎨"
+      }
+    ]
+  },
+
 
   "contact": {
     "contact_title": "Kontaktieren Sie uns",
@@ -497,6 +676,87 @@
       "button": "Gespräch beginnen"
   }
 },
+
+
+  "faq": {
+    "title": "Häufig gestellte Fragen",
+    "subtitle": "Finden Sie Antworten auf die häufigsten Fragen zu unseren Renovierungsdienstleistungen",
+    "questions": [
+      {
+        "q": "Welche geografischen Gebiete decken Sie ab?",
+        "a": "Wir sind hauptsächlich in der Region und den angrenzenden Provinzen tätig. Senden Sie uns Ihre Postleitzahl, und wir bestätigen, ob wir Ihr Gebiet abdecken.",
+        "tag": "Allgemein"
+      },
+      {
+        "q": "Welche Arten von Renovierungen führen Sie durch?",
+        "a": "Wir führen Teilrenovierungen (Bäder, Küchen), Komplettsanierungen, Elektro- und Sanitärinstallationen, Malerarbeiten, Maurerarbeiten und die abschließende Baustellenreinigung durch.",
+        "tag": "Allgemein"
+      },
+      {
+        "q": "Wie wird der Kostenvoranschlag berechnet?",
+        "a": "Der Kostenvoranschlag wird nach einer Besichtigung vor Ort und/oder anhand eines Dossiers mit Fotos und Maßen erstellt. Er umfasst Arbeitskosten, Materialien und Planung. Wir liefern eine detaillierte Aufschlüsselung.",
+        "tag": "Kostenvoranschlag"
+      },
+      {
+        "q": "Wie lange dauert eine Renovierung im Durchschnitt?",
+        "a": "Das hängt vom Umfang ab: ein Bad kann 1–3 Wochen dauern, Küchen 2–5 Wochen und Komplettsanierungen 4–12 Wochen. Im Angebot erhalten Sie einen genaueren Zeitplan.",
+        "tag": "Zeitrahmen"
+      },
+      {
+        "q": "Bieten Sie Garantien für die ausgeführten Arbeiten an?",
+        "a": "Ja. Unsere Arbeiten beinhalten je nach Art der Leistung und geltender Vorschriften Garantien. Die Garantiedetails werden im Vertrag festgehalten.",
+        "tag": "Garantie"
+      },
+      {
+        "q": "Wie regeln Sie Genehmigungen und Lizenzen?",
+        "a": "Wenn das Projekt eine kommunale Genehmigung erfordert, kann unser Team die Formalitäten über Partner-Techniker übernehmen oder Sie über die erforderlichen Schritte informieren.",
+        "tag": "Prozess"
+      },
+      {
+        "q": "Kann ich Materialien und Oberflächen wählen?",
+        "a": "Ja. Wir bieten verschiedene Materialkollektionen an und beraten Sie, um Qualität, Design und Budget in Einklang zu bringen. Vor Entscheidungen zeigen wir Muster.",
+        "tag": "Materialien"
+      },
+      {
+        "q": "Wie erfolgen Zahlungen und Fristen?",
+        "a": "In der Regel verlangen wir eine Anzahlung, Zwischenzahlungen nach Meilensteinen und eine Schlusszahlung bei Übergabe. Alle Bedingungen werden im Vertrag festgelegt.",
+        "tag": "Zahlungen"
+      },
+      {
+        "q": "Was passiert, wenn ich während der Arbeiten Änderungen wünsche?",
+        "a": "Änderungen werden über einen zusätzlichen Arbeitsauftrag mit neuem Angebot und möglicher Anpassung der Termine geregelt. Alles wird schriftlich bestätigt.",
+        "tag": "Prozess"
+      }
+    ],
+    "alternative_Cards": {
+      "call": {
+        "title": "Jetzt anrufen",
+        "subtitle": "01 23 45 67 89",
+        "button_label": "Anrufen",
+        "href": "tel:+340123456789",
+        "icon": "📞",
+        "color": "blue"
+      },
+      "email": {
+        "title": "E-Mail senden",
+        "subtitle": "contact@decotech.es",
+        "button_label": "Schreiben",
+        "href": "mailto:contact@decotech.es",
+        "icon": "✉️",
+        "color": "purple"
+      },
+      "whatsapp": {
+        "title": "WhatsApp",
+        "subtitle": "+34 600 00 00 00",
+        "button_label": "Chatten",
+        "href": "https://wa.me/34600000000",
+        "icon": "💬",
+        "color": "green"
+      }
+    }
+  },
+
+
 "footer": {
   "brand": {
     "name": "DECOTECH",

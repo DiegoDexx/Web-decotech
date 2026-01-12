@@ -9,12 +9,12 @@ import de from "../../locales/de.json";
 
 const locales = { es, en, fr, de };
 
-const AutoSlider = ({ interval = 10000 }) => {
+const AutoSlider = ({ interval = 20000 }) => {
   const location = useLocation();
   const lang = location.pathname.split("/")[1] || "es";
   const slider = locales[lang].slider;
 
-  const slides = [slider.slide_1, slider.slide_2, slider.slide_3];
+  const slides = [slider.slide_1, slider.slide_2, slider.slide_3, slider.slide_4, slider.slide_5, slider.slide_6, slider.slide_7, slider.slide_8, slider.slide_9, slider.slide_10].filter(Boolean);
 
   const [index, setIndex] = useState(0);
 
@@ -32,7 +32,7 @@ const AutoSlider = ({ interval = 10000 }) => {
     <div
       className="
         relative w-full 
-        h-[70vh] md:h-[75vh] lg:h-[85vh]
+        h-[75vh] md:h-[85vh] lg:h-[85vh]
         overflow-hidden
       "
     >
@@ -74,7 +74,7 @@ const AutoSlider = ({ interval = 10000 }) => {
                 <h1
                   className="
                     font-extrabold leading-snug md:leading-tight drop-shadow
-                    text-lg xs:text-xl sm:text-2xl md:text-3xl lg:text-4xl
+                     xs:text-xl sm:text-2xl md:text-3xl lg:text-4xl
                   "
                 >
                   {slide.title}

@@ -21,7 +21,7 @@ export default function ServicePage() {
       <Banner category={category} lang={lang} />
       <Description category={category} lang={lang} />
       <Subcategories category={category} lang={lang} />
-      <Contact />
+      <Contact id="contact-section-servicepage" />
 
 
       {/* aquí ya puedes usar category e idioma */}

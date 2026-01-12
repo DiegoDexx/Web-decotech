@@ -16,19 +16,50 @@
   },
   "slider": {
     "slide_1": {
-      "title": "Reforma tu cocina a un diseño hecho para ti.",
-      "description": "Más de 15 años de experiencia en reformas y todo tipo de servicios. Calidad, profesionalidad y compromiso en cada proyecto."
+      "title": "Expertos en reformas y mantenimiento del hogar.",
+      "description": "Ofrecemos soluciones integrales para transformar y mejorar tu vivienda o local comercial con calidad y profesionalismo."
     },
     "slide_2": {
+      "title": "Transformamos tu espacio con reformas integrales personalizadas.",
+      "description": "Combinamos funcionalidad y diseño para crear ambientes únicos que se adaptan a tus necesidades y estilo de vida."
+    },
+    "slide_3": {
       "title": "Transforma tu baño en un espacio moderno y funcional.",
       "description": "Especialistas en reformas de baños con materiales de alta calidad y diseños innovadores."
     },
-    "slide_3": {
-      "title": "Renueva tu hogar con nuestras soluciones integrales.",
-      "description": "Ofrecemos servicios completos de reforma para cada rincón de tu casa, adaptándonos a tus necesidades y estilo."
+   "slide_4": {
+      "title": "Reformas de cocinas modernas y completamente funcionales.",
+      "description": "Creamos cocinas que combinan diseño, funcionalidad y calidad. Desde el diseño inicial hasta la instalación final, nos encargamos de todo para que disfrutes de la cocina de tus sueños."
+    },
+       "slide_5": {
+      "title": "Soluciones eléctricas seguras y eficientes para tu hogar.",
+      "description": "Ofrecemos instalaciones y reparaciones eléctricas profesionales, garantizando seguridad, eficiencia y soluciones adaptadas a tus necesidades."
+    },
+ 
+    "slide_6": {
+      "title": "Instalación y reparación de antenas con señal estable y de alta calidad.",
+      "description": "Montaje, reparación y configuración de antenas para una señal estable y de alta calidad en todo el hogar."
+    },
+    "slide_7": {
+      "title": "Servicios de fontanería rápidos, profesionales y fiables.",
+      "description": "Desde pequeñas reparaciones hasta instalaciones completas, nuestro equipo está preparado para resolver cualquier problema de fontanería con rapidez y eficiencia."
+    },
+ 
+    "slide_8": {
+      "title": "Trabajos de albañilería duraderos y adaptados a cada proyecto.",
+      "description": "Realizamos trabajos de albañilería con materiales de alta calidad y técnicas profesionales para garantizar resultados duraderos y estéticamente agradables."
+    },
+    "slide_9": {
+      "title": "Pintura profesional para interiores y exteriores.",
+      "description": "Ofrecemos servicios de pintura con acabados de alta calidad, utilizando materiales duraderos y técnicas profesionales para renovar tus espacios."
+    },
+
+    "slide_10": {
+      "title": "Servicios de limpieza integral para hogares y negocios.",
+      "description": "Ofrecemos servicios de limpieza profesional para mantener tu hogar o negocio impecable, utilizando productos y técnicas efectivas."
     },
     "button": "Solicitar presupuesto",
-    "button_2": "Ver proyectos"
+    "button_2": "Más Información"
 
 },
 
@@ -84,158 +115,205 @@
     }
   },
  
-
   "services_subservices": {
     "title": "Subservicios",
 
     "baños": {
       "subtitle": "Reformas de baños profesionales con materiales de alta calidad y acabados impecables.",
       "short_description": "Especialistas en reformas de baños completas. Diseño moderno, materiales premium y acabados de calidad para transformar tu espacio.",
-       "description": "Convertimos tu baño en un espacio moderno, funcional y elegante. Nos especializamos en reformas integrales de baño, desde el diseño hasta la instalación final. Utilizamos materiales de alta calidad y las últimas tendencias en diseño de interiores para crear el baño de tus sueños.",
+      "description": "Convertimos tu baño en un espacio moderno, funcional y elegante. Nos especializamos en reformas integrales de baño, desde el diseño hasta la instalación final. Utilizamos materiales de alta calidad y las últimas tendencias en diseño de interiores para crear el baño de tus sueños.",
       "subservicios": {
         "reformas_integrales_banos": {
           "title": "Reformas integrales de baños",
           "description": "Renovación completa del baño para mejorar diseño, funcionalidad y confort.",
-          "slug": "reformas-integrales-banos"
+          "slug": "reformas-integrales-banos",
+          "long_description": "Realizamos reformas integrales de baños de principio a fin, cuidando cada detalle para conseguir un resultado moderno, práctico y duradero. Nos encargamos de la planificación, demolición y preparación de superficies, así como de la renovación de instalaciones de fontanería y electricidad cuando es necesario. Trabajamos con revestimientos, pavimentos y materiales resistentes a la humedad, prestando especial atención a la impermeabilización y a los acabados. Te asesoramos en distribución, iluminación, sanitarios y grifería para optimizar el espacio y mejorar el confort, con una ejecución limpia, organizada y orientada a la máxima calidad.",
+          "image": "/subservices/bathrooms/reformas-integrales-banos.jpg"
         },
         "reemplazo_instalaciones": {
           "title": "Instalaciones y reemplazo de instalaciones",
           "description": "Actualización de tuberías, acometidas y sistemas de agua.",
-          "slug": "reemplazo-instalaciones"
+          "slug": "reemplazo-instalaciones",
+          "long_description": "Actualizamos y sustituimos instalaciones antiguas para mejorar la seguridad, la presión y la eficiencia del sistema. Revisamos el estado de tuberías, llaves de paso, desagües y acometidas, detectando posibles fugas, corrosión u obstrucciones que puedan generar averías y humedades. Realizamos la sustitución con materiales fiables y soluciones adaptadas a la vivienda, minimizando molestias y dejando el sistema preparado para un funcionamiento estable a largo plazo. También coordinamos los trabajos para que el baño quede listo para el montaje de sanitarios, grifería y mobiliario con garantías.",
+          "image": "/subservices/bathrooms/reemplazo-instalaciones.jpg"
         },
         "cambio_banera_ducha": {
           "title": "Cambio de bañera o plato de ducha",
           "description": "Sustitución por sistemas modernos, seguros y funcionales.",
-          "slug": "cambio-banera-ducha"
+          "slug": "cambio-banera-ducha",
+          "long_description": "Sustituimos bañeras por platos de ducha o realizamos el cambio inverso según tus necesidades, priorizando comodidad, seguridad y estilo. Mejoramos la accesibilidad con soluciones antideslizantes, mamparas y grifería moderna, reduciendo el riesgo de resbalones y facilitando el uso diario. Nos ocupamos de la retirada, adaptación de desagües, nivelación, impermeabilización y alicatado para que el conjunto quede perfectamente integrado. El resultado es un espacio más práctico, actual y fácil de mantener, con acabados limpios y resistentes a la humedad.",
+          "image": "/subservices/bathrooms/cambio-banera-ducha.jpg"
         },
         "reemplazo_sanitarios": {
           "title": "Reemplazo de sanitarios",
           "description": "Instalación de sanitarios nuevos para mejorar el rendimiento y la estética.",
-          "slug": "reemplazo-sanitarios"
+          "slug": "reemplazo-sanitarios",
+          "long_description": "Instalamos y sustituimos sanitarios para modernizar el baño y mejorar su eficiencia y confort. Realizamos el desmontaje de piezas antiguas y la instalación de inodoros, lavabos, bidés u otros elementos, comprobando conexiones, desagües y estanqueidad. Te asesoramos en modelos que optimicen el consumo de agua y se adapten al diseño del espacio, garantizando una colocación precisa y alineada. El objetivo es lograr un conjunto estético, funcional y duradero, con una instalación segura y acabados impecables.",
+          "image": "/subservices/bathrooms/reemplazo-sanitarios.jpg"
         },
         "reemplazo_griferia": {
           "title": "Reemplazo de grifería",
           "description": "Sustitución por grifos modernos y eficientes.",
-          "slug": "reemplazo-griferia"
+          "slug": "reemplazo-griferia",
+          "long_description": "Renovamos la grifería del baño para mejorar el rendimiento, el ahorro de agua y la estética. Sustituimos grifos antiguos por opciones modernas, más eficientes y cómodas de usar, con acabados acordes al estilo del baño. Revisamos tomas, latiguillos, llaves y conexiones para garantizar estanqueidad y un funcionamiento óptimo, evitando goteos y pérdidas de presión. También podemos instalar grifería termostática o monomando para incrementar el confort y la seguridad, asegurando una instalación limpia y fiable.",
+          "image": "/subservices/bathrooms/reemplazo-griferia.jpg"
         },
         "azulejos_pavimentos": {
           "title": "Azulejos y pavimentos",
           "description": "Colocación de revestimientos duraderos y estéticos.",
-          "slug": "azulejos-pavimentos"
+          "slug": "azulejos-pavimentos",
+          "long_description": "Colocamos azulejos y pavimentos con acabados profesionales, cuidando el replanteo, las juntas y la nivelación para lograr un resultado uniforme y elegante. Trabajamos con materiales duraderos y adecuados para zonas húmedas, aportando resistencia, facilidad de limpieza y un diseño actual. Nos ocupamos de la preparación de soportes, la aplicación de adhesivos y la correcta colocación, además de remates, esquinas y sellados para mejorar la impermeabilidad. El objetivo es un baño visualmente impecable y preparado para resistir el uso diario con el paso del tiempo.",
+          "image": "/subservices/bathrooms/azulejos-pavimentos.jpg"
         }
       }
     },
 
     "albañileria": {
       "subtitle": "Trabajos de albañilería duraderos y adaptados a cada proyecto.",
-      "short_description": "Servicios profesionales de albañilería con técnicas avanzadas. Rehabilitaciones, tabiquería y soluciones efectivas contra humedades.",
+      "short_description": "Servicios profesionales de albañilería con técnicas avanzadas",
       "description": "Realizamos trabajos de albañilería con materiales de alta calidad y técnicas profesionales para garantizar resultados duraderos y estéticamente agradables.",
       "subservicios": {
         "reformas_integrales": {
           "title": "Reformas integrales",
           "description": "Transformación completa de espacios para mejorar estructura y estética.",
-          "slug": "reformas-integrales"
+          "slug": "reformas-integrales",
+          "long_description": "Ejecutamos reformas integrales con un enfoque completo: planificación, demolición, redistribución y renovación de acabados para transformar el espacio de forma funcional y estética. Nos ocupamos de la albañilería necesaria para adaptar tabiques, huecos y superficies, dejando la base lista para el resto de instalaciones y terminaciones. Priorizamos la calidad de ejecución, la limpieza en obra y la durabilidad de los materiales, coordinando cada fase para evitar retrasos y asegurar un resultado final consistente. El objetivo es mejorar la habitabilidad, el aprovechamiento del espacio y el valor de la vivienda o local.",
+          "image": "/subservices/masonry/reformas-integrales.jpg"
         },
         "tabiqueria_suelos_techos": {
           "title": "Tabiquerías, suelos y techos",
           "description": "Construcción o renovación de elementos interiores.",
-          "slug": "tabiquerias-suelos-techos"
+          "slug": "tabiquerias-suelos-techos",
+          "long_description": "Realizamos trabajos de tabiquería, suelos y techos para redistribuir y mejorar los espacios interiores. Construimos o modificamos tabiques para optimizar la distribución, reforzamos y nivelamos suelos para una instalación perfecta de pavimentos, y renovamos techos para mejorar la estética, el aislamiento y la integración de iluminación. Trabajamos con soluciones adecuadas a cada necesidad, cuidando alineaciones, plomos y remates. El resultado es un interior más cómodo, actualizado y preparado para un uso intensivo con acabados de calidad.",
+          "image": "/subservices/masonry/tabiquerias-suelos-techos.jpg"
         },
         "rehabilitaciones": {
           "title": "Rehabilitaciones",
           "description": "Restauración de zonas antiguas o dañadas.",
-          "slug": "rehabilitaciones"
+          "slug": "rehabilitaciones",
+          "long_description": "Rehabilitamos zonas antiguas o deterioradas para recuperar seguridad, funcionalidad y buen aspecto. Evaluamos el estado del soporte, eliminamos partes dañadas y aplicamos soluciones de reparación y refuerzo según el caso, respetando la estructura y mejorando la durabilidad. Actuamos sobre paredes, suelos, techos o elementos constructivos afectados por el tiempo, uso o humedades, devolviendo estabilidad y estética. Nuestro enfoque prioriza una reparación sólida, con acabados cuidados y materiales adecuados para prolongar la vida útil del espacio.",
+          "image": "/subservices/masonry/rehabilitaciones.jpg"
         },
         "tratamiento_humedades": {
           "title": "Tratamiento de humedades",
           "description": "Soluciones para eliminar humedad y prevenir filtraciones.",
-          "slug": "tratamiento-humedades"
+          "slug": "tratamiento-humedades",
+          "long_description": "Tratamos problemas de humedades con un enfoque profesional: identificamos el origen (capilaridad, filtraciones, condensación o fugas) y aplicamos la solución más adecuada para eliminar el problema y evitar que reaparezca. Realizamos saneado de superficies, reparación de zonas afectadas, sellados y trabajos complementarios cuando se requiere. Además, preparamos las paredes para acabados finales resistentes, evitando desprendimientos, moho y malos olores. El objetivo es recuperar un ambiente saludable, proteger la estructura y mejorar la estética del inmueble.",
+          "image": "/subservices/masonry/tratamiento-humedades.jpg"
         },
         "impermeabilizaciones": {
           "title": "Impermeabilizaciones",
           "description": "Protección contra filtraciones y humedad.",
-          "slug": "impermeabilizaciones"
+          "slug": "impermeabilizaciones",
+          "long_description": "Aplicamos soluciones de impermeabilización para proteger cubiertas, terrazas, muros y zonas expuestas a la lluvia o a la humedad. Preparamos correctamente las superficies, sellamos puntos críticos y utilizamos sistemas adecuados al soporte para garantizar una barrera eficaz y duradera. Con una buena impermeabilización se previenen filtraciones, manchas, desprendimientos y daños estructurales, reduciendo futuras reparaciones. Nuestro trabajo se centra en asegurar estanqueidad y acabados profesionales, con especial atención a encuentros, juntas y remates.",
+          "image": "/subservices/masonry/impermeabilizaciones.jpg"
         },
         "derrumbes_desescombros": {
           "title": "Derrumbe y desescombro",
           "description": "Demolición controlada y retirada segura de escombros.",
-          "slug": "derrumbes-desescombros"
+          "slug": "derrumbes-desescombros",
+          "long_description": "Realizamos derribos y demoliciones de forma controlada, priorizando la seguridad, el orden y el cumplimiento de normativas. Nos encargamos del desmontaje de elementos, la gestión del escombro y la retirada segura para dejar el espacio preparado para la siguiente fase de obra. Planificamos la intervención para reducir molestias, proteger zonas colindantes y asegurar una ejecución eficiente. El resultado es una zona limpia y lista para continuar con la reforma, con una gestión responsable de residuos y un trabajo cuidadoso.",
+          "image": "/subservices/masonry/derrumbes-desescombros.jpg"
         }
       }
     },
 
     "reformas_integrales": {
       "subtitle": "Reformas integrales adaptadas a tus necesidades.",
-      "short_description": "Transformación completa de viviendas y locales. Diseño personalizado, coordinación profesional y cumplimiento garantizado de plazos.",
-      "description": "Transformamos tu espacio con reformas integrales personalizadas, combinando funcionalidad y diseño para crear ambientes únicos.",
+      "short_description": "Transformación completa de viviendas y locales. ",
+      "description": "Transformamos tu espacio con reformas integrales personalizadas, combinando funcionalidad y diseño para crear ambientes únicos. Nos encargamos de todo el proceso, desde la planificación hasta la ejecución final, adaptándonos a tus necesidades y estilo de vida.",
       "subservicios": {
         "diseno_personalizado": {
           "title": "Diseño personalizado",
           "description": "Planificación detallada según tus gustos y necesidades.",
-          "slug": "diseno-personalizado"
+          "slug": "diseno-personalizado",
+          "long_description": "Desarrollamos un diseño personalizado que parte de tus necesidades reales y del potencial del espacio. Analizamos distribución, circulación, iluminación y materiales para crear una propuesta equilibrada entre estética y funcionalidad. Te ayudamos a definir estilos, combinaciones y soluciones prácticas para el día a día, evitando decisiones improvisadas que encarezcan la obra. El objetivo es que cada detalle encaje: desde la distribución hasta los acabados, consiguiendo un resultado coherente, moderno y adaptado a tu forma de vivir o trabajar.",
+          "image": "/subservices/integral/diseno-personalizado.jpg"
         },
         "gestion_permisos": {
           "title": "Gestión de permisos",
           "description": "Tramitación legal necesaria para iniciar los trabajos.",
-          "slug": "gestion-permisos"
+          "slug": "gestion-permisos",
+          "long_description": "Gestionamos los permisos y trámites necesarios para que tu reforma se realice con total tranquilidad. Te orientamos sobre la documentación requerida, licencias y comunicaciones según el tipo de obra, y coordinamos los pasos para que el proyecto arranque sin retrasos. Esto incluye la recopilación de información, presentación de solicitudes y seguimiento del proceso, reduciendo tiempos y evitando incidencias. Nuestro objetivo es que la parte administrativa no sea una preocupación, y que la obra avance conforme a normativa y planificación.",
+          "image": "/subservices/integral/gestion-permisos.jpg"
         },
         "coordinacion_oficios": {
           "title": "Coordinación de oficios",
           "description": "Gestión profesional de los diferentes equipos de trabajo.",
-          "slug": "coordinacion-oficios"
+          "slug": "coordinacion-oficios",
+          "long_description": "Coordinamos a todos los equipos implicados en la reforma para que cada fase se ejecute en el orden correcto y con la calidad esperada. Planificamos tiempos, entregas y dependencias entre trabajos (albañilería, electricidad, fontanería, pintura, etc.), evitando parones y retrabajos. Supervisamos avances y remates para asegurar que el resultado final sea uniforme y profesional. Esta coordinación permite cumplir plazos, optimizar costes y garantizar una ejecución más eficiente y organizada durante toda la reforma.",
+          "image": "/subservices/integral/coordinacion-oficios.jpg"
         },
         "acabados_calidad": {
           "title": "Acabados de calidad",
           "description": "Finituras duraderas y de excelente estética.",
-          "slug": "acabados-calidad"
+          "slug": "acabados-calidad",
+          "long_description": "Cuidamos los acabados para que el resultado final destaque por su calidad, estética y durabilidad. Seleccionamos materiales adecuados y prestamos atención a detalles como remates, juntas, esquinas, niveles y encuentros entre superficies. Un buen acabado no solo se ve mejor, también resiste mejor el uso diario y requiere menos mantenimiento. Nuestro objetivo es entregar espacios con una terminación impecable, coherente con el diseño elegido y ejecutada con un estándar profesional en cada elemento.",
+          "image": "/subservices/integral/acabados-calidad.jpg"
         },
         "cumplimiento_plazos": {
           "title": "Cumplimiento de plazos",
           "description": "Entrega garantizada dentro del tiempo acordado.",
-          "slug": "cumplimiento-plazos"
+          "slug": "cumplimiento-plazos",
+          "long_description": "Trabajamos con planificación y control de obra para cumplir los plazos acordados desde el inicio. Organizamos la ejecución por fases, coordinamos equipos y materiales, y realizamos seguimiento para detectar posibles desviaciones a tiempo. Mantener el calendario es clave para reducir molestias y evitar costes adicionales derivados de retrasos. Nuestro enfoque se basa en la organización, la comunicación y la previsión, con el objetivo de entregar la reforma en el tiempo pactado y con el nivel de calidad esperado.",
+          "image": "/subservices/integral/cumplimiento-plazos.jpg"
         },
         "presupuesto_detallado": {
           "title": "Presupuesto detallado",
           "description": "Desglose transparente y preciso de los costes.",
-          "slug": "presupuesto-detallado"
+          "slug": "presupuesto-detallado",
+          "long_description": "Elaboramos presupuestos detallados y transparentes para que sepas exactamente qué incluye cada partida. Desglosamos trabajos, materiales y fases, evitando sorpresas y facilitando la toma de decisiones. Un presupuesto claro permite comparar opciones, ajustar prioridades y controlar el alcance de la reforma. Nuestro objetivo es que tengas visibilidad real del coste del proyecto desde el principio, con una propuesta seria y entendible, alineada con el nivel de calidades y los objetivos definidos.",
+          "image": "/subservices/integral/presupuesto-detallado.jpg"
         }
       }
     },
 
     "antenas": {
       "subtitle": "Instalación y reparación de antenas con señal estable y de alta calidad.",
-      "short_description": "Instalación y mantenimiento de antenas TDT, parabólicas y comunitarias. Señal óptima garantizada para tu hogar.",
+      "short_description": "Instalación y mantenimiento de antenas TDT, parabólicas y comunitarias. ",
       "description": "Montaje, reparación y configuración de antenas para una señal estable y de alta calidad en todo el hogar.",
       "subservicios": {
         "instalacion_antenas": {
           "title": "Instalación de antenas",
           "description": "Montaje profesional de antenas TDT y parabólicas.",
-          "slug": "instalacion-antenas"
+          "slug": "instalacion-antenas",
+          "long_description": "Instalamos antenas TDT y parabólicas asegurando una recepción estable y de calidad. Estudiamos la mejor ubicación, realizamos el montaje con fijaciones seguras y ajustamos la orientación para maximizar la señal. También revisamos cableado, conectores y tomas para minimizar pérdidas y garantizar un funcionamiento óptimo en todas las estancias. Nuestro objetivo es que disfrutes de una señal fiable, con una instalación limpia, ordenada y preparada para un uso duradero.",
+          "image": "/subservices/antennas/instalacion-antenas.jpg"
         },
         "reparacion_antenas": {
           "title": "Reparación de antenas",
           "description": "Solución rápida a problemas de señal.",
-          "slug": "reparacion-antenas"
+          "slug": "reparacion-antenas",
+          "long_description": "Reparamos averías y problemas de señal en antenas TDT y satélite de forma rápida y eficaz. Diagnosticamos el origen del fallo (orientación, cableado, amplificadores, conectores, tomas o elementos deteriorados) y aplicamos la solución adecuada. Restablecemos la calidad de recepción y revisamos puntos críticos para evitar que el problema se repita. El resultado es una señal estable y una instalación ajustada y verificada para un rendimiento óptimo.",
+          "image": "/subservices/antennas/reparacion-antenas.jpg"
         },
         "antenas_particulares": {
           "title": "Antenas particulares TDT",
           "description": "Instalación individual para viviendas privadas.",
-          "slug": "antenas-particulares"
+          "slug": "antenas-particulares",
+          "long_description": "Realizamos instalaciones individuales de antenas TDT para viviendas particulares, adaptando la solución a la ubicación y a la cobertura disponible. Optimizamos la orientación y configuramos el sistema para obtener la mejor señal posible, revisando también tomas interiores y distribución si es necesario. Priorizamos una instalación segura y discreta, con cableado protegido y conexiones de calidad para minimizar interferencias y pérdidas. Así garantizamos una recepción estable y una experiencia de visualización sin cortes.",
+          "image": "/subservices/antennas/antenas-particulares.jpg"
         },
         "antenas_comunitarias": {
           "title": "Antenas comunitarias",
           "description": "Instalaciones para edificios y comunidades.",
-          "slug": "antenas-comunitarias"
+          "slug": "antenas-comunitarias",
+          "long_description": "Instalamos y mantenemos sistemas de antena comunitaria para edificios y comunidades, asegurando una distribución correcta de la señal a todas las viviendas. Revisamos cabeceras, amplificadores, derivadores y la red de distribución para equilibrar niveles y evitar pérdidas. Realizamos ajustes y mejoras para optimizar la calidad de recepción y reducir incidencias. Nuestro objetivo es un sistema estable, bien configurado y preparado para funcionar de forma fiable con el mínimo mantenimiento.",
+          "image": "/subservices/antennas/antenas-comunitarias.jpg"
         },
         "antenas_parabolicas": {
           "title": "Antenas parabólicas",
           "description": "Montaje y orientación para señal satelital.",
-          "slug": "antenas-parabolicas"
+          "slug": "antenas-parabolicas",
+          "long_description": "Montamos y orientamos antenas parabólicas para una recepción satelital estable, cuidando alineación, fijación y ajustes finos de señal. Configuramos LNB, cableado y conexiones, y verificamos la calidad en el receptor para asegurar un funcionamiento correcto. También solucionamos problemas de orientación o pérdida de señal causados por viento, desajustes o degradación de componentes. El resultado es una instalación segura y calibrada para disfrutar de la mejor señal posible.",
+          "image": "/subservices/antennas/antenas-parabolicas.jpg"
         },
         "mantenimiento_antenas": {
           "title": "Mantenimiento de antenas",
           "description": "Revisión periódica para asegurar óptima recepción.",
-          "slug": "mantenimiento-antenas"
+          "slug": "mantenimiento-antenas",
+          "long_description": "Realizamos mantenimiento preventivo para evitar cortes y pérdida de señal en antenas. Revisamos fijaciones, orientación, cableado, conectores y elementos de amplificación, corrigiendo posibles desgastes antes de que se conviertan en averías. Este servicio ayuda a mantener una recepción estable a lo largo del tiempo, especialmente en instalaciones expuestas a clima y viento. Nuestro objetivo es asegurar el rendimiento continuo del sistema y reducir incidencias con revisiones periódicas y ajustes profesionales.",
+          "image": "/subservices/antennas/mantenimiento-antenas.jpg"
         }
       }
     },
@@ -248,32 +326,44 @@
         "revision_reparacion": {
           "title": "Revisión y reparación",
           "description": "Inspección y solución de fugas y averías.",
-          "slug": "revision-reparacion"
+          "slug": "revision-reparacion",
+          "long_description": "Realizamos revisiones y reparaciones de fontanería para solucionar fugas, goteos, atascos y averías con rapidez y eficacia. Identificamos el origen del problema, reparamos la incidencia y comprobamos la estanqueidad para evitar que se repita. Trabajamos con repuestos y materiales de calidad, y cuidamos la limpieza y el orden durante la intervención. Nuestro objetivo es restaurar el correcto funcionamiento del sistema y prevenir daños mayores en la vivienda o el local.",
+          "image": "/subservices/plumbing/revision-reparacion.jpg"
         },
         "mantenimiento_preventivo": {
           "title": "Mantenimiento preventivo",
           "description": "Prevención de fallas y mejoras de instalaciones.",
-          "slug": "mantenimiento-preventivo"
+          "slug": "mantenimiento-preventivo",
+          "long_description": "Ofrecemos mantenimiento preventivo para alargar la vida útil de la instalación y evitar averías inesperadas. Revisamos puntos críticos como llaves, conexiones, desagües, presión y posibles fugas ocultas, corrigiendo pequeñas incidencias antes de que se conviertan en problemas graves. Este servicio ayuda a mejorar la eficiencia, reducir consumos y prevenir humedades y daños estructurales. Nuestro enfoque es anticiparnos, mantener el sistema estable y reducir costes de reparación a futuro.",
+          "image": "/subservices/plumbing/mantenimiento-preventivo.jpg"
         },
         "instalacion_tuberias": {
           "title": "Instalación de tuberías",
           "description": "Montaje de sistemas de agua eficientes y duraderos.",
-          "slug": "instalacion-tuberias"
+          "slug": "instalacion-tuberias",
+          "long_description": "Instalamos tuberías y redes de agua adaptadas a la distribución y necesidades del inmueble, buscando eficiencia y durabilidad. Realizamos trazados correctos, dimensionado adecuado, fijaciones seguras y conexiones estancas, garantizando un funcionamiento fiable. Trabajamos tanto en instalaciones nuevas como en sustituciones parciales o completas, minimizando riesgos de fugas y pérdidas de presión. El resultado es un sistema moderno, eficiente y preparado para un uso intensivo con el paso del tiempo.",
+          "image": "/subservices/plumbing/instalacion-tuberias.jpg"
         },
         "urgencias": {
           "title": "Urgencias",
           "description": "Atención inmediata para averías graves.",
-          "slug": "urgencias"
+          "slug": "urgencias",
+          "long_description": "Atendemos urgencias de fontanería para resolver averías graves que requieren actuación inmediata, como fugas importantes, roturas de tuberías, atascos críticos o fallos de suministro. Priorizamos la contención del problema, evitamos daños mayores y aplicamos una reparación eficaz para restablecer el servicio cuanto antes. Trabajamos con rapidez, orden y seguridad, manteniéndote informado del diagnóstico y de la solución aplicada. Nuestro objetivo es darte tranquilidad y una respuesta profesional cuando más lo necesitas.",
+          "image": "/subservices/plumbing/urgencias.jpg"
         },
         "reemplazo_sanitarios": {
           "title": "Reemplazo de sanitarios",
           "description": "Instalación de piezas modernas y funcionales.",
-          "slug": "reemplazo-sanitarios"
+          "slug": "reemplazo-sanitarios",
+          "long_description": "Sustituimos sanitarios para modernizar el baño o mejorar el rendimiento de la instalación. Realizamos desmontaje, adaptación de tomas y desagües, instalación y verificación final para asegurar un uso cómodo y sin fugas. Te asesoramos en opciones funcionales y eficientes, priorizando el aprovechamiento del espacio y una estética actual. El resultado es una instalación segura, bien rematada y lista para el uso diario con total confianza.",
+          "image": "/subservices/plumbing/reemplazo-sanitarios.jpg"
         },
         "reemplazo_griferia": {
           "title": "Reemplazo de grifería",
           "description": "Sustitución de grifos antiguos por modelos actuales.",
-          "slug": "reemplazo-griferia"
+          "slug": "reemplazo-griferia",
+          "long_description": "Renovamos grifería de baño o cocina para mejorar comodidad, consumo y estética. Sustituimos modelos antiguos por grifos actuales más eficientes, revisando conexiones y componentes para garantizar estanqueidad y buen caudal. También podemos instalar soluciones termostáticas o sistemas que mejoren la seguridad y el control de temperatura. El objetivo es eliminar goteos, mejorar el rendimiento y dar un acabado moderno al espacio con una instalación profesional.",
+          "image": "/subservices/plumbing/reemplazo-griferia.jpg"
         }
       }
     },
@@ -286,70 +376,94 @@
         "reformas_integrales_cocina": {
           "title": "Reformas integrales de cocina",
           "description": "Transformación total de la cocina.",
-          "slug": "reformas-integrales-cocina"
+          "slug": "reformas-integrales-cocina",
+          "long_description": "Realizamos reformas integrales de cocina para transformar por completo el espacio, mejorando distribución, almacenamiento y funcionalidad. Nos encargamos de la planificación, la obra y la instalación final, coordinando todos los trabajos necesarios para lograr un resultado coherente y duradero. Trabajamos con materiales resistentes al uso diario y soluciones que optimizan la ergonomía, la iluminación y la ventilación. El objetivo es una cocina moderna, cómoda y adaptada a tu estilo de vida, con acabados de alta calidad.",
+          "image": "/subservices/kitchens/reformas-integrales-cocina.jpg"
         },
         "instalacion_mobiliario": {
           "title": "Instalación de mobiliario",
           "description": "Montaje profesional de muebles de cocina.",
-          "slug": "instalacion-mobiliario"
+          "slug": "instalacion-mobiliario",
+          "long_description": "Instalamos mobiliario de cocina con precisión para asegurar un ajuste perfecto, un buen funcionamiento y un acabado impecable. Realizamos nivelación, anclajes, alineación de frentes y montaje de herrajes para garantizar durabilidad en el uso diario. También revisamos huecos, medidas y encuentros con paredes y suelos para evitar descuadres. El resultado es una cocina más ordenada y funcional, con muebles bien instalados, estables y preparados para resistir el paso del tiempo.",
+          "image": "/subservices/kitchens/instalacion-mobiliario.jpg"
         },
         "reemplazo_encimeras": {
           "title": "Reemplazo de encimeras",
           "description": "Instalación de superficies resistentes y estéticas.",
-          "slug": "reemplazo-encimeras"
+          "slug": "reemplazo-encimeras",
+          "long_description": "Sustituimos encimeras para renovar la estética de la cocina y mejorar la resistencia al uso diario. Te asesoramos en materiales, acabados y soluciones prácticas según el mantenimiento y el estilo que busques. Realizamos la retirada, preparación, colocación y sellado, cuidando juntas, encuentros y niveles para un resultado limpio y profesional. El objetivo es una superficie duradera, funcional y visualmente atractiva, lista para cocinar y trabajar con comodidad.",
+          "image": "/subservices/kitchens/reemplazo-encimeras.jpg"
         },
         "instalacion_electrodomesticos": {
           "title": "Instalación de electrodomésticos",
           "description": "Integración segura de electrodomésticos modernos.",
-          "slug": "instalacion-electrodomesticos"
+          "slug": "instalacion-electrodomesticos",
+          "long_description": "Instalamos electrodomésticos garantizando seguridad, buen funcionamiento e integración estética en el mobiliario. Realizamos conexiones y verificaciones necesarias (eléctricas, agua, desagüe y ventilación según el equipo), cuidando que el aparato quede correctamente nivelado y ajustado. También adaptamos huecos e instalaciones si se requiere, para asegurar compatibilidad y rendimiento. El resultado es una cocina más cómoda y eficiente, con equipos instalados correctamente y listos para su uso.",
+          "image": "/subservices/kitchens/instalacion-electrodomesticos.jpg"
         },
         "reemplazo_griferia_cocina": {
           "title": "Reemplazo de grifería",
           "description": "Actualización de grifería para mayor eficiencia.",
-          "slug": "reemplazo-griferia-cocina"
+          "slug": "reemplazo-griferia-cocina",
+          "long_description": "Sustituimos la grifería de cocina para mejorar el caudal, la comodidad y la eficiencia en el consumo de agua. Instalamos modelos modernos que se adaptan a tu fregadero y a tu forma de cocinar, revisando conexiones y sellados para evitar fugas. También podemos incorporar soluciones más prácticas como caño extraíble o sistemas de ahorro. El objetivo es una grifería fiable y funcional, con un acabado actual y una instalación profesional.",
+          "image": "/subservices/kitchens/reemplazo-griferia-cocina.jpg"
         },
         "azulejos_pavimentos_cocina": {
           "title": "Azulejos y pavimentos",
           "description": "Revestimiento profesional de suelos y paredes.",
-          "slug": "azulejos-pavimentos-cocina"
+          "slug": "azulejos-pavimentos-cocina",
+          "long_description": "Colocamos azulejos y pavimentos en cocina con acabados profesionales para mejorar resistencia, limpieza y estética. Preparamos soportes, realizamos replanteo y colocación precisa, cuidando juntas, remates y nivelación para un resultado uniforme. Seleccionamos soluciones adecuadas para zonas de uso intensivo, con materiales resistentes a manchas, calor y humedad. El objetivo es una cocina más práctica y atractiva, con revestimientos duraderos y bien terminados.",
+          "image": "/subservices/kitchens/azulejos-pavimentos-cocina.jpg"
         }
       }
     },
 
     "pintura": {
       "subtitle": "Trabajos de pintura con acabados profesionales.",
-      "short_description": "Pintores profesionales especializados en interiores, exteriores y fachadas. Microcemento, tratamiento de humedades y acabados impecables.",
+      "short_description": "Pintores profesionales especializados en interiores, exteriores y fachadas. Microcemento y tratamientos contra humedades.",
       "description": "Realizamos trabajos de pintura con acabados profesionales utilizando materiales de alta calidad y técnicas avanzadas para garantizar resultados duraderos y estéticamente agradables.",
       "subservicios": {
         "pintura_interior_exterior": {
           "title": "Pintura interior y exterior",
           "description": "Aplicación de pintura de alta durabilidad.",
-          "slug": "pintura-interior-exterior"
+          "slug": "pintura-interior-exterior",
+          "long_description": "Pintamos interiores y exteriores con una preparación cuidadosa de superficies para lograr un acabado uniforme y duradero. Realizamos reparación de pequeñas imperfecciones, lijado, imprimación cuando procede y aplicación de pintura con técnicas profesionales. Seleccionamos productos adecuados para cada superficie y exposición, mejorando resistencia al desgaste, al sol y a la humedad. El objetivo es renovar el espacio con un resultado limpio, estético y resistente, cuidando detalles, cortes y terminaciones.",
+          "image": "/subservices/painting/pintura-interior-exterior.jpg"
         },
         "microcemento": {
           "title": "Microcemento",
           "description": "Revestimiento moderno con acabado continuo.",
-          "slug": "microcemento"
+          "slug": "microcemento",
+          "long_description": "Aplicamos microcemento para crear superficies continuas, modernas y elegantes en suelos y paredes. Este acabado aporta un estilo contemporáneo y una sensación de amplitud, además de ser fácil de limpiar y mantener. Trabajamos el soporte, aplicamos capas con técnica profesional y sellamos para mejorar resistencia y durabilidad. El resultado es un acabado uniforme, sofisticado y personalizable, ideal para renovar espacios con un look actual sin obras invasivas.",
+          "image": "/subservices/painting/microcemento.jpg"
         },
         "comunidades_fachadas": {
           "title": "Comunidades y fachadas",
           "description": "Decoración y mantenimiento de edificios.",
-          "slug": "comunidades-fachadas"
+          "slug": "comunidades-fachadas",
+          "long_description": "Pintamos y mantenemos fachadas y zonas comunes de edificios, mejorando la imagen y protegiendo las superficies frente a la intemperie. Realizamos limpieza, reparación de grietas, saneado de zonas deterioradas y aplicación de pinturas específicas para exterior con alta resistencia. Cuidamos la uniformidad del acabado y los detalles para que el edificio recupere un aspecto renovado y profesional. El objetivo es aumentar la durabilidad de la fachada y mantener un buen estado estético con el paso del tiempo.",
+          "image": "/subservices/painting/comunidades-fachadas.jpg"
         },
         "tratamiento_humedades_pintura": {
           "title": "Tratamiento de humedades",
           "description": "Preparación y reparación de zonas afectadas.",
-          "slug": "tratamiento-humedades-pintura"
+          "slug": "tratamiento-humedades-pintura",
+          "long_description": "Tratamos zonas afectadas por humedad antes de pintar para evitar manchas, desprendimientos y moho. Saneamos la superficie, reparamos daños y aplicamos soluciones y productos adecuados para mejorar la adherencia y la resistencia del acabado final. También te orientamos sobre la causa probable del problema y las medidas complementarias necesarias para que la humedad no reaparezca. El objetivo es lograr una pared sana y un acabado de pintura duradero, limpio y estéticamente impecable.",
+          "image": "/subservices/painting/tratamiento-humedades-pintura.jpg"
         },
         "retirada_gotele": {
           "title": "Retirada de gotelé",
           "description": "Alisado profesional de paredes.",
-          "slug": "retirada-gotele"
+          "slug": "retirada-gotele",
+          "long_description": "Retiramos gotelé y alisamos paredes para conseguir superficies lisas y modernas, listas para pintar o empapelar. Realizamos el proceso con preparación adecuada, aplicando pastas y técnicas de nivelación para eliminar irregularidades y lograr un acabado uniforme. Cuidamos los detalles en esquinas, encuentros y remates para un resultado final de alta calidad. El objetivo es actualizar el aspecto de la vivienda, mejorar la iluminación visual del espacio y conseguir paredes elegantes y fáciles de mantener.",
+          "image": "/subservices/painting/retirada-gotele.jpg"
         },
         "impermeabilizaciones_pintura": {
           "title": "Impermeabilizaciones",
           "description": "Protección contra filtraciones.",
-          "slug": "impermeabilizaciones-pintura"
+          "slug": "impermeabilizaciones-pintura",
+          "long_description": "Aplicamos soluciones impermeabilizantes mediante pinturas y recubrimientos específicos para proteger superficies expuestas a la humedad y a la lluvia. Preparamos el soporte, sellamos puntos críticos y aplicamos productos adecuados para mejorar la estanqueidad y evitar filtraciones. Esta intervención reduce el riesgo de manchas, desconchados y deterioro de materiales, alargando la vida útil del acabado. El objetivo es una protección eficaz con un acabado limpio, resistente y duradero.",
+          "image": "/subservices/painting/impermeabilizaciones-pintura.jpg"
         }
       }
     },
@@ -362,75 +476,101 @@
         "urgencias_24h": {
           "title": "Urgencias 24h",
           "description": "Atención inmediata en fallos eléctricos.",
-          "slug": "urgencias-24h"
+          "slug": "urgencias-24h",
+          "long_description": "Atendemos urgencias eléctricas con respuesta rápida ante cortes, cortocircuitos, cuadros eléctricos con fallos, enchufes o puntos de luz que dejan de funcionar. Diagnosticamos el problema con seguridad, aislamos el riesgo y realizamos la reparación necesaria para restablecer el servicio cuanto antes. Priorizamos la protección de personas y equipos, verificando la instalación antes de darla por finalizada. El objetivo es resolver la incidencia de forma eficaz, segura y conforme a la normativa vigente.",
+          "image": "/subservices/electricity/urgencias-24h.jpg"
         },
         "boletines_electricos": {
           "title": "Boletines eléctricos",
           "description": "Certificación de instalaciones eléctricas.",
-          "slug": "boletines-electricos"
+          "slug": "boletines-electricos",
+          "long_description": "Realizamos boletines eléctricos y certificaciones necesarias para legalizar o actualizar una instalación, ya sea por alta de suministro, cambios de potencia o requisitos de normativa. Revisamos el estado de la instalación, corregimos posibles deficiencias y emitimos la documentación correspondiente según el alcance del trabajo. Nuestro objetivo es que tu instalación cumpla con los requisitos técnicos y de seguridad, facilitando trámites y evitando problemas con compañías o inspecciones.",
+          "image": "/subservices/electricity/boletines-electricos.jpg"
         },
         "instalaciones_reparaciones_electricidad": {
           "title": "Instalaciones eléctricas y reparaciones",
           "description": "Servicios completos de electricidad.",
-          "slug": "instalaciones-electricas-reparaciones"
+          "slug": "instalaciones-electricas-reparaciones",
+          "long_description": "Realizamos instalaciones eléctricas nuevas y reparaciones en viviendas y negocios, adaptándonos a las necesidades del espacio y al uso previsto. Instalamos puntos de luz, enchufes, cuadros eléctricos y canalizaciones, y corregimos averías para garantizar seguridad y eficiencia. Trabajamos con materiales de calidad y comprobaciones finales para asegurar un funcionamiento estable. El objetivo es una instalación fiable, organizada y conforme a normativa, con un acabado profesional y duradero.",
+          "image": "/subservices/electricity/instalaciones-electricas-reparaciones.jpg"
         },
         "aumentos_potencia": {
           "title": "Aumentos de potencia",
           "description": "Adaptación del suministro eléctrico.",
-          "slug": "aumentos-potencia"
+          "slug": "aumentos-potencia",
+          "long_description": "Gestionamos y preparamos la instalación para aumentos de potencia, garantizando que el sistema pueda soportar la nueva demanda de forma segura. Revisamos el cuadro eléctrico, protecciones, sección de cableado y estado general de la instalación para evitar sobrecargas. Proponemos mejoras si son necesarias para cumplir normativa y asegurar el correcto funcionamiento de los equipos. El objetivo es adaptar tu suministro con seguridad, evitando disparos constantes y mejorando la estabilidad eléctrica del inmueble.",
+          "image": "/subservices/electricity/aumentos-potencia.jpg"
         },
         "particulares_comunidades": {
           "title": "Particulares y comunidades",
           "description": "Servicios para viviendas y edificios.",
-          "slug": "particulares-comunidades"
+          "slug": "particulares-comunidades",
+          "long_description": "Ofrecemos servicios eléctricos tanto para viviendas particulares como para comunidades de vecinos, cubriendo mantenimiento, reparaciones e instalaciones. Intervenimos en zonas comunes, iluminación, cuadros generales, portales y garajes, además de soluciones para viviendas individuales. Trabajamos con planificación y seguridad, buscando minimizar molestias y garantizar continuidad del servicio. El objetivo es mantener instalaciones en buen estado, reducir incidencias y asegurar un funcionamiento fiable y conforme a normativa.",
+          "image": "/subservices/electricity/particulares-comunidades.jpg"
         },
         "administradores_fincas": {
           "title": "Administradores de fincas",
           "description": "Mantenimiento para comunidades y fincas.",
-          "slug": "administradores-fincas"
+          "slug": "administradores-fincas",
+          "long_description": "Colaboramos con administradores de fincas ofreciendo mantenimiento eléctrico, actuaciones correctivas y soporte para incidencias en comunidades. Proponemos soluciones eficientes, coordinamos intervenciones con rapidez y aportamos informes y seguimiento cuando es necesario. Priorizamos la seguridad, el cumplimiento normativo y la continuidad del servicio en zonas comunes. El objetivo es facilitar la gestión del mantenimiento, reducir tiempos de respuesta y mantener las instalaciones en condiciones óptimas.",
+          "image": "/subservices/electricity/administradores-fincas.jpg"
         }
       }
     },
 
     "limpieza": {
       "subtitle": "Servicios de limpieza para hogares, oficinas y comercios.",
-      "short_description": "Empresa de limpieza profesional para viviendas, comunidades y locales comerciales. Servicios flexibles y resultados impecables.",
+      "short_description": "Empresa de limpieza profesional para viviendas, comunidades y locales comerciales.",
       "description": "Servicios completos de limpieza para mantener tus espacios impecables. Ofrecemos limpiezas profundas, mantenimiento periódico y servicios especializados para todo tipo de propiedades, adaptándonos a tus necesidades específicas.",
       "subservicios": {
         "limpieza_viviendas": {
           "title": "Limpieza de viviendas",
           "description": "Limpiezas profundas y mantenimiento periódico.",
-          "slug": "limpieza-viviendas"
+          "slug": "limpieza-viviendas",
+          "long_description": "Realizamos limpieza de viviendas con un enfoque detallista para mantener tu hogar impecable y agradable. Ofrecemos servicios puntuales o mantenimiento periódico, adaptándonos a tus rutinas y necesidades. Prestamos atención a cocinas, baños, suelos, polvo y zonas de uso frecuente, utilizando productos adecuados para cada superficie. El objetivo es un hogar limpio, ordenado y confortable, con un servicio profesional, flexible y orientado a la máxima calidad.",
+          "image": "/subservices/cleaning/limpieza-viviendas.jpg"
         },
         "limpieza_por_horas": {
           "title": "Limpieza por horas",
           "description": "Servicio flexible según tus necesidades.",
-          "slug": "limpieza-por-horas"
+          "slug": "limpieza-por-horas",
+          "long_description": "Ofrecemos limpieza por horas para que puedas ajustar el servicio exactamente a lo que necesitas: tareas concretas, zonas específicas o apoyo puntual en momentos determinados. Definimos contigo prioridades y objetivos para optimizar el tiempo, desde limpieza general hasta detalles como cristales, cocina o baños. Es una solución ideal si buscas flexibilidad, control y un resultado profesional sin compromisos rígidos. El objetivo es adaptarnos a tu ritmo con un servicio eficiente y de confianza.",
+          "image": "/subservices/cleaning/limpieza-por-horas.jpg"
         },
         "limpieza_obras": {
           "title": "Limpieza de obras",
           "description": "Limpieza tras obras y reformas.",
-          "slug": "limpieza-obras"
+          "slug": "limpieza-obras",
+          "long_description": "Realizamos limpieza fin de obra para dejar el espacio listo para usar tras reformas o construcción. Eliminamos polvo fino, restos de materiales, manchas y suciedad acumulada en suelos, paredes, cristales y superficies. Prestamos atención a rincones, juntas, carpinterías y elementos que suelen quedar afectados tras la obra. El objetivo es entregar un resultado impecable, seguro y habitable, con una limpieza profunda y profesional que marque la diferencia.",
+          "image": "/subservices/cleaning/limpieza-obras.jpg"
         },
         "limpieza_comunidades": {
           "title": "Limpieza de comunidades",
           "description": "Mantenimiento de zonas comunes.",
-          "slug": "limpieza-comunidades"
+          "slug": "limpieza-comunidades",
+          "long_description": "Mantenemos limpias las zonas comunes de comunidades de vecinos: portales, escaleras, rellanos, ascensores y accesos. Ofrecemos planes de mantenimiento periódicos para asegurar una imagen cuidada y un entorno higiénico, reduciendo acumulación de polvo y suciedad. Nos adaptamos a horarios y necesidades del edificio, con una ejecución ordenada y discreta. El objetivo es que la comunidad esté siempre presentable, limpia y bien mantenida.",
+          "image": "/subservices/cleaning/limpieza-comunidades.jpg"
         },
         "limpieza_parcelas": {
           "title": "Limpieza de parcelas",
           "description": "Limpieza y desbroce de exteriores.",
-          "slug": "limpieza-parcelas"
+          "slug": "limpieza-parcelas",
+          "long_description": "Realizamos limpieza de parcelas y exteriores para mantener jardines, patios y zonas abiertas en buen estado. Retiramos suciedad, hojas, residuos y realizamos desbroce cuando es necesario, mejorando la seguridad y el aspecto general del espacio. Este servicio es ideal para preparar una parcela antes de un evento, una temporada o tras periodos de abandono. El objetivo es un exterior limpio, despejado y agradable, listo para disfrutar o para su mantenimiento posterior.",
+          "image": "/subservices/cleaning/limpieza-parcelas.jpg"
         },
         "limpieza_locales": {
           "title": "Limpieza de locales comerciales",
           "description": "Limpieza para negocios y locales.",
-          "slug": "limpieza-locales"
+          "slug": "limpieza-locales",
+          "long_description": "Ofrecemos limpieza profesional para locales comerciales, oficinas y negocios, manteniendo un entorno impecable para clientes y empleados. Nos adaptamos a horarios de apertura, prioridades de higiene y necesidades específicas del sector. Realizamos limpieza de suelos, baños, zonas de atención al público, cristales y superficies de trabajo, con productos adecuados. El objetivo es proyectar una imagen cuidada y profesional, garantizando limpieza constante y un servicio fiable.",
+          "image": "/subservices/cleaning/limpieza-locales.jpg"
         }
       }
     }
-
   },
+
+
+
 
   "about": {
     "title": "Acerca de nosotross",
@@ -481,6 +621,49 @@
     "cta": "Pedir presupuesto"
   },
 
+  
+  "service_process": {
+    "title": "Proceso de Reforma Integral",
+    "description":  "Un proceso claro y estructurado para transformar tu espacio de forma profesional",
+    "cta_button": "¡Comienza tu reforma hoy!",
+    "steps": [
+      
+      {
+        "id": 1,
+        "number": "01",
+        "title": "Planificación y Diseño",
+        "description": "Analizamos el espacio y diseñamos una propuesta personalizada para optimizar cada rincón de tu hogar.",
+        "image": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=500&h=350&fit=crop",
+        "icon": "📋"
+      },
+      {
+        "id": 2,
+        "number": "02",
+        "title": "Demolición y Preparación",
+        "description": "Retiramos elementos antiguos y preparamos la estructura para la nueva reforma.",
+        "image": "../../public/subservices/masonry/derrumbes-desescombros.jpg",
+        "icon": "🏗️"
+      },
+      {
+        "id": 3,
+        "number": "03",
+        "title": "Instalaciones y Albañilería",
+        "description": "Renovamos las instalaciones eléctricas y de fontanería, además de realizar trabajos de albañilería.",
+        "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=500&h=350&fit=crop",
+        "icon": "⚙️"
+      },
+      {
+        "id": 4,
+        "number": "04",
+        "title": "Acabados y Decoración",
+        "description": "Aplicamos los acabados finales como pintura, suelos y carpintería para darle un toque único.",
+        "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=500&h=350&fit=crop",
+        "icon": "🎨"
+      }
+    ]
+  },
+
+
 
 
 
@@ -508,6 +691,85 @@
       "button": "Iniciar conversacion en WhatsApp"
     }
 },
+
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "subtitle": "Encuentra respuestas a las dudas más comunes sobre nuestros servicios de reformas",
+    "questions": [
+      {
+        "q": "¿Qué áreas geográficas cubrís?",
+        "a": "Prestamos servicio principalmente en la comunidad y provincias colindantes. Si quieres, envíanos tu código postal y te confirmamos cobertura.",
+        "tag": "General"
+      },
+      {
+        "q": "¿Qué tipos de reformas realizáis?",
+        "a": "Realizamos reformas parciales (baños, cocinas), reformas integrales, instalaciones eléctricas y de fontanería, pintura, albañilería y limpieza final de obra.",
+        "tag": "General"
+      },
+      {
+        "q": "¿Cómo se calcula el presupuesto?",
+        "a": "El presupuesto se realiza tras visita y/o dossier con fotos y medidas. Incluye mano de obra, materiales y planificación. Te entregamos un desglose detallado.",
+        "tag": "Presupuestos"
+      },
+      {
+        "q": "¿Cuál es el plazo medio de una reforma?",
+        "a": "Depende del alcance: baños 1–3 semanas, cocinas 2–5 semanas, reformas integrales 4–12 semanas. Indicamos un cronograma en el presupuesto.",
+        "tag": "Plazos"
+      },
+      {
+        "q": "¿Ofrecéis garantía por los trabajos realizados?",
+        "a": "Sí. Nuestros trabajos incluyen garantía según el tipo de servicio y la normativa vigente. Los detalles se especifican en el contrato.",
+        "tag": "Garantía"
+      },
+      {
+        "q": "¿Cómo gestionáis permisos y licencias?",
+        "a": "Si la obra requiere licencia, podemos encargarnos de la tramitación con técnicos colaboradores o indicarte los pasos a seguir.",
+        "tag": "Proceso"
+      },
+      {
+        "q": "¿Puedo elegir materiales y acabados?",
+        "a": "Sí. Te mostramos opciones y muestras de diferentes gamas para que elijas según diseño y presupuesto.",
+        "tag": "Materiales"
+      },
+      {
+        "q": "¿Cómo son los pagos y plazos?",
+        "a": "Normalmente se exige un depósito inicial, pagos parciales según hitos y un pago final a la entrega. Todo queda reflejado en el contrato.",
+        "tag": "Pagos"
+      },
+      {
+        "q": "¿Qué ocurre si quiero cambios durante la obra?",
+        "a": "Los cambios se gestionan mediante una orden de trabajo adicional con presupuesto y posible ajuste de plazos; siempre por escrito.",
+        "tag": "Proceso"
+      }
+    ],
+    "alternative_Cards": {
+      "call": {
+        "title": "Llamar ahora",
+        "subtitle": "01 23 45 67 89",
+        "button_label": "Llamar",
+        "href": "tel:+340123456789",
+        "icon": "📞",
+        "color": "blue"
+      },
+      "email": {
+        "title": "Enviar email",
+        "subtitle": "contact@decotech.es",
+        "button_label": "Escribir",
+        "href": "mailto:contact@decotech.es",
+        "icon": "✉️",
+        "color": "purple"
+      },
+      "whatsapp": {
+        "title": "WhatsApp",
+        "subtitle": "+34 600 00 00 00",
+        "button_label": "Chatear",
+        "href": "https://wa.me/34600000000",
+        "icon": "💬",
+        "color": "green"
+      }
+    }
+  },
+
 
  "footer": {
     "brand": {
@@ -671,3 +933,4 @@
 }
 
 
+    

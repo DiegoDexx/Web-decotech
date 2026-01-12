@@ -53,22 +53,23 @@ const Banner = ({ category, lang }) => {
       <div className="absolute inset-0 bg-black/50" />
 
       {/* Contenido de texto */}
-      <div className="container-main">
-        <div className="absolute left-2 md:left-30 top-1/2 -translate-y-1/2 max-w-xl text-white">
-          <div className="max-w-2xl space-y-3">
+      <div className="container-main absolute inset-0 flex items-center justify-center">
+        <div className=" container-main    flex flex-col   items-center sm:items-start   text-center sm:text-left">
+          <div className="max-w-2xl space-y-2">
             {/* h2: subtitle en negrita, grande */}
             {subtitle && (
-              <h2 className="text-3xl md:text-4xl font-semibold text-white">
+              <h2 className="font-extrabold leading-snug md:leading-tight drop-shadow text-white  text-lg xs:text-xl sm:text-2xl md:text-3xl lg:text-4xl">
                 {subtitle}
               </h2>
             )}
-
-            {/* h3: short_description, algo más pequeña */}
+            {/* p: descripción */}
             {serviceData?.short_description && (
-              <h3 className="text-base md:text-lg text-gray-100 font-normal ">
+              <p className="text-white/90  text-sm xs:text-base md:text-lg lg:text-xl">
                 {serviceData.short_description}
-              </h3>
-            )} 
+              </p>
+            )}
+
+         
           </div>
 
         </div>

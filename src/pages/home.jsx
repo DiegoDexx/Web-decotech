@@ -7,6 +7,7 @@ import Contact from '../components/layouts/contact';
 import AboutUs from '../components/layouts/aboutUs';
 import Gallery from '../components/layouts/gallery';
 import Footer from '../components/layouts/footer';
+import ServiceProcess from '../components/layouts/serviceProcess';
 
 
 function Home({ language }) {
@@ -17,7 +18,8 @@ function Home({ language }) {
             <Services />
             <AboutUs />
             <Gallery />
-            <Contact /> 
+            <ServiceProcess lang={language} />
+            <Contact id="contact-section-homepage" /> 
             <Footer language={language} />
             
         </>

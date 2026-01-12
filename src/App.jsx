@@ -3,6 +3,7 @@ import Home from "./pages/home";
 import ServicePage from "./pages/servicePage";
 import TermsAndConditions from "./pages/termsAndConditions";
 import Privacy from "./pages/privacy";
+import FAQ from "./pages/faq";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
             <Route path="*" element={<Home language="es" />} />
             <Route path="/:lang/legal" element={<TermsAndConditions />} />
             <Route path="/:lang/privacy" element={<Privacy />} />
+            <Route path="/:lang/faq" element={<FAQ />} />
 
 
             {/* PÁGINA DE SERVICIO INDIVIDUAL */}

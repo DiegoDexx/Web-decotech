@@ -47,6 +47,12 @@ const HelmetSEO = ({
       <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
       <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
       <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+
+      <link rel="alternate" hrefLang="es" href="https://reformas-decotech.com/es" />
+    <link rel="alternate" hrefLang="en" href="https://reformas-decotech.com/en" />
+    <link rel="alternate" hrefLang="fr" href="https://reformas-decotech.com/fr" />
+    <link rel="alternate" hrefLang="de" href="https://reformas-decotech.com/de" />
+    <link rel="alternate" hrefLang="x-default" href="https://reformas-decotech.com" />
       
       {/* Idioma HTML */}
       <html lang={lang} />

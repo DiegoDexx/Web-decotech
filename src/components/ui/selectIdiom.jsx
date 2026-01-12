@@ -16,11 +16,20 @@ export default function SelectIdiom() {
     { code: "de", flag: "🇩🇪", label: "DE" }
   ];
 
-  const handleSelect = (langCode) => {
-    navigate(`/${langCode}`);
-    setIsOpen(false);
-  };
+const handleSelect = (langCode) => {
+  setIsOpen(false);
 
+  // Obtiene la ruta sin el código de idioma actual
+  
+  const pathWithoutLang = location. pathname
+    .split("/")
+    .slice(2)
+    .join("/");
+
+  // Construye la nueva ruta:  /en/service/fontaneria
+  const newPath = pathWithoutLang ? `/${langCode}/${pathWithoutLang}` : `/${langCode}`;
+  navigate(newPath);
+};
   const currentLangObj = languages.find(lang => lang.code === currentLang) || languages[0];
 
   return (

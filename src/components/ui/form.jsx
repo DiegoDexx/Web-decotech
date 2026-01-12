@@ -9,10 +9,9 @@ import de from "../../locales/de.json";
 
 const translationsByLang = { es, en, fr, de };
 
-export default function ContactForm() {
+export default function ContactForm({ id }) {
   const [state, handleSubmit] = useForm("mzdznppv");
 
-  // idioma desde URL: /es, /en, /fr, /de
   const location = useLocation();
   const lang = location.pathname.split("/")[1] || "es";
   const t = translationsByLang[lang] || translationsByLang.es;
@@ -21,7 +20,19 @@ export default function ContactForm() {
   const services = t.services;
   const servicesSub = t.services_subservices;
 
-  // Lista de servicios (service_1...service_9) => [{title, slug, ...}]
+  // ✅ leer params (memo)
+  const searchParams = useMemo(
+    () => new URLSearchParams(location.search),
+    [location.search]
+  );
+
+  const initialProject = searchParams.get("project") || "";
+  const initialSubcategory = searchParams.get("subcategory") || "";
+
+  // ✅ estado inicial desde URL SIN useEffect
+  const [selectedServiceSlug, setSelectedServiceSlug] = useState(() => initialProject);
+  const [selectedSubSlug, setSelectedSubSlug] = useState(() => initialSubcategory);
+
   const servicesList = useMemo(() => {
     return Object.entries(services || {})
       .filter(([k]) => k.startsWith("service_"))
@@ -29,16 +40,10 @@ export default function ContactForm() {
       .filter((v) => v?.slug && v?.title);
   }, [services]);
 
-  // slug del select (ej: reformas_de_baños)
-  const [selectedServiceSlug, setSelectedServiceSlug] = useState("");
-
-  // Map slug del servicio -> key en services_subservices
-  // OJO: esto depende de tu estructura actual (baños vs reformas_de_baños)
-  // Aquí lo resolvemos con un mapping explícito y seguro.
   const slugToServiceKey = useMemo(
     () => ({
       reformas_de_baños: "baños",
-      albanileria: "albañileria",
+      albañileria: "albañileria",
       reformas_integrales: "reformas_integrales",
       antenas: "antenas",
       fontaneria: "fontaneria",
@@ -54,13 +59,13 @@ export default function ContactForm() {
     ? slugToServiceKey[selectedServiceSlug]
     : null;
 
-  // Lista de subservicios del servicio seleccionado => [{title, slug, description}]
   const subservicesList = useMemo(() => {
     if (!selectedServiceKey) return [];
-    const serviceData = servicesSub?.[selectedServiceKey];
-    const obj = serviceData?.subservicios || {};
+    const obj = servicesSub?.[selectedServiceKey]?.subservicios || {};
     return Object.values(obj).filter((v) => v?.slug && v?.title);
   }, [servicesSub, selectedServiceKey]);
+
+
 
   if (state.succeeded) {
     return (
@@ -72,12 +77,12 @@ export default function ContactForm() {
 
   return (
     <section className="w-full ">
-      <div className="bg-white rounded-2xl   p-4 md:p-8">
+      <div className="bg-white rounded-2xl p-4 md:p-8">
         <h2 className="text-2xl md:text-2xl font-light text-black-600">
           {formText?.title}
         </h2>
 
-        <form onSubmit={handleSubmit} className="mt-8 space-y-6" id="contact-form">
+        <form onSubmit={handleSubmit} className="mt-8 space-y-6" id={ id }>
           {/* 2 columnas en desktop */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Nombre */}
@@ -145,7 +150,7 @@ export default function ContactForm() {
             />
           </div>
 
-          {/* Proyecto / Servicio */}
+          {/* Servicio */}
           <div>
             <label className="block text-sm font-medium text-black-900 mb-2">
               {formText?.fields?.proyect} <span className="text-red-500">*</span>
@@ -176,7 +181,7 @@ export default function ContactForm() {
             />
           </div>
 
-          {/* Subcategoría / Subservicio */}
+          {/* Subservicio (✅ ahora controlado por state) */}
           <div>
             <label className="block text-sm font-medium text-blue-900 mb-2">
               {formText?.fields?.subcategory}
@@ -185,8 +190,9 @@ export default function ContactForm() {
             <select
               name="subcategory"
               disabled={!selectedServiceKey}
+              value={selectedSubSlug}
+              onChange={(e) => setSelectedSubSlug(e.target.value)}
               className="w-full bg-gray-100 rounded-xl px-4 py-3 outline-none border-0 focus:ring-2 focus:ring-blue-300 disabled:opacity-60"
-              defaultValue=""
             >
               <option value="" disabled>
                 {formText?.fields?.subcategory}
