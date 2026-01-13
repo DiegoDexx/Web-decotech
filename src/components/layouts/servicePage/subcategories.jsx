@@ -31,7 +31,7 @@ function CheckBadge() {
 const Subcategories = ({ category, lang }) => {
   const t = translationsByLang[lang] || translationsByLang.es;
     const [isModalOpen, setIsModalOpen] = useState(false);
-    const [isFormOpen, setIsFormOpen] = useState(false);
+
   const [activeSubservice, setActiveSubservice] = useState(null);
 
   const serviceKey = slugToServiceKey[category];
