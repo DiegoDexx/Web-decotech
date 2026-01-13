@@ -63,6 +63,7 @@
 
   "services": {
     "title": "Nos Services",
+    "backLabel": "Retour",
     "description": "Nous offrons une large gamme de services pour répondre à tous vos besoins de rénovation et d'entretien de la maison.",
     "service_1": {
       "title": "Rénovations de salles de bains",

@@ -24,7 +24,7 @@ const Description = ({ category, lang }) => {
     const serviceData = t.services_subservices[serviceKey];
 
     return (
-        <div className="w-full py-6 md:py-8 lg:py-10 bg-gradient-to-t from-white/95 via-white/80 to-transparent">
+        <div className="w-full py-6 md:py-8 lg:py-10 bg-yellow-50 to-transparent">
             <div className="container-main flex flex-col items-center justify-center min-h-[140px] md:min-h-[180px]">
                 
                 {/* Separador decorativo */}

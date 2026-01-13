@@ -66,6 +66,7 @@
 
   "services": {
     "title": "Nuestros Servicios",
+    "backLabel": "Volver atrás",
     "description": "Ofrecemos una amplia gama de servicios para satisfacer todas tus necesidades de reforma y mantenimiento del hogar.",
     "service_1": {
       "title": "Reformas de baños",
@@ -641,7 +642,7 @@
         "number": "02",
         "title": "Demolición y Preparación",
         "description": "Retiramos elementos antiguos y preparamos la estructura para la nueva reforma.",
-        "image": "../../public/subservices/masonry/derrumbes-desescombros.jpg",
+        "image": "/subservices/masonry/derrumbes-desescombros.jpg",
         "icon": "🏗️"
       },
       {

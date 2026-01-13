@@ -140,7 +140,6 @@ export default function Modal({ open, onClose, subservice, onRequest, subservice
             </button>
           </div>
         </div>
-
         {/* 🔘 Flechas de navegación lateral */}
         {hasNavigation && (
           <>
@@ -148,18 +147,19 @@ export default function Modal({ open, onClose, subservice, onRequest, subservice
             <button
               type="button"
               onClick={handlePrevious}
-              
               className="
-                absolute left-5 top-1/2 transform -translate-y-1/2
+                absolute left-5 top-[38%]
                 z-20 bg-black/60 hover:bg-black/80
                 text-white rounded-full w-10 h-10
                 flex items-center justify-center
+                transform
                 transition-all duration-200
                 hover:scale-110
                 focus:outline-none focus:ring-2 focus:ring-white/50
-                md:left-2
+                md:left-2 md:top-[38%]
                 cursor-pointer
               "
+              aria-label="Anterior"
             >
               <svg
                 className="w-6 h-6"
@@ -180,18 +180,19 @@ export default function Modal({ open, onClose, subservice, onRequest, subservice
             <button
               type="button"
               onClick={handleNext}
-             
               className="
-                absolute right-5 top-1/2 transform -translate-y-1/2
+                absolute right-5 top-[38%]
                 z-20 bg-black/60 hover:bg-black/80
                 text-white rounded-full w-10 h-10
                 flex items-center justify-center
+                transform
                 transition-all duration-200
                 hover:scale-110
-                focus:outline-none focus:ring-2 focus: ring-white/50
-                md:right-2
+                focus:outline-none focus:ring-2 focus:ring-white/50
+                md:right-2 md:top-[38%]
                 cursor-pointer
               "
+              aria-label="Siguiente"
             >
               <svg
                 className="w-6 h-6"
@@ -209,6 +210,9 @@ export default function Modal({ open, onClose, subservice, onRequest, subservice
             </button>
           </>
         )}
+
+      
+
       </div>
     </div>
   );

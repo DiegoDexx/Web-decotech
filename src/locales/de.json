@@ -64,6 +64,7 @@
   },
   "services": {
     "title": "Unsere Dienstleistungen",
+    "backLabel": "Zurück",
     "description": "Wir bieten eine breite Palette von Dienstleistungen, um all Ihre Renovierungs- und Wartungsbedürfnisse im Haushalt zu erfüllen.",
     "service_1": {
       "title": "Badsanierungen",

@@ -63,6 +63,7 @@
   },
   "services": {
     "title": "Our Services",
+    "backLabel": "Go Back",
     "description": "We offer a wide range of services to meet all your home renovation and maintenance needs.",
     "service_1": {
       "title": "Bathroom Renovations",
