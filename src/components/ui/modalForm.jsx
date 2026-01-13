@@ -1,5 +1,4 @@
-import { useMemo, useState, UseEffect } from "react";
-
+import { useMemo, useState, useEffect } from "react";
 import { useForm, ValidationError } from "@formspree/react";
 import { useLocation } from "react-router-dom";
 
