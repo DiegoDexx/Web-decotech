@@ -6,7 +6,7 @@ import de from "../../locales/de.json";
 
 const translationsByLang = { es, en, fr, de };
 
-export default function Modal({ open, onClose, subservice, onRequest, subservicesArray, lang , onRequest}) {
+export default function Modal({ open, onClose, subservice, onRequest, subservicesArray, lang }) {
   const t = translationsByLang[lang] || translationsByLang.es;
   
   // 🔄 Estado para el índice actual del subservicio
