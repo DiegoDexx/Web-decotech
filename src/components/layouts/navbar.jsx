@@ -157,7 +157,7 @@ export default function Navbar({ language }) {
             {t.links?.faq || "FAQ"}
           </Link>
 
-          <button className="bg-brand btn-outline text-sm">
+          <button className="bg-brand btn-outline text-sm" onClick={() => document.getElementById("contact-section").scrollIntoView()}>
             {t.contact || "Contacto"}
           </button>
 

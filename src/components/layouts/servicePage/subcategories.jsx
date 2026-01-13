@@ -62,13 +62,14 @@ const Subcategories = ({ category, lang }) => {
   const [isFormOpen, setIsFormOpen] = useState(false);
   const [formServiceSlug, setFormServiceSlug] = useState("");
   const [formSubSlug, setFormSubSlug] = useState("");
+  
+function handleRequestFromModal(subservice, serviceSlug) {
+  setFormServiceSlug(serviceSlug);        // "reformas_de_baños"
+  setFormSubSlug(subservice.slug);        // slug del subservicio
+  setIsFormOpen(true);
+  setIsModalOpen(false);
+}
 
-  function handleRequestFromModal(subservice, serviceSlug) {
-    setFormServiceSlug(serviceSlug);        // p.ej. "reformas_de_baños"
-    setFormSubSlug(subservice.slug);       // slug del subservicio
-    setIsFormOpen(true);
-    setIsModalOpen(false);
-  }
 
 
   return (
@@ -139,14 +140,14 @@ const Subcategories = ({ category, lang }) => {
         onRequest={(sub) => handleRequestFromModal(sub, category)} // category = slug
       />
 
-      {/* ✅ Modal Form */}
-      <ModalContactForm
-        open={isFormOpen}
-        onClose={() => setIsFormOpen(false)}
-        serviceSlug={formServiceSlug}
-        subserviceSlug={formSubSlug}
-        lang={lang}
-      />
+        <ModalContactForm 
+            open={isFormOpen}
+            onClose={() => setIsFormOpen(false)}
+            initialServiceSlug={formServiceSlug}    
+            initialSubserviceSlug={formSubSlug}     
+            id="contact-form"                      
+            lang={lang}
+        />
     </>
   );
 };
