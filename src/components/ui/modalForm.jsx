@@ -1,9 +1,8 @@
-// modalForm.jsx
-<<<<<<< HEAD
+
 import { useMemo, useState, U } from "react";
-=======
+
 import { useMemo, useState, UseEffect } from "react";
->>>>>>> 26cb2a535709a4842a9e754e0d56dcf7bc1f5ca4
+
 import { useForm, ValidationError } from "@formspree/react";
 import { useLocation } from "react-router-dom";
 
