@@ -12,14 +12,14 @@ export default function Modal({ open, onClose, subservice, onRequest, subservice
   // 🔄 Estado para el índice actual del subservicio
   const [currentIndex, setCurrentIndex] = useState(0);
 
-    // ◀️ Navegar al anterior
+  // ◀️ Navegar al anterior
   const handlePrevious = () => {
     if (!subservicesArray || subservicesArray.length === 0) return;
     const newIndex = (currentIndex - 1 + subservicesArray.length) % subservicesArray.length;
     setCurrentIndex(newIndex);
   };
 
-    // ▶️ Navegar al siguiente
+  // ▶️ Navegar al siguiente
   const handleNext = () => {
     if (!subservicesArray || subservicesArray.length === 0) return;
     const newIndex = (currentIndex + 1) % subservicesArray.length;
@@ -42,7 +42,7 @@ export default function Modal({ open, onClose, subservice, onRequest, subservice
 
     const onKeyDown = (e) => {
       if (e.key === "Escape") {
-        onClose?. ();
+        onClose?.();
       } else if (e.key === "ArrowLeft") {
         handlePrevious();
       } else if (e.key === "ArrowRight") {
@@ -54,13 +54,10 @@ export default function Modal({ open, onClose, subservice, onRequest, subservice
     document.body.style.overflow = "hidden";
 
     return () => {
-      document. removeEventListener("keydown", onKeyDown);
+      document.removeEventListener("keydown", onKeyDown);
       document.body.style.overflow = "";
     };
   }, [open, onClose, currentIndex, subservicesArray]);
-
-
-
 
   if (!open || !subservice || !subservicesArray || subservicesArray.length === 0) {
     return null;
@@ -71,14 +68,14 @@ export default function Modal({ open, onClose, subservice, onRequest, subservice
 
   return (
     <div
-      className="fixed inset-0 z-[999] bg-black/60 backdrop-blur-sm flex items-center justify-center p-4"
+      className="fixed inset-0 z-[999] bg-black/60 backdrop-blur-sm flex items-center justify-center p-4 h-screen"
       onMouseDown={(e) => {
         if (e.target === e.currentTarget) onClose?.();
       }}
     >
-      <div className="w-full max-w-2xl bg-white rounded-2xl shadow-xl overflow-hidden relative">
+      <div className="w-full max-w-2xl max-h-[95vh] bg-white rounded-2xl shadow-xl flex flex-col overflow-hidden">
         {/* Imagen superior */}
-        <div className="relative w-full h-[180px] sm:h-[220px] md:h-[260px] bg-gray-200">
+        <div className="relative w-full h-[180px] sm:h-[200px] md:h-[220px] lg:h-[260px] flex-shrink-0 bg-gray-200">
           <img
             src={currentSubservice.image}
             alt={currentSubservice.title}
@@ -113,33 +110,35 @@ export default function Modal({ open, onClose, subservice, onRequest, subservice
           )}
         </div>
 
-        {/* Contenido */}
-        <div className="p-6 md:p-8">
-          <h3 className="text-xl md: text-2xl font-semibold text-black">
+        {/* Contenido con scroll */}
+        <div className="flex-1 p-4 sm:p-6 md:p-8 overflow-y-auto">
+          <h3 className="text-xl md:text-2xl font-semibold text-black mb-4">
             {currentSubservice.title}
           </h3>
 
-          <p className="mt-4 text-sm md:text-base text-gray-700 leading-relaxed">
+          <p className="text-sm md:text-base text-gray-700 leading-relaxed mb-8">
             {currentSubservice.long_description || currentSubservice.description}
           </p>
 
           {/* CTA */}
-          <div className="mt-8 flex justify-end">
+          <div className="flex justify-end sticky bottom-0 bg-white py-4">
             <button
               type="button"
-               onClick={() => onRequest?.(currentSubservice)}
+              onClick={() => onRequest?.(currentSubservice)}
               className="
                 bg-brand text-black font-medium
-                px-6 py-2 rounded-lg
+                px-6 py-3 rounded-lg
                 hover:brightness-110
                 transition
                 border-0 cursor-pointer
+                shadow-lg
               "
             >
               {t?.slider?.button || "Solicitar Presupuesto"}
             </button>
           </div>
         </div>
+
         {/* 🔘 Flechas de navegación lateral */}
         {hasNavigation && (
           <>
@@ -148,7 +147,7 @@ export default function Modal({ open, onClose, subservice, onRequest, subservice
               type="button"
               onClick={handlePrevious}
               className="
-                absolute left-5 top-[38%]
+                absolute left-2 sm:left-4 top-[35%] sm:top-[38%]
                 z-20 bg-black/60 hover:bg-black/80
                 text-white rounded-full w-10 h-10
                 flex items-center justify-center
@@ -156,7 +155,6 @@ export default function Modal({ open, onClose, subservice, onRequest, subservice
                 transition-all duration-200
                 hover:scale-110
                 focus:outline-none focus:ring-2 focus:ring-white/50
-                md:left-2 md:top-[38%]
                 cursor-pointer
               "
               aria-label="Anterior"
@@ -181,7 +179,7 @@ export default function Modal({ open, onClose, subservice, onRequest, subservice
               type="button"
               onClick={handleNext}
               className="
-                absolute right-5 top-[38%]
+                absolute right-2 sm:right-4 top-[35%] sm:top-[38%]
                 z-20 bg-black/60 hover:bg-black/80
                 text-white rounded-full w-10 h-10
                 flex items-center justify-center
@@ -189,7 +187,6 @@ export default function Modal({ open, onClose, subservice, onRequest, subservice
                 transition-all duration-200
                 hover:scale-110
                 focus:outline-none focus:ring-2 focus:ring-white/50
-                md:right-2 md:top-[38%]
                 cursor-pointer
               "
               aria-label="Siguiente"
@@ -210,9 +207,6 @@ export default function Modal({ open, onClose, subservice, onRequest, subservice
             </button>
           </>
         )}
-
-      
-
       </div>
     </div>
   );
