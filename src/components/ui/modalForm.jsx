@@ -42,6 +42,10 @@ export default function ModalContactForm({
       .filter((v) => v?.slug && v?.title);
   }, [services]);
 
+  //comprobaciones de servicio y subservicio inicial
+  console.log("Initial Service Slug:", initialServiceSlug);
+  console.log("Initial Subservice Slug:", initialSubserviceSlug);
+
   const slugToServiceKey = useMemo(
     () => ({
       reformas_de_baños: "baños",
@@ -207,6 +211,7 @@ export default function ModalContactForm({
                   setSelectedSubSlug(""); // reset subservicio al cambiar servicio
                 }}
                 className="w-full bg-gray-100 rounded-xl px-4 py-3 outline-none border-0 focus:ring-2 focus:ring-black-300"
+                
               >
                 <option value="" disabled>
                   {formText?.fields?.proyect}
@@ -238,6 +243,7 @@ export default function ModalContactForm({
                 value={selectedSubSlug}
                 onChange={(e) => setSelectedSubSlug(e.target.value)}
                 className="w-full bg-gray-100 rounded-xl px-4 py-3 outline-none border-0 focus:ring-2 focus:ring-blue-300 disabled:opacity-60"
+                  
               >
                 <option value="" disabled>
                   {formText?.fields?.subcategory}
