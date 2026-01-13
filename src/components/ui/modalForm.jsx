@@ -70,6 +70,14 @@ export default function ModalContactForm({
     return Object.values(obj).filter((v) => v?.slug && v?.title);
   }, [servicesSub, selectedServiceKey]);
 
+
+  //comprobar que se asigna el valor inicial
+  useEffect(() => {
+    console.log("Setting initial slugs:", { initialServiceSlug, initialSubserviceSlug });
+    setSelectedServiceSlug(initialServiceSlug || "");
+    setSelectedSubSlug(initialSubserviceSlug || "");
+  }, [initialServiceSlug, initialSubserviceSlug]);
+
   // Si el formulario se ha enviado
   if (state.succeeded) {
     return (
