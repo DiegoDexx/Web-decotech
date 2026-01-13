@@ -4,6 +4,7 @@ import fr from "../../../locales/fr.json";
 import de from "../../../locales/de.json";
 import { useState } from "react";
 import Modal from "../../layouts/modal";
+import ModalContactForm from "../../ui/modalForm";
 
 const translationsByLang = { es, en, fr, de };
 
@@ -30,6 +31,7 @@ function CheckBadge() {
 const Subcategories = ({ category, lang }) => {
   const t = translationsByLang[lang] || translationsByLang.es;
     const [isModalOpen, setIsModalOpen] = useState(false);
+    const [isFormOpen, setIsFormOpen] = useState(false);
   const [activeSubservice, setActiveSubservice] = useState(null);
 
   const serviceKey = slugToServiceKey[category];
@@ -41,7 +43,8 @@ const Subcategories = ({ category, lang }) => {
     ...data,
   }));
 
-  // ✅ Estado modal
+  // ✅ Guardar servicio activo
+  const serviceActive = t?.services_subservices?.[serviceKey]?.title || "";
 
 
   // ✅ Abrir modal
@@ -55,6 +58,18 @@ const Subcategories = ({ category, lang }) => {
     setIsModalOpen(false);
     setActiveSubservice(null);
   }
+
+  const [isFormOpen, setIsFormOpen] = useState(false);
+  const [formServiceSlug, setFormServiceSlug] = useState("");
+  const [formSubSlug, setFormSubSlug] = useState("");
+
+  function handleRequestFromModal(subservice, serviceSlug) {
+    setFormServiceSlug(serviceSlug);        // p.ej. "reformas_de_baños"
+    setFormSubSlug(subservice.slug);       // slug del subservicio
+    setIsFormOpen(true);
+    setIsModalOpen(false);
+  }
+
 
   return (
     <>
@@ -117,8 +132,19 @@ const Subcategories = ({ category, lang }) => {
       <Modal
         open={isModalOpen}
         onClose={handleCloseSubserviceModal}
+        service={serviceActive}
         subservice={activeSubservice}
         subservicesArray={subservicesArray}
+        lang={lang}
+        onRequest={(sub) => handleRequestFromModal(sub, category)} // category = slug
+      />
+
+      {/* ✅ Modal Form */}
+      <ModalContactForm
+        open={isFormOpen}
+        onClose={() => setIsFormOpen(false)}
+        serviceSlug={formServiceSlug}
+        subserviceSlug={formSubSlug}
         lang={lang}
       />
     </>

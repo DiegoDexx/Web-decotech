@@ -6,7 +6,7 @@ import de from "../../locales/de.json";
 
 const translationsByLang = { es, en, fr, de };
 
-export default function Modal({ open, onClose, subservice, onRequest, subservicesArray, lang }) {
+export default function Modal({ open, onClose, subservice, onRequest, subservicesArray, lang , onRequest}) {
   const t = translationsByLang[lang] || translationsByLang.es;
   
   // 🔄 Estado para el índice actual del subservicio
@@ -127,7 +127,7 @@ export default function Modal({ open, onClose, subservice, onRequest, subservice
           <div className="mt-8 flex justify-end">
             <button
               type="button"
-              onClick={() => onRequest?.(currentSubservice)}
+               onClick={() => onRequest?.(currentSubservice)}
               className="
                 bg-brand text-black font-medium
                 px-6 py-2 rounded-lg
