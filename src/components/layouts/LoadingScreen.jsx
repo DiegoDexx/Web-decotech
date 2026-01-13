@@ -21,7 +21,7 @@ const LoadingScreen = ({
   logoAlt = 'Logo',
   width = 120,
   height = 90,
-  variant = 'dotsr', // 'spinner' or 'dots'
+  variant = 'dots', // 'spinner' or 'dots'
 }) => {
   // ringSize used for the spinning circle size (a bit larger than the logo)
   const ringSize = Math.round(width + 28);
