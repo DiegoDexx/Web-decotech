@@ -5,7 +5,7 @@ import ServicePage from "./pages/servicePage";
 import TermsAndConditions from "./pages/termsAndConditions";
 import Privacy from "./pages/privacy";
 import FAQ from "./pages/faq";
-import LoadingScreen from "./components/common/LoadingScreen";
+import LoadingScreen from "./components/layouts/LoadingScreen";
 
 function App() {
   const [loading, setLoading] = useState(true);
