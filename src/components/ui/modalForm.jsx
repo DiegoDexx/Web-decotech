@@ -1,5 +1,5 @@
 // modalForm.jsx
-import { useMemo, useState } from "react";
+import { useMemo, useState, UseEffect } from "react";
 import { useForm, ValidationError } from "@formspree/react";
 import { useLocation } from "react-router-dom";
 
@@ -42,9 +42,33 @@ export default function ModalContactForm({
       .filter((v) => v?.slug && v?.title);
   }, [services]);
 
-  //comprobaciones de servicio y subservicio inicial
-  console.log("Initial Service Slug:", initialServiceSlug);
-  console.log("Initial Subservice Slug:", initialSubserviceSlug);
+// Añade DESPUÉS de los useState existentes:
+console.log("=== DEBUG MODAL FORM ===");
+console.log("Props:", { initialServiceSlug, initialSubserviceSlug });
+console.log("State:", { selectedServiceSlug, selectedSubSlug });
+console.log("Services disponibles:", servicesList.map(s => ({ slug: s.slug, title: s.title })));
+console.log("ServiceKey:", selectedServiceKey);
+console.log("Subservices disponibles:", subservicesList.map(s => ({ slug: s.slug, title: s.title })));
+
+// useEffect para forzar valores si no coinciden
+useEffect(() => {
+  console.log("🔄 useEffect check:", { 
+    initialServiceSlug, 
+    selectedServiceSlug, 
+    initialSubserviceSlug, 
+    selectedSubSlug 
+  });
+  
+  if (initialServiceSlug && initialServiceSlug !== selectedServiceSlug) {
+    console.log("🔧 Forzando service slug");
+    setSelectedServiceSlug(initialServiceSlug);
+  }
+  if (initialSubserviceSlug && initialSubserviceSlug !== selectedSubSlug) {
+    console.log("🔧 Forzando sub slug");
+    setSelectedSubSlug(initialSubserviceSlug);
+  }
+}, [initialServiceSlug, initialSubserviceSlug, selectedServiceSlug, selectedSubSlug]);
+
 
   const slugToServiceKey = useMemo(
     () => ({
