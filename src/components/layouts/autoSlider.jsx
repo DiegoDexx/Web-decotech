@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
-import { useLocation } from "react-router-dom";
-
+import { useLocation, useNavigate } from "react-router-dom";
+import { useVTNavigate } from "../../hooks/useVTNavigate";
 import es from "../../locales/es.json";
 import en from "../../locales/en.json";
 import fr from "../../locales/fr.json";
@@ -13,6 +13,7 @@ const AutoSlider = ({ interval = 20000 }) => {
   const location = useLocation();
   const lang = location.pathname.split("/")[1] || "es";
   const slider = locales[lang].slider;
+  const navigate = useVTNavigate();
 
   const slides = [slider.slide_1, slider.slide_2, slider.slide_3, slider.slide_4, slider.slide_5, slider.slide_6, slider.slide_7, slider.slide_8, slider.slide_9, slider.slide_10].filter(Boolean);
 
@@ -127,7 +128,7 @@ const AutoSlider = ({ interval = 20000 }) => {
                       focus-visible:outline-none
                       focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-transparent
                     "
-                    onClick ={() => { document.getElementById("gallery-grid").scrollIntoView({ behavior: "smooth" }); } }
+                    onClick ={() => { navigate("/${lang}/services/${slide.service}") } }
                   >
                     {slider.button_2}
                   </button>

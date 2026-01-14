@@ -45,7 +45,7 @@ export default function Contact() {
       
       {/* IZQUIERDA: FORM */}
       <div className="bg-white rounded-2xl p-6 md:p-8 shadow-md w-full">
-        <ContactForm />
+        <ContactForm id="contact-form" />
       </div>
 
       {/* DERECHA: MAP + WHATSAPP */}

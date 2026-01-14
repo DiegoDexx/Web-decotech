@@ -20,43 +20,53 @@
   "slider": {
     "slide_1": {
       "title": "Experten für Renovierungen und Hauswartung.",
-      "description": "Wir bieten umfassende Lösungen zur Transformation und Verbesserung Ihres Wohn- oder Geschäftsraums mit Qualität und Professionalität."
+      "description": "Wir bieten umfassende Lösungen zur Transformation und Verbesserung Ihres Wohn- oder Geschäftsraums mit Qualität und Professionalität.",
+      "service": "reformas_integrales"
     },
     "slide_2": {
       "title": "Wir verwandeln Ihren Raum mit maßgeschneiderten Komplettsanierungen.",
-      "description": "Wir verbinden Funktionalität und Design, um einzigartige Umgebungen zu schaffen, die Ihren Bedürfnissen und Ihrem Lebensstil entsprechen."
+      "description": "Wir verbinden Funktionalität und Design, um einzigartige Umgebungen zu schaffen, die Ihren Bedürfnissen und Ihrem Lebensstil entsprechen.",
+      "service": "reformas_integrales"
     },
     "slide_3": {
       "title": "Verwandeln Sie Ihr Badezimmer in einen modernen und funktionalen Raum.",
-      "description": "Spezialisten für Badrenovierungen mit hochwertigen Materialien und innovativen Designs."
+      "description": "Spezialisten für Badrenovierungen mit hochwertigen Materialien und innovativen Designs.",
+      "service": "reformas_de_baños"
     },
     "slide_4": {
       "title": "Moderne und voll funktionsfähige Küchenrenovierungen.",
-      "description": "Wir schaffen Küchen, die Design, Funktionalität und Qualität vereinen. Von der ersten Planung bis zur finalen Installation kümmern wir uns um alles, damit Sie die Küche Ihrer Träume genießen können."
+      "description": "Wir schaffen Küchen, die Design, Funktionalität und Qualität vereinen. Von der ersten Planung bis zur finalen Installation kümmern wir uns um alles, damit Sie die Küche Ihrer Träume genießen können.",
+      "service": "reformas_de_cocinas"
     },
     "slide_5": {
       "title": "Sichere und effiziente elektrische Lösungen für Ihr Zuhause.",
-      "description": "Wir bieten professionelle Elektroinstallationen und -reparaturen und garantieren Sicherheit, Effizienz und auf Ihre Bedürfnisse zugeschnittene Lösungen."
+      "description": "Wir bieten professionelle Elektroinstallationen und -reparaturen und garantieren Sicherheit, Effizienz und auf Ihre Bedürfnisse zugeschnittene Lösungen.",
+      "service": "electricidad"
     },
     "slide_6": {
       "title": "Installation und Reparatur von Antennen mit stabilem, hochwertigem Signal.",
-      "description": "Montage, Reparatur und Konfiguration von Antennen für ein stabiles, hochwertiges Signal im gesamten Zuhause."
+      "description": "Montage, Reparatur und Konfiguration von Antennen für ein stabiles, hochwertiges Signal im gesamten Zuhause.",
+      "service": "antenas"
     },
     "slide_7": {
       "title": "Schnelle, professionelle und zuverlässige Klempnerdienste.",
-      "description": "Von kleinen Reparaturen bis hin zu kompletten Installationen ist unser Team bereit, jedes Sanitärproblem schnell und effizient zu lösen."
+      "description": "Von kleinen Reparaturen bis hin zu kompletten Installationen ist unser Team bereit, jedes Sanitärproblem schnell und effizient zu lösen.",
+      "service": "fontaneria"
     },
     "slide_8": {
       "title": "Langlebige Maurerarbeiten, passend für jedes Projekt.",
-      "description": "Wir führen Maurerarbeiten mit hochwertigen Materialien und professionellen Techniken aus, um langlebige und ästhetisch ansprechende Ergebnisse zu gewährleisten."
+      "description": "Wir führen Maurerarbeiten mit hochwertigen Materialien und professionellen Techniken aus, um langlebige und ästhetisch ansprechende Ergebnisse zu gewährleisten.",
+      "service": "albañileria"
     },
     "slide_9": {
       "title": "Professionelle Malerarbeiten für Innen- und Außenbereiche.",
-      "description": "Wir bieten Malerdienstleistungen mit hochwertigen Oberflächen, die langlebige Materialien und professionelle Techniken verwenden, um Ihre Räume zu erneuern."
+      "description": "Wir bieten Malerdienstleistungen mit hochwertigen Oberflächen, die langlebige Materialien und professionelle Techniken verwenden, um Ihre Räume zu erneuern.",
+      "service": "pintura"
     },
     "slide_10": {
       "title": "Umfassende Reinigungsdienste für Häuser und Unternehmen.",
-      "description": "Wir bieten professionelle Reinigungsdienste an, um Ihr Zuhause oder Ihr Geschäft makellos zu halten, unter Verwendung effektiver Produkte und Techniken."
+      "description": "Wir bieten professionelle Reinigungsdienste an, um Ihr Zuhause oder Ihr Geschäft makellos zu halten, unter Verwendung effektiver Produkte und Techniken.",
+      "service": "limpieza"
     },
 
     "button": "Angebot anfordern",

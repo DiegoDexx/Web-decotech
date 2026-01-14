@@ -21,42 +21,51 @@
     },
     "slide_2": {
       "title": "Transformamos tu espacio con reformas integrales personalizadas.",
-      "description": "Combinamos funcionalidad y diseño para crear ambientes únicos que se adaptan a tus necesidades y estilo de vida."
+      "description": "Combinamos funcionalidad y diseño para crear ambientes únicos que se adaptan a tus necesidades y estilo de vida.",
+      "service": "reformas_integrales"
     },
     "slide_3": {
       "title": "Transforma tu baño en un espacio moderno y funcional.",
-      "description": "Especialistas en reformas de baños con materiales de alta calidad y diseños innovadores."
+      "description": "Especialistas en reformas de baños con materiales de alta calidad y diseños innovadores.",
+      "service": "reformas_de_baños"
     },
    "slide_4": {
       "title": "Reformas de cocinas modernas y completamente funcionales.",
-      "description": "Creamos cocinas que combinan diseño, funcionalidad y calidad. Desde el diseño inicial hasta la instalación final, nos encargamos de todo para que disfrutes de la cocina de tus sueños."
+      "description": "Creamos cocinas que combinan diseño, funcionalidad y calidad. Desde el diseño inicial hasta la instalación final, nos encargamos de todo para que disfrutes de la cocina de tus sueños.",
+      "service": "reformas_de_cocinas"
     },
        "slide_5": {
       "title": "Soluciones eléctricas seguras y eficientes para tu hogar.",
-      "description": "Ofrecemos instalaciones y reparaciones eléctricas profesionales, garantizando seguridad, eficiencia y soluciones adaptadas a tus necesidades."
+      "description": "Ofrecemos instalaciones y reparaciones eléctricas profesionales, garantizando seguridad, eficiencia y soluciones adaptadas a tus necesidades.",
+      "service": "electricidad"
     },
  
     "slide_6": {
       "title": "Instalación y reparación de antenas con señal estable y de alta calidad.",
-      "description": "Montaje, reparación y configuración de antenas para una señal estable y de alta calidad en todo el hogar."
+      "description": "Montaje, reparación y configuración de antenas para una señal estable y de alta calidad en todo el hogar.",
+      "service": "antenas"
     },
     "slide_7": {
       "title": "Servicios de fontanería rápidos, profesionales y fiables.",
-      "description": "Desde pequeñas reparaciones hasta instalaciones completas, nuestro equipo está preparado para resolver cualquier problema de fontanería con rapidez y eficiencia."
+      "description": "Desde pequeñas reparaciones hasta instalaciones completas, nuestro equipo está preparado para resolver cualquier problema de fontanería con rapidez y eficiencia.",
+      "service": "fontaneria"
     },
  
     "slide_8": {
       "title": "Trabajos de albañilería duraderos y adaptados a cada proyecto.",
-      "description": "Realizamos trabajos de albañilería con materiales de alta calidad y técnicas profesionales para garantizar resultados duraderos y estéticamente agradables."
+      "description": "Realizamos trabajos de albañilería con materiales de alta calidad y técnicas profesionales para garantizar resultados duraderos y estéticamente agradables.",
+      "service": "albañileria"
     },
     "slide_9": {
       "title": "Pintura profesional para interiores y exteriores.",
-      "description": "Ofrecemos servicios de pintura con acabados de alta calidad, utilizando materiales duraderos y técnicas profesionales para renovar tus espacios."
+      "description": "Ofrecemos servicios de pintura con acabados de alta calidad, utilizando materiales duraderos y técnicas profesionales para renovar tus espacios.",
+      "service": "pintura"
     },
 
     "slide_10": {
       "title": "Servicios de limpieza integral para hogares y negocios.",
-      "description": "Ofrecemos servicios de limpieza profesional para mantener tu hogar o negocio impecable, utilizando productos y técnicas efectivas."
+      "description": "Ofrecemos servicios de limpieza profesional para mantener tu hogar o negocio impecable, utilizando productos y técnicas efectivas.",
+      "service": "limpieza"
     },
     "button": "Solicitar presupuesto",
     "button_2": "Más Información"

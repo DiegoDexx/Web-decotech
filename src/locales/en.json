@@ -19,43 +19,53 @@
   "slider": {
     "slide_1": {
       "title": "Experts in home renovations and maintenance.",
-      "description": "We offer comprehensive solutions to transform and improve your home or commercial space with quality and professionalism."
+      "description": "We offer comprehensive solutions to transform and improve your home or commercial space with quality and professionalism.",
+      "service": "reformas_integrales"
     },
     "slide_2": {
       "title": "We transform your space with personalized comprehensive renovations.",
-      "description": "We combine functionality and design to create unique environments that adapt to your needs and lifestyle."
+      "description": "We combine functionality and design to create unique environments that adapt to your needs and lifestyle.",
+      "service": "reformas_integrales"
     },
     "slide_3": {
       "title": "Transform your bathroom into a modern and functional space.",
-      "description": "Specialists in bathroom renovations with high-quality materials and innovative designs."
+      "description": "Specialists in bathroom renovations with high-quality materials and innovative designs.",
+      "service": "reformas_de_baños"
     },
     "slide_4": {
       "title": "Modern and fully functional kitchen renovations.",
-      "description": "We create kitchens that combine design, functionality and quality. From the initial design to the final installation, we take care of everything so you can enjoy the kitchen of your dreams."
+      "description": "We create kitchens that combine design, functionality and quality. From the initial design to the final installation, we take care of everything so you can enjoy the kitchen of your dreams.",
+      "service": "reformas_de_cocinas"
     },
     "slide_5": {
       "title": "Safe and efficient electrical solutions for your home.",
-      "description": "We offer professional electrical installations and repairs, guaranteeing safety, efficiency and solutions tailored to your needs."
+      "description": "We offer professional electrical installations and repairs, guaranteeing safety, efficiency and solutions tailored to your needs.",
+      "service": "electricidad"
     },
     "slide_6": {
       "title": "Antenna installation and repair with stable, high-quality signal.",
-      "description": "Assembly, repair and configuration of antennas for a stable, high-quality signal throughout the home."
+      "description": "Assembly, repair and configuration of antennas for a stable, high-quality signal throughout the home.",
+      "service": "antenas"
     },
     "slide_7": {
       "title": "Fast, professional and reliable plumbing services.",
-      "description": "From small repairs to full installations, our team is ready to solve any plumbing issue quickly and efficiently."
+      "description": "From small repairs to full installations, our team is ready to solve any plumbing issue quickly and efficiently.",
+      "service": "fontaneria"
     },
     "slide_8": {
       "title": "Durable masonry work tailored to each project.",
-      "description": "We carry out masonry work using high-quality materials and professional techniques to ensure durable, aesthetically pleasing results."
+      "description": "We carry out masonry work using high-quality materials and professional techniques to ensure durable, aesthetically pleasing results.",
+      "service": "albañileria"
     },
     "slide_9": {
       "title": "Professional painting for interiors and exteriors.",
-      "description": "We offer painting services with high-quality finishes, using durable materials and professional techniques to renew your spaces."
+      "description": "We offer painting services with high-quality finishes, using durable materials and professional techniques to renew your spaces.",
+      "service": "pintura"
     },
     "slide_10": {
       "title": "Comprehensive cleaning services for homes and businesses.",
-      "description": "We offer professional cleaning services to keep your home or business spotless, using effective products and techniques."
+      "description": "We offer professional cleaning services to keep your home or business spotless, using effective products and techniques.",
+      "service": "limpieza"
     },
 
     "button": "Request a Quote",

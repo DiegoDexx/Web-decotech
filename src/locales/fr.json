@@ -18,43 +18,53 @@
   "slider": {
     "slide_1": {
       "title": "Experts en rénovation et maintenance de la maison.",
-      "description": "Nous offrons des solutions complètes pour transformer et améliorer votre logement ou espace commercial avec qualité et professionnalisme."
+      "description": "Nous offrons des solutions complètes pour transformer et améliorer votre logement ou espace commercial avec qualité et professionnalisme.",
+      "service": "reformas_integrales"
     },
     "slide_2": {
       "title": "Nous transformons votre espace avec des rénovations complètes personnalisées.",
-      "description": "Nous combinons fonctionnalité et design pour créer des environnements uniques qui s'adaptent à vos besoins et à votre style de vie."
+      "description": "Nous combinons fonctionnalité et design pour créer des environnements uniques qui s'adaptent à vos besoins et à votre style de vie.",
+      "service": "reformas_integrales"
     },
     "slide_3": {
       "title": "Transformez votre salle de bain en un espace moderne et fonctionnel.",
-      "description": "Spécialistes des rénovations de salles de bains avec des matériaux de haute qualité et des designs innovants."
+      "description": "Spécialistes des rénovations de salles de bains avec des matériaux de haute qualité et des designs innovants.",
+      "service": "reformas_de_baños"
     },
     "slide_4": {
       "title": "Rénovations de cuisines modernes et entièrement fonctionnelles.",
-      "description": "Nous créons des cuisines qui allient design, fonctionnalité et qualité. De la conception initiale à l'installation finale, nous nous occupons de tout pour que vous puissiez profiter de la cuisine de vos rêves."
+      "description": "Nous créons des cuisines qui allient design, fonctionnalité et qualité. De la conception initiale à l'installation finale, nous nous occupons de tout pour que vous puissiez profiter de la cuisine de vos rêves.",
+      "service": "reformas_de_cocinas"
     },
     "slide_5": {
       "title": "Solutions électriques sûres et efficaces pour votre maison.",
-      "description": "Nous proposons des installations et réparations électriques professionnelles, garantissant sécurité, efficacité et solutions adaptées à vos besoins."
+      "description": "Nous proposons des installations et réparations électriques professionnelles, garantissant sécurité, efficacité et solutions adaptées à vos besoins.",
+      "service": "electricidad"
     },
     "slide_6": {
       "title": "Installation et réparation d'antennes avec un signal stable et de haute qualité.",
-      "description": "Montage, réparation et configuration d'antennes pour un signal stable et de haute qualité dans toute la maison."
+      "description": "Montage, réparation et configuration d'antennes pour un signal stable et de haute qualité dans toute la maison.",
+      "service": "antenas"
     },
     "slide_7": {
       "title": "Services de plomberie rapides, professionnels et fiables.",
-      "description": "Des petites réparations aux installations complètes, notre équipe est prête à résoudre tout problème de plomberie rapidement et efficacement."
+      "description": "Des petites réparations aux installations complètes, notre équipe est prête à résoudre tout problème de plomberie rapidement et efficacement.",
+      "service": "fontaneria"
     },
     "slide_8": {
       "title": "Travaux de maçonnerie durables et adaptés à chaque projet.",
-      "description": "Nous réalisons des travaux de maçonnerie avec des matériaux de haute qualité et des techniques professionnelles pour garantir des résultats durables et esthétiquement agréables."
+      "description": "Nous réalisons des travaux de maçonnerie avec des matériaux de haute qualité et des techniques professionnelles pour garantir des résultats durables et esthétiquement agréables.",
+      "service": "albañileria"
     },
     "slide_9": {
       "title": "Peinture professionnelle pour intérieurs et extérieurs.",
-      "description": "Nous proposons des services de peinture avec des finitions de haute qualité, utilisant des matériaux durables et des techniques professionnelles pour renouveler vos espaces."
+      "description": "Nous proposons des services de peinture avec des finitions de haute qualité, utilisant des matériaux durables et des techniques professionnelles pour renouveler vos espaces.",
+      "service": "pintura"
     },
     "slide_10": {
       "title": "Services de nettoyage complets pour les maisons et les entreprises.",
-      "description": "Nous offrons des services de nettoyage professionnels pour garder votre maison ou votre entreprise impeccable, en utilisant des produits et des techniques efficaces."
+      "description": "Nous offrons des services de nettoyage professionnels pour garder votre maison ou votre entreprise impeccable, en utilisant des produits et des techniques efficaces.",
+      "service": "limpieza"
     },
  
     "button": "Demander un devis",
