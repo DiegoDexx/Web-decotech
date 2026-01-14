@@ -1,12 +1,12 @@
-import  albañileria from "../../public/servicios/albañileria.jpg";
-import  antenas from "../../public/servicios/antenas.jpg";
-import  reformas_de_baños from "../../public/servicios/reformas-de-baños.jpg";
-import  reformas_de_cocina from "../../public/servicios/reformas-de-cocina.jpg";
-import  electricidad from "../../public/servicios/electridad.jpg";
-import  fontaneria from "../../public/servicios/fontaneria.jpg";
-import  limpieza from "../../public/servicios/limpieza.jpg";
-import  pintura from "../../public/servicios/pintura.jpg";
-import  reformas_integrales from "../../public/servicios/reformas-integrales.jpg";
+import  albañileria from "../../public/servicios/albañileria.webp";
+import  antenas from "../../public/servicios/antenas.webp";
+import  reformas_de_baños from "../../public/servicios/reformas-de-baños.webp";
+import  reformas_de_cocina from "../../public/servicios/reformas-de-cocina.webp";
+import  electricidad from "../../public/servicios/electridad.webp";
+import  fontaneria from "../../public/servicios/fontaneria.webp";
+import  limpieza from "../../public/servicios/limpieza.webp";
+import  pintura from "../../public/servicios/pintura.webp";
+import  reformas_integrales from "../../public/servicios/reformas-integrales.webp";
 
 export const servicesImages = {
     reformas_de_baños,

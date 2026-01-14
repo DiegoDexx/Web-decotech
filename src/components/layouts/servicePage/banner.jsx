@@ -46,6 +46,7 @@ const Banner = ({ category, lang }) => {
           src={imageSrc}
           alt={subtitle || serviceKey}
           className="w-full h-full object-cover object-center"
+          loading="lazy"
         />
       )}
 

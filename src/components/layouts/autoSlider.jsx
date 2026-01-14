@@ -32,7 +32,7 @@ const AutoSlider = ({ interval = 20000 }) => {
     <div
       className="
         relative w-full 
-        h-[75vh] md:h-[85vh] lg:h-[85vh]
+        h-[75vh] md:h-[90vh] lg:h-[90vh]
         overflow-hidden
       "
     >
@@ -46,9 +46,10 @@ const AutoSlider = ({ interval = 20000 }) => {
         >
           {/* Fondo */}
           <img
-            src={`/slider/${i + 1}.jpg`}
+            src={`/slider/${i + 1}.webp`}
             className="w-full h-full object-cover"
             alt=""
+            loading="lazy"
           />
 
           {/* Overlay un poco más oscuro para mejor contraste */}
