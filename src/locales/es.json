@@ -17,7 +17,8 @@
   "slider": {
     "slide_1": {
       "title": "Expertos en reformas y mantenimiento del hogar.",
-      "description": "Ofrecemos soluciones integrales para transformar y mejorar tu vivienda o local comercial con calidad y profesionalismo."
+      "description": "Ofrecemos soluciones integrales para transformar y mejorar tu vivienda o local comercial con calidad y profesionalismo.",
+      "service": "reformas_integrales"
     },
     "slide_2": {
       "title": "Transformamos tu espacio con reformas integrales personalizadas.",
