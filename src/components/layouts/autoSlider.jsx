@@ -55,7 +55,9 @@ const AutoSlider = ({ interval = 20000 }) => {
             src={`/slider/${index + 1}.webp`}
             className="w-full h-full object-cover"
             alt=""
-            loading="lazy"
+            fetchpriority="high"
+            decoding="async"
+            loading="eager"
           />
 
           {/* Overlay */}
