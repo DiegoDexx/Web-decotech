@@ -652,7 +652,7 @@
         "number":  "02",
         "title":  "Demolition and Preparation",
         "description": "We remove old elements and prepare the structure for the new renovation.",
-        "image": "../../public/subservices/masonry/derrumbes-desescombros.webp",
+        "image": "/subservices/masonry/derrumbes-desescombros.webp",
         "icon": "🏗️"
       },
       {

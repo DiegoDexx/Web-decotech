@@ -643,7 +643,7 @@
         "number": "02",
         "title": "Abriss und Vorbereitung",
         "description": "Wir entfernen alte Elemente und bereiten die Struktur für die neue Renovierung vor.",
-        "image": "../../public/subservices/masonry/derrumbes-desescombros.webp",
+        "image": "/subservices/masonry/derrumbes-desescombros.webp",
         "icon": "🏗️"
       },
       {
