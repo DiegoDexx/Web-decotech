@@ -128,7 +128,7 @@ const AutoSlider = ({ interval = 20000 }) => {
                       focus-visible:outline-none
                       focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-transparent
                     "
-                    onClick ={() => { navigate("/${lang}/services/${slide.service}") } }
+                    onClick ={() => { navigate(`/${lang}/services/${slide.service}`) } }
                   >
                     {slider.button_2}
                   </button>
