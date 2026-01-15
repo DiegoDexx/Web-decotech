@@ -139,7 +139,7 @@ export default function Footer() {
               <div className="flex items-center gap-3">
                 <FiMapPin className="text-xl shrink-0" />
                 <p className="leading-relaxed">
-                  {footer.contact.address}
+                  Calle Falsa 123, Murcia, España
                 </p>
               </div>
 

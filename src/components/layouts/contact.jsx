@@ -21,7 +21,7 @@ export default function Contact() {
   // 🔁 Pega aquí tu URL de Google Maps Embed
   // Cómo obtenerla: Google Maps -> Compartir -> Insertar un mapa -> Copiar HTML -> extraer el src=""
   const MAP_EMBED_URL =
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d290.1024781027133!2d-0.8039782884006531!3d37.81203812956206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd630e243aaa99a3%3A0x3752e0e1da7d7811!2sAv.%20Academia%20Gral.%20Del%20Aire%2C%20295i%2C%2030720%20Santiago%20de%20la%20Ribera%2C%20Murcia!5e1!3m2!1ses!2ses!4v1767732970315!5m2!1ses!2ses"; // <-- reemplaza por la tuya
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50309.96221378969!2d-1.1806670985247998!3d37.991767809159285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6381f8d5928c7f%3A0xd627129b38c4ab9a!2sMurcia!5e0!3m2!1ses!2ses!4v1768473232730!5m2!1ses!2ses"; // <-- reemplaza por la tuya
 
   // WhatsApp (cambia a tu número, formato internacional sin +)
   const WHATSAPP_NUMBER = "34600000000";
