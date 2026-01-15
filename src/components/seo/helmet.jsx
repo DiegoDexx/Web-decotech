@@ -1,4 +1,5 @@
-import { Helmet } from "react-helmet";
+import { Head } from "@unhead/react";
+
 
 const localeMap = {
   es: "es_ES",
@@ -16,7 +17,7 @@ const HelmetSEO = ({
   alternates = {}
 }) => {
   return (
-    <Helmet>
+    <Head>
       <title>{title}</title>
       <meta name="description" content={description} />
 
@@ -50,7 +51,7 @@ const HelmetSEO = ({
 
       {/* Idioma HTML */}
       <html lang={lang} />
-    </Helmet>
+    </Head>
   );
 };
 
