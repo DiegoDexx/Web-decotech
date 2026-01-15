@@ -1,7 +1,8 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './assets/scss/global.scss';
-import { createHead, HeadProvider } from "@unhead/react";
+import { createHead } from "unhead";
+import { HeadProvider } from "@unhead/react";;
 
 const head = createHead();
 
@@ -11,6 +12,6 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <HeadProvider head={head}>
       <App />
-    </HeadProvider >
+    </HeadProvider>
   </StrictMode>,
 )
