@@ -24,8 +24,8 @@ export default function TermsLayout() {
 
   // ✅ Config del sitio (pon tus datos)
   const SITE = {
-    domain: "www.decotech.es",
-    companyName: "REFORMAS INTEGRALES DECOTECH SL",
+    domain: "s",
+    companyName: "REFORMAS INTEGRALES SL",
     address: "Murcia y Alicante, España",
     taxIdLabel: "CIF",
     taxIdValue: "XXXXXXXXX",

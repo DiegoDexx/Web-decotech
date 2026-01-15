@@ -24,8 +24,8 @@ export default function PrivacyLayout() {
 
   // ✅ Config del sitio (pon tus datos)
   const SITE = {
-    companyName: "REFORMAS INTEGRALES DECOTECH SL",
-    email: "info@decotech.es",
+    companyName: "REFORMAS INTEGRALES SL",
+    email: "",
   };
 
   return (

@@ -818,7 +818,7 @@
       "phone": "0123456789",
       "phone_display": "01 23 45 67 89",
       "email": "contacto@.es",
-      "address": "Av. Academia Gral. del Aire, 295i, Santiago de la Ribera, 30720 Murcia"
+      "address": "Calle falsa 123, Murcia, España"
     },
     "bottom": {
       "copyright": "© 2025 REFORMAS INTEGRALES  S.L.S.",
@@ -844,8 +844,8 @@
         {
           "h": "2. Identificación del Prestador",
           "p": [
-            "Denominación social: {companyName}.",
-            "Domicilio: {address}.",
+            "Denominación social: .",
+            "Domicilio: .",
             "{taxIdLabel}: {taxIdValue}.",
             "Correo electrónico: {email}.",
             "Teléfono: {phone}."
