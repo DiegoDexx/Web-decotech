@@ -944,6 +944,12 @@
         "keywords": "maçonnerie professionnelle, murs, cloisons, revêtements, carrelage, travaux de maçonnerie",
         "slug": "/fr/service/maconnerie"
       },
+      "fontaneria": {
+        "title": "Services de Plomberie à Murcia et Alicante – Installations et Réparations",
+        "description": "Plombiers professionnels à Murcia et Alicante. Installations neuves, réparations et maintenance pour particuliers et entreprises. Contactez-nous !",
+        "keywords": "plomberie, installations plomberie, réparations plomberie, maintenance plomberie",
+        "slug": "/fr/service/plomberie"
+      },
       "reformas_de_cocina": {
         "title": "Rénovation de Cuisine à Murcia et Alicante – Modernisez Votre Cuisine",
         "description": "Spécialistes en rénovation de cuisine à Murcia et Alicante. Design fonctionnel, matériaux durables et finitions modernes.",
