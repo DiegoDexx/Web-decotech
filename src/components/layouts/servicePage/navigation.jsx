@@ -1,6 +1,6 @@
 // components/layouts/servicePage/navigation.jsx
-import { Link, useParams } from "react-router-dom";
-import { useVTNavigate } from "../../../hooks/useVTNavigate";
+import { Link, useParams, useNavigate } from "react-router-dom";
+
 import es from "../../../locales/es.json";
 import en from "../../../locales/en.json";
 import fr from "../../../locales/fr.json";
@@ -11,7 +11,7 @@ const translations = { es, en, fr, de };
 export default function ServiceNavigation() {
   const { lang = "es", category } = useParams();
   const t = translations[lang]?.services || translations.es.services;
-  const navigate = useVTNavigate();
+  const navigate = useNavigate();
 
   // Pasamos de service_1, service_2... a un array
   const servicesArray = Object.values(t).filter(
