@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from "../../assets/img/LogoDECOTECH_Transparente.png";
+import logo from "../../assets/img/renovy.png";
 
 /**
  * LoadingScreen

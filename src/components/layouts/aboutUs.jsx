@@ -5,7 +5,7 @@ import en from "../../locales/en.json";
 import fr from "../../locales/fr.json";
 import de from "../../locales/de.json";
 
-import logoAmarillo from "../../../public/logos/LogoDECOTECH_amarillo.jpeg";
+import logo from "../../assets/img/renovy.png";
 
 const translationsByLang = { es, en, fr, de };
 
@@ -54,7 +54,7 @@ export default function AboutUs() {
             <div className="w-full max-w-[520px] bg-brand rounded-2xl shadow-xl p-5 md:p-8">
               <div className="bg-white/20 rounded-xl p-5 md:p-7 flex items-center justify-center">
                 <img
-                  src={logoAmarillo}
+                  src={logo}
                   alt="Decotech Reformas Integrales"
                   className="w-full max-w-[380px] h-auto object-contain"
                 />

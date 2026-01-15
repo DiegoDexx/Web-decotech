@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import logo from "../../assets/img/LogoDECOTECH_Transparente.png";
+import logo from "../../assets/img/renovy.png";
 import SelectIdiom from "../ui/selectIdiom";
 
 import es from "../../locales/es.json";

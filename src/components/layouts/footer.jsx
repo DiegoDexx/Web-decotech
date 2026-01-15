@@ -1,7 +1,7 @@
 import { useLocation, Link } from "react-router-dom";
 import { FaFacebookF, FaInstagram, FaTiktok } from "react-icons/fa";
 import { FiPhone, FiMail, FiMapPin } from "react-icons/fi";
-import logo from "../../../public/logos/LogoDECOTECH_amarillo.jpeg";
+import logo from "../../assets/img/renovy.png";;
 
 import es from "../../locales/es.json";
 import en from "../../locales/en.json";
