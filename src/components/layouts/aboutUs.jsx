@@ -5,7 +5,7 @@ import en from "../../locales/en.json";
 import fr from "../../locales/fr.json";
 import de from "../../locales/de.json";
 
-import logo from "../../assets/img/renovy.png";
+import logo from "../../assets/img/renovy_yellow.png";
 
 const translationsByLang = { es, en, fr, de };
 
