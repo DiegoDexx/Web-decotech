@@ -10,10 +10,10 @@ const head = createHead();
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <BrowserRouter>
+
       <UnheadProvider head={head}>
         <App />
       </UnheadProvider>
-    </BrowserRouter>
+ 
   </StrictMode>
 );
