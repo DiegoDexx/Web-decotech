@@ -1,12 +1,14 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './assets/scss/global.scss';
-
+import {HeadProvider} from "@unhead/react";
 
 import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
+    <HeadProvider>
+      <App />
+    </HeadProvider>
   </StrictMode>,
 )
