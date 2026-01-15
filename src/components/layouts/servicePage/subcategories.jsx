@@ -10,7 +10,7 @@ const translationsByLang = { es, en, fr, de };
 
 const slugToServiceKey = {
   "reformas_de_baños": "baños",
-  "albañileria": "albañileria",
+  "albanileria": "albanileria",
   "reformas_integrales": "reformas_integrales",
   "antenas": "antenas",
   "fontaneria": "fontaneria",
