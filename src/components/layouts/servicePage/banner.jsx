@@ -8,7 +8,7 @@ import de from "../../../locales/de.json";
 // Mapea el slug de la URL a la clave del JSON
 const slugToServiceKey = {
   "reformas_de_baños": "baños",
-  "albañileria": "albañileria",
+  "albanileria": "albanileria",
   "reformas_integrales": "reformas_integrales",
   "antenas": "antenas",
   "fontaneria": "fontaneria",
@@ -23,15 +23,15 @@ const Banner = ({ category, lang }) => {
   const t = translationsByLang[lang] || translationsByLang.es; 
 
   //COMPROBACIONES
-  console.log("Banner - category:", category);
-  console.log("Banner - lang:", lang);
+  // console.log("Banner - category:", category);
+  // console.log("Banner - lang:", lang);
 
 
 
   const serviceKey = slugToServiceKey[category];
   const serviceData = t.services_subservices[serviceKey];
-  console.log(t.services_subservices)
-  console.log("serviceKey:", serviceKey);
+  // console.log(t.services_subservices)
+  // console.log("serviceKey:", serviceKey);
   
 
   const imageSrc = servicesImages[category];

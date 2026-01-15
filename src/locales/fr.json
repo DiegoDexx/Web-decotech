@@ -54,7 +54,7 @@
     "slide_8": {
       "title": "Travaux de maçonnerie durables et adaptés à chaque projet.",
       "description": "Nous réalisons des travaux de maçonnerie avec des matériaux de haute qualité et des techniques professionnelles pour garantir des résultats durables et esthétiquement agréables.",
-      "service": "albañileria"
+      "service": "albanileria"
     },
     "slide_9": {
       "title": "Peinture professionnelle pour intérieurs et extérieurs.",
@@ -83,7 +83,7 @@
     "service_2": {
       "title": "Maçonnerie",
       "description": "Travaux de maçonnerie précis et durables et améliorations esthétiques dans n'importe quel espace.",
-      "slug": "albañileria"
+      "slug": "albanileria"
     },
     "service_3": {
       "title": "Rénovations complètes",
@@ -175,7 +175,7 @@
       }
     },
 
-    "albañileria": {
+    "albanileria": {
       "subtitle": "Travaux de maçonnerie durables et adaptés à chaque projet.",
       "short_description": "Services de maçonnerie professionnels avec des techniques avancées. Réhabilitation, cloisons et solutions efficaces contre l’humidité.",
       "description": "Nous réalisons des travaux de maçonnerie avec des matériaux de haute qualité et des techniques professionnelles afin de garantir des résultats durables et esthétiques.",
@@ -921,5 +921,68 @@
           "p": ["Vous pouvez exercer vos droits en écrivant à {email}."]
         }
       ]
+    },
+    
+ 
+  "seo": {
+    "home": {
+      "title": "Rénovations Complètes – Experts en Rénovation et Services Multiservices",
+      "description": "Entreprise de confiance pour rénovations complètes, cuisines, salles de bain, peinture et électricité. Plus de 15 ans d’expérience à Murcia et Alicante. Demandez votre devis gratuit !",
+      "keywords": "rénovation complète, rénovation cuisine, rénovation salle de bain, peinture professionnelle, services électriques, maçonnerie, nettoyage fin de chantier, Murcia, Alicante",
+      "slug": "/fr"
+    },
+    "services": {
+      "reformas_integrales": {
+        "title": "Rénovations Complètes à Murcia et Alicante – Qualité et Professionnalisme",
+        "description": "Rénovations complètes à Murcia et Alicante. Conception sur mesure, matériaux de qualité et finitions professionnelles. Réalisez la maison de vos rêves !",
+        "keywords": "rénovation complète, rénovation habitation, rénovation locaux commerciaux, design intérieur, matériaux de qualité",
+        "slug": "/fr/service/renovation-complete"
+      },
+      "albanileria": {
+        "title": "Services de Maçonnerie Professionnelle à Murcia et Alicante",
+        "description": "Maçons experts à Murcia et Alicante. Murs, cloisons, revêtements, carrelage et plus encore. Qualité et finitions soignées pour tous vos projets.",
+        "keywords": "maçonnerie professionnelle, murs, cloisons, revêtements, carrelage, travaux de maçonnerie",
+        "slug": "/fr/service/maconnerie"
+      },
+      "reformas_de_cocina": {
+        "title": "Rénovation de Cuisine à Murcia et Alicante – Modernisez Votre Cuisine",
+        "description": "Spécialistes en rénovation de cuisine à Murcia et Alicante. Design fonctionnel, matériaux durables et finitions modernes.",
+        "keywords": "rénovation cuisine, design cuisine, matériaux cuisine, cuisines modernes",
+        "slug": "/fr/service/renovation-cuisine"
+      },
+      "reformas_de_baños": {
+        "title": "Rénovation de Salle de Bain à Murcia et Alicante – Moderne et Fonctionnelle",
+        "description": "Experts en rénovation de salles de bain à Murcia et Alicante. Design personnalisé, matériaux haut de gamme et finitions professionnelles.",
+        "keywords": "rénovation salle de bain, design salle de bain, matériaux salle de bain, salles de bain modernes",
+        "slug": "/fr/service/renovation-salle-de-bain"
+      },
+      "pintura": {
+        "title": "Services de Peinture Professionnelle à Murcia et Alicante",
+        "description": "Peintres à Murcia et Alicante : peinture intérieure et extérieure, microciment, traitement de l’humidité et plus encore. Demandez votre devis !",
+        "keywords": "peinture professionnelle, peinture intérieure, peinture extérieure, microciment, traitement humidité",
+        "slug": "/fr/service/peinture-professionnelle"
+      },
+      "electricidad": {
+        "title": "Services Électriques Professionnels à Murcia et Alicante",
+        "description": "Électriciens à Murcia et Alicante. Installations électriques, certificats, urgences 24h et plus encore. Contactez-nous !",
+        "keywords": "électriciens, installations électriques, certificats électriques, urgences électriques",
+        "slug": "/fr/service/services-electriques"
+      },
+      "antenas": {
+        "title": "Installation et Réparation d’Antennes à Murcia et Alicante",
+        "description": "Installation et réparation d’antennes TV et paraboliques à Murcia et Alicante. Demandez votre devis gratuit !",
+        "keywords": "installation antennes, réparation antennes, antennes TV, antennes paraboliques",
+        "slug": "/fr/service/installation-antennes"
+      },
+      "limpieza": {
+        "title": "Services de Nettoyage Professionnel à Murcia et Alicante",
+        "description": "Nettoyage de logements, copropriétés, locaux commerciaux et nettoyage fin de chantier à Murcia et Alicante.",
+        "keywords": "nettoyage professionnel, nettoyage logements, nettoyage copropriétés, nettoyage locaux commerciaux, nettoyage fin de chantier",
+        "slug": "/fr/service/services-nettoyage"
+      }
     }
+  }
 }
+
+
+

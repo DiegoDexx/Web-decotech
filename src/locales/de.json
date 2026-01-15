@@ -56,7 +56,7 @@
     "slide_8": {
       "title": "Langlebige Maurerarbeiten, passend für jedes Projekt.",
       "description": "Wir führen Maurerarbeiten mit hochwertigen Materialien und professionellen Techniken aus, um langlebige und ästhetisch ansprechende Ergebnisse zu gewährleisten.",
-      "service": "albañileria"
+      "service": "albanileria"
     },
     "slide_9": {
       "title": "Professionelle Malerarbeiten für Innen- und Außenbereiche.",
@@ -84,7 +84,7 @@
     "service_2": {
       "title": "Maurerarbeiten",
       "description": "Präzise und langlebige Maurerarbeiten sowie ästhetische Verbesserungen in jedem Raum.",
-      "slug": "albañileria"
+      "slug": "albanileria"
     },
     "service_3": {
       "title": "Komplettrenovierungen",
@@ -175,7 +175,7 @@
       }
     },
 
-    "albañileria": {
+    "albanileria": {
       "subtitle": "Langlebige Maurerarbeiten, passend für jedes Projekt.",
       "short_description": "Professionelle Maurerarbeiten mit fortschrittlichen Techniken. Sanierungen, Trockenbau/Trennwände und effektive Feuchtigkeitslösungen.",
       "description": "Wir führen Maurerarbeiten mit hochwertigen Materialien und professionellen Techniken aus, um langlebige und ästhetisch ansprechende Ergebnisse zu gewährleisten.",
@@ -923,8 +923,67 @@
       "p": ["Sie können Ihre Rechte ausüben, indem Sie eine E-Mail an {email} senden."]
     }
   ]
+},
+
+ "seo": {
+    "home": {
+      "title": "Komplettsanierungen – Experten für Renovierung und Multiservice",
+      "description": "Zuverlässiges Unternehmen für Komplettsanierungen, Küchen, Bäder, Maler- und Elektroarbeiten. Über 15 Jahre Erfahrung in Murcia und Alicante. Jetzt kostenloses Angebot anfordern!",
+      "keywords": "Komplettsanierung, Küchenrenovierung, Badrenovierung, Malerarbeiten, Elektroservice, Bauarbeiten, Baureinigung, Murcia, Alicante",
+      "slug": "/de"
+    },
+    "services": {
+      "reformas_integrales": {
+        "title": "Komplettsanierungen in Murcia und Alicante – Qualität und Professionalität",
+        "description": "Komplettsanierungen in Murcia und Alicante. Individuelles Design, hochwertige Materialien und professionelle Ausführung. Verwirklichen Sie Ihr Traumhaus!",
+        "keywords": "Komplettsanierung, Haussanierung, Gewerbesanierung, Innenarchitektur, hochwertige Materialien",
+        "slug": "/de/service/komplettsanierung"
+      },
+      "albanileria": {
+        "title": "Professionelle Maurerarbeiten in Murcia und Alicante",
+        "description": "Erfahrene Maurer in Murcia und Alicante. Wände, Trennwände, Verkleidungen, Fliesenarbeiten und mehr.",
+        "keywords": "Maurerarbeiten, Wände, Trennwände, Fliesenarbeiten, Bauarbeiten",
+        "slug": "/de/service/maurerarbeiten"
+      },
+      "reformas_de_cocina": {
+        "title": "Küchenrenovierung in Murcia und Alicante – Moderne Küchenlösungen",
+        "description": "Spezialisten für Küchenrenovierungen in Murcia und Alicante. Funktionales Design, langlebige Materialien und moderne Oberflächen.",
+        "keywords": "Küchenrenovierung, Küchendesign, Küchenmaterialien, moderne Küchen",
+        "slug": "/de/service/kuechenrenovierung"
+      },
+      "reformas_de_baños": {
+        "title": "Badrenovierung in Murcia und Alicante – Modern und Funktional",
+        "description": "Experten für Badrenovierungen in Murcia und Alicante. Individuelles Design, hochwertige Materialien und professionelle Umsetzung.",
+        "keywords": "Badrenovierung, Baddesign, Badmaterialien, moderne Bäder",
+        "slug": "/de/service/badrenovierung"
+      },
+      "pintura": {
+        "title": "Professionelle Malerarbeiten in Murcia und Alicante",
+        "description": "Malerarbeiten für Innen- und Außenbereiche, Mikrozement und Feuchtigkeitsschutz in Murcia und Alicante.",
+        "keywords": "Malerarbeiten, Innenanstrich, Außenanstrich, Mikrozement, Feuchtigkeitsschutz",
+        "slug": "/de/service/malerarbeiten"
+      },
+      "electricidad": {
+        "title": "Professionelle Elektroservices in Murcia und Alicante",
+        "description": "Elektriker in Murcia und Alicante. Elektroinstallationen, Zertifikate, 24h-Notdienst und mehr.",
+        "keywords": "Elektriker, Elektroinstallationen, Elektrozertifikate, Elektro-Notdienst",
+        "slug": "/de/service/elektroservice"
+      },
+      "antenas": {
+        "title": "Antenneninstallation und Reparatur in Murcia und Alicante",
+        "description": "Installation und Reparatur von TV- und Satellitenantennen in Murcia und Alicante.",
+        "keywords": "Antenneninstallation, Antennenreparatur, TV-Antennen, Satellitenantennen",
+        "slug": "/de/service/antenneninstallation"
+      },
+      "limpieza": {
+        "title": "Professionelle Reinigungsdienste in Murcia und Alicante",
+        "description": "Reinigung von Wohnungen, Wohnanlagen, Geschäftsräumen und Bauendreinigung in Murcia und Alicante.",
+        "keywords": "professionelle Reinigung, Gebäudereinigung, Gewerbereinigung, Bauendreinigung",
+        "slug": "/de/service/reinigungsservice"
+      }
+    }
+  }
 }
 
 
 
-}

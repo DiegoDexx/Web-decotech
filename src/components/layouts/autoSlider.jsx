@@ -51,14 +51,7 @@ const AutoSlider = ({ interval = 20000 }) => {
       {slide && (
         <div className="absolute inset-0 transition-opacity duration-700 ease-in-out">
           {/* Fondo */}
-          <img
-            src={`/slider/${index + 1}.webp`}
-            className="w-full h-full object-cover"
-            alt=""
-            fetchpriority="high"
-            decoding="async"
-            loading="eager"
-          />
+          <img src={`/slider/${index + 1}.webp`}  className="w-full h-full object-cover" alt="" fetchPriority="high" loading={index===0 ? "eager" : "lazy"} />
 
           {/* Overlay */}
           <div className="absolute inset-0 bg-black/60" />

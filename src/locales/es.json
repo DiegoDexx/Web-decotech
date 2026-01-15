@@ -87,7 +87,7 @@
     "service_2": {
       "title": "Albañilería",
       "description": "Trabajos de albañilería precisos y duraderos y mejoras estéticas en cualquier espacio.",
-      "slug": "albañileria"
+      "slug": "albanileria"
     },
     "service_3": {
       "title": "Reformas Integrales",
@@ -179,7 +179,7 @@
       }
     },
 
-    "albañileria": {
+    "albanileria": {
       "subtitle": "Trabajos de albañilería duraderos y adaptados a cada proyecto.",
       "short_description": "Servicios profesionales de albañilería con técnicas avanzadas",
       "description": "Realizamos trabajos de albañilería con materiales de alta calidad y técnicas profesionales para garantizar resultados duraderos y estéticamente agradables.",
@@ -764,9 +764,9 @@
       },
       "email": {
         "title": "Enviar email",
-        "subtitle": "contact@decotech.es",
+        "subtitle": "contact@.es",
         "button_label": "Escribir",
-        "href": "mailto:contact@decotech.es",
+        "href": "mailto:contact@.es",
         "icon": "✉️",
         "color": "purple"
       },
@@ -784,7 +784,7 @@
 
  "footer": {
     "brand": {
-      "name": "DECOTECH",
+      "name": "",
       "description": "Especialistas multiservicios en Reformas Integrales en Murcia y Alicante"
     },
     "social": {
@@ -817,11 +817,11 @@
       "title": "Contacto",
       "phone": "0123456789",
       "phone_display": "01 23 45 67 89",
-      "email": "contacto@decotech.es",
+      "email": "contacto@.es",
       "address": "Av. Academia Gral. del Aire, 295i, Santiago de la Ribera, 30720 Murcia"
     },
     "bottom": {
-      "copyright": "© 2025 REFORMAS INTEGRALES DECOTECH S.L.S.",
+      "copyright": "© 2025 REFORMAS INTEGRALES  S.L.S.",
       "legal_links": [
         { "label": "Menciones legales", "href": "/es/legal" },
         { "label": "Política de confidencialidad", "href": "/es/privacy" },
@@ -940,8 +940,64 @@
           ]
         }
       ]
+    },
+
+    "seo": {
+      "home": {
+
+      "title": "Reformas Integrales - Expertos en Reformas y Servicios Multiservicio",
+      "description": "Empresa de confianza para reformas integrales, cocinas, baños, pintura y electricidad. Más de 15 años de experiencia en Murcia y Alicante. ¡Solicita tu presupuesto hoy!",
+      "keywords": "reformas integrales, reformas de cocina, reformas de baño, pintura profesional, servicios eléctricos, albañilería, limpieza de obras, , Murcia, Alicante"
+    },
+    "services" : {
+      "reformas_integrales": {
+        "title": "Reformas Integrales en Murcia y Alicante - Calidad y Profesionalidad",
+        "description": "Reformas Integrales en Murcia y Alicante. Diseño personalizado, materiales de calidad y acabados profesionales. ¡Haz realidad la casa de tus sueños!",
+        "keywords": "reformas integrales, reformas de viviendas, reformas de locales, diseño de interiores, materiales de calidad",
+         "slug": "/es/service/reformas_integrales"
+      },
+      "albañileria": {
+        "title": "Servicios de Albañilería en Murcia y Alicante - Construcción y Reparación",
+        "description": "Albañiles en Murcia y Alicante. Construcción, reformas y reparaciones con materiales duraderos y acabados de calidad. ¡Contáctanos para tu proyecto!",
+        "keywords": "albañilería, construcción, reformas, reparaciones, materiales duraderos",
+        "slug": "/es/service/albanileria"
+      },
+      "reformas_de_cocina": {
+        "title": "Reformas de Cocina en Murcia y Alicante - Moderniza tu Cocina",
+        "description": "Especialistas en reformas de cocina en Murcia y Alicante. Diseño funcional, materiales duraderos y acabados modernos. ¡Transforma tu cocina hoy!",
+        "keywords": "reformas de cocina, diseño de cocina, materiales de cocina, cocinas modernas",
+        "slug": "/es/service/reformas_de_cocina"
+      },
+    "reformas_de_banos": {
+      "title": "Reformas de Baños en Murcia y Alicante - Baños Modernos y Funcionales",
+      "description": "Expertos en reformas de baños en Murcia y Alicante. Diseño personalizado, materiales de alta calidad y acabados profesionales. ¡Renueva tu baño ahora!",
+      "keywords": "reformas de baños, diseño de baños, materiales de baño, baños modernos",
+      "slug": "/es/service/reformas_de_banos"
+    },
+    "pintura": {
+      "title": "Servicios de Pintura Profesional en Murcia y Alicante",
+      "description": "Pintores en Murcia y Alicante ,pintura interior y exterior, microcemento, tratamiento de humedades y más. Servicios de pintura profesional en Murcia y Alicante. ¡Solicita tu presupuesto!",
+      "keywords": "pintura profesional, pintura interior, pintura exterior, microcemento, tratamiento de humedades",
+      "slug": "/es/service/pintura"
+    },
+    "electricidad": {
+      "title": "Servicios Eléctricos Profesionales en Murcia y Alicante",
+      "description": "Electricistas en Murcia y Alicante, instalaciones eléctricas, boletines eléctricos, urgencias 24h y más. Servicios eléctricos profesionales en Murcia y Alicante. ¡Contáctanos!",
+      "keywords": "electricistas, instalaciones eléctricas, boletines eléctricos, urgencias eléctricas",
+      "slug": "/es/service/electricidad"
+    },
+    "antenas": {
+      "title": "Instalación y Reparación de Antenas en Murcia y Alicante",
+      "description": "Servicios de instalación y reparación de antenas en Murcia y Alicante. Antenas de TV, parabólicas y más. ¡Solicita tu presupuesto hoy!",
+      "keywords": "instalación de antenas, reparación de antenas, antenas de TV, antenas parabólicas",
+      "slug": "/es/service/antenas"
+    },
+    "limpieza": {
+      "title": "Servicios de Limpieza en Murcia y Alicante",
+      "description": "Limpieza de viviendas, comunidades, locales comerciales y fin de obra en Murcia y Alicante. Servicios de limpieza profesional. ¡Pide tu presupuesto!",
+      "keywords": "limpieza profesional, limpieza de viviendas, limpieza de comunidades, limpieza de locales comerciales, limpieza fin de obra",
+      "slug": "/es/service/limpieza"
     }
+  }
 }
-
-
-    
+}

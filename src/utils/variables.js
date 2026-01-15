@@ -1,4 +1,4 @@
-import  albañileria from "../../public/servicios/albañileria.webp";
+import  albanileria from "../../public/servicios/albanileria.webp";
 import  antenas from "../../public/servicios/antenas.webp";
 import  reformas_de_baños from "../../public/servicios/reformas-de-baños.webp";
 import  reformas_de_cocina from "../../public/servicios/reformas-de-cocina.webp";
@@ -10,7 +10,7 @@ import  reformas_integrales from "../../public/servicios/reformas-integrales.web
 
 export const servicesImages = {
     reformas_de_baños,
-    albañileria,
+    albanileria,
     antenas,
     reformas_de_cocina,
     electricidad,
