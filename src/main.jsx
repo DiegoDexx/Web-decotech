@@ -1,17 +1,19 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './assets/scss/global.scss';
-import { createHead } from "unhead";
-import { HeadProvider } from "@unhead/react";;
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import { BrowserRouter } from "react-router-dom";
+import "./assets/scss/global.scss";
+
+import { createHead, UnheadProvider } from "@unhead/react/client";
+import App from "./App.jsx";
 
 const head = createHead();
 
-import App from './App.jsx'
-
-createRoot(document.getElementById('root')).render(
+createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <HeadProvider head={head}>
-      <App />
-    </HeadProvider>
-  </StrictMode>,
-)
+    <BrowserRouter>
+      <UnheadProvider head={head}>
+        <App />
+      </UnheadProvider>
+    </BrowserRouter>
+  </StrictMode>
+);
