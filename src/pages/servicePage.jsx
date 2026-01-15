@@ -44,14 +44,7 @@ export default function ServicePage() {
 
   return (
     <>
-      {/* Helmet lo ideal es ponerlo arriba para que quede claro, pero funciona igual */}
-      <HelmetSEO
-        title={title}
-        description={description}
-        url={url}
-        lang={language}
-        alternates={alternates}
-      />
+   
 
       <Navbar language={language} />
       <ServiceNavigation />
@@ -60,6 +53,15 @@ export default function ServicePage() {
       <Subcategories category={category} lang={language} />
       <Contact id="contact-section-servicepage" />
       <Footer language={language} />
+
+         {/* Helmet lo ideal es ponerlo arriba para que quede claro, pero funciona igual */}
+      <HelmetSEO
+        title={title}
+        description={description}
+        url={url}
+        lang={language}
+        alternates={alternates}
+      />
     </>
   );
 }
