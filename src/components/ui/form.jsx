@@ -1,5 +1,4 @@
 import { useMemo, useState } from "react";
-import { useForm, ValidationError } from "@formspree/react";
 import { useLocation } from "react-router-dom";
 
 import es from "../../locales/es.json";
@@ -9,10 +8,12 @@ import de from "../../locales/de.json";
 
 const translationsByLang = { es, en, fr, de };
 
-export default function ContactForm({ id }) {
-  const [state, handleSubmit] = useForm("mzdznppv");
+const N8N_WEBHOOK_URL =
+  import.meta.env.VITE_PROD_FORM_N8N_WEBHOOK_URL;
 
+export default function ContactForm({ id }) {
   const location = useLocation();
+
   const lang = location.pathname.split("/")[1] || "es";
   const t = translationsByLang[lang] || translationsByLang.es;
 
@@ -20,7 +21,10 @@ export default function ContactForm({ id }) {
   const services = t.services;
   const servicesSub = t.services_subservices;
 
-  // ✅ leer params (memo)
+  const [submitting, setSubmitting] = useState(false);
+  const [succeeded, setSucceeded] = useState(false);
+  const [error, setError] = useState("");
+
   const searchParams = useMemo(
     () => new URLSearchParams(location.search),
     [location.search]
@@ -29,9 +33,13 @@ export default function ContactForm({ id }) {
   const initialProject = searchParams.get("project") || "";
   const initialSubcategory = searchParams.get("subcategory") || "";
 
-  // ✅ estado inicial desde URL SIN useEffect
-  const [selectedServiceSlug, setSelectedServiceSlug] = useState(() => initialProject);
-  const [selectedSubSlug, setSelectedSubSlug] = useState(() => initialSubcategory);
+  const [selectedServiceSlug, setSelectedServiceSlug] = useState(
+    () => initialProject
+  );
+
+  const [selectedSubSlug, setSelectedSubSlug] = useState(
+    () => initialSubcategory
+  );
 
   const servicesList = useMemo(() => {
     return Object.entries(services || {})
@@ -61,53 +69,116 @@ export default function ContactForm({ id }) {
 
   const subservicesList = useMemo(() => {
     if (!selectedServiceKey) return [];
-    const obj = servicesSub?.[selectedServiceKey]?.subservicios || {};
-    return Object.values(obj).filter((v) => v?.slug && v?.title);
+
+    const obj =
+      servicesSub?.[selectedServiceKey]?.subservicios || {};
+
+    return Object.values(obj).filter(
+      (v) => v?.slug && v?.title
+    );
   }, [servicesSub, selectedServiceKey]);
 
+  const selectedServiceTitle =
+    servicesList.find(
+      (service) => service.slug === selectedServiceSlug
+    )?.title || "";
 
+  const selectedSubTitle =
+    subservicesList.find(
+      (sub) => sub.slug === selectedSubSlug
+    )?.title || "";
 
-  if (state.succeeded) {
+  async function handleSubmit(event) {
+    event.preventDefault();
+
+    setSubmitting(true);
+    setError("");
+
+    const formData = new FormData(event.currentTarget);
+
+    const payload = {
+      fullName: formData.get("fullName"),
+      phone: formData.get("phone"),
+      email: formData.get("email"),
+      project: formData.get("project"),
+      projectTitle: selectedServiceTitle,
+      subcategory: formData.get("subcategory"),
+      subcategoryTitle: selectedSubTitle,
+      startDate: formData.get("startDate"),
+      message: formData.get("message"),
+
+      source: "web-decotech",
+      language: lang,
+      pageUrl: window.location.href,
+      submittedAt: new Date().toISOString(),
+    };
+
+    try {
+      const response = await fetch(N8N_WEBHOOK_URL, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(payload),
+      });
+
+      if (!response.ok) {
+        throw new Error(`Webhook error: ${response.status}`);
+      }
+
+      setSucceeded(true);
+
+      event.currentTarget.reset();
+
+      setSelectedServiceSlug("");
+      setSelectedSubSlug("");
+    } catch (err) {
+      console.error(err);
+
+      setError(
+        "No se ha podido enviar el formulario."
+      );
+    } finally {
+      setSubmitting(false);
+    }
+  }
+
+  if (succeeded) {
     return (
       <div className="bg-white rounded-2xl p-8 shadow-md">
-        <h3 className="text-xl font-semibold">✅ {formText?.fields?.success}</h3>
+        <h3 className="text-xl font-semibold">
+          ✅ {formText?.fields?.success}
+        </h3>
       </div>
     );
   }
 
   return (
-    <section className="w-full ">
+    <section className="w-full">
       <div className="bg-white rounded-2xl p-4 md:p-8">
         <h2 className="text-2xl md:text-2xl font-light text-black-600">
           {formText?.title}
         </h2>
 
-        <form onSubmit={handleSubmit} className="mt-8 space-y-6" id={ id }>
-          {/* 2 columnas en desktop */}
+        <form
+          onSubmit={handleSubmit}
+          className="mt-8 space-y-6"
+          id={id}
+        >
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {/* Nombre */}
             <div>
-              <label className="block text-sm font-medium text-black-900 mb-2 ">
+              <label className="block text-sm font-medium text-black-900 mb-2">
                 {formText?.fields?.name}
-                <span className="text-red-500">*</span>
               </label>
 
               <input
                 name="fullName"
                 type="text"
                 required
-                placeholder={formText?.fields?.name}
-                className="w-full bg-gray-100 rounded-xl px-4 py-3 outline-none border-0 focus:ring-2 focus:ring-blue-300"
-              />
-
-              <ValidationError
-                prefix={formText?.fields?.name}
-                field="fullName"
-                errors={state.errors}
+                className="w-full bg-gray-100 rounded-xl px-4 py-3 outline-none"
               />
             </div>
 
-            {/* Teléfono */}
             <div>
               <label className="block text-sm font-medium text-black-900 mb-2">
                 {formText?.fields?.phone}
@@ -116,55 +187,41 @@ export default function ContactForm({ id }) {
               <input
                 name="phone"
                 type="tel"
-                placeholder={formText?.fields?.phone}
-                className="w-full bg-gray-100 rounded-xl px-4 py-3 outline-none border-0 focus:ring-2 focus:ring-blue-300"
-              />
-
-              <ValidationError
-                prefix={formText?.fields?.phone}
-                field="phone"
-                errors={state.errors}
+                className="w-full bg-gray-100 rounded-xl px-4 py-3 outline-none"
               />
             </div>
           </div>
 
-          {/* Email */}
           <div>
             <label className="block text-sm font-medium text-black-900 mb-2">
-              {formText?.fields?.email} <span className="text-red-500">*</span>
+              {formText?.fields?.email}
             </label>
 
             <input
-              id="email"
               name="email"
               type="email"
               required
-              placeholder="you@email.com"
-              className="w-full bg-gray-100 rounded-xl px-4 py-3 outline-none border-0 focus:ring-2 focus:ring-blue-300"
-            />
-
-            <ValidationError
-              prefix={formText?.fields?.email}
-              field="email"
-              errors={state.errors}
+              className="w-full bg-gray-100 rounded-xl px-4 py-3 outline-none"
             />
           </div>
 
-          {/* Servicio */}
           <div>
             <label className="block text-sm font-medium text-black-900 mb-2">
-              {formText?.fields?.proyect} <span className="text-red-500">*</span>
+              Servicio
             </label>
 
             <select
               name="project"
               required
               value={selectedServiceSlug}
-              onChange={(e) => setSelectedServiceSlug(e.target.value)}
-              className="w-full bg-gray-100 rounded-xl px-4 py-3 outline-none border-0 focus:ring-2 focus:ring-black-300"
+              onChange={(e) => {
+                setSelectedServiceSlug(e.target.value);
+                setSelectedSubSlug("");
+              }}
+              className="w-full bg-gray-100 rounded-xl px-4 py-3 outline-none"
             >
-              <option value="" disabled>
-                {formText?.fields?.proyect}
+              <option value="">
+                Selecciona un servicio
               </option>
 
               {servicesList.map((s) => (
@@ -173,18 +230,11 @@ export default function ContactForm({ id }) {
                 </option>
               ))}
             </select>
-
-            <ValidationError
-              prefix={formText?.fields?.proyect}
-              field="project"
-              errors={state.errors}
-            />
           </div>
 
-          {/* Subservicio (✅ ahora controlado por state) */}
           <div>
-            <label className="block text-sm font-medium text-blue-900 mb-2">
-              {formText?.fields?.subcategory}
+            <label className="block text-sm font-medium text-black-900 mb-2">
+              Subservicio
             </label>
 
             <select
@@ -192,10 +242,10 @@ export default function ContactForm({ id }) {
               disabled={!selectedServiceKey}
               value={selectedSubSlug}
               onChange={(e) => setSelectedSubSlug(e.target.value)}
-              className="w-full bg-gray-100 rounded-xl px-4 py-3 outline-none border-0 focus:ring-2 focus:ring-blue-300 disabled:opacity-60"
+              className="w-full bg-gray-100 rounded-xl px-4 py-3 outline-none disabled:opacity-60"
             >
-              <option value="" disabled>
-                {formText?.fields?.subcategory}
+              <option value="">
+                Selecciona una opción
               </option>
 
               {subservicesList.map((sub) => (
@@ -204,43 +254,44 @@ export default function ContactForm({ id }) {
                 </option>
               ))}
             </select>
+          </div>
 
-            <ValidationError
-              prefix={formText?.fields?.subcategory}
-              field="subcategory"
-              errors={state.errors}
+          <div>
+            <label className="block text-sm font-medium text-black-900 mb-2">
+              Fecha estimada de inicio
+            </label>
+
+            <input
+              name="startDate"
+              type="date"
+              className="w-full bg-gray-100 rounded-xl px-4 py-3 outline-none"
             />
           </div>
 
-          {/* Mensaje */}
           <div>
             <label className="block text-sm font-medium text-black-900 mb-2">
               {formText?.fields?.message}
             </label>
 
             <textarea
-              id="message"
               name="message"
               rows={5}
-              placeholder={formText?.fields?.message}
-              className="w-full bg-gray-100 rounded-xl px-4 py-3 outline-none border-0 resize-none focus:ring-2 focus:ring-blue-300"
-            />
-
-            <ValidationError
-              prefix={formText?.fields?.message}
-              field="message"
-              errors={state.errors}
+              className="w-full bg-gray-100 rounded-xl px-4 py-3 outline-none resize-none"
             />
           </div>
 
-          {/* Botón */}
+          {error && (
+            <div className="bg-red-100 text-red-700 rounded-xl p-4">
+              {error}
+            </div>
+          )}
+
           <button
             type="submit"
-            disabled={state.submitting}
-            className="w-full bg-brand text-black font-medium py-3 border-0 cursor-pointer 
-            hover:brightness-110 transition disabled:opacity-60"
+            disabled={submitting}
+            className="w-full bg-brand text-black font-medium py-3 border-0 cursor-pointer hover:brightness-110 transition disabled:opacity-60"
           >
-            {formText?.fields?.submit}
+            {submitting ? "Enviando..." : formText?.fields?.submit}
           </button>
         </form>
       </div>

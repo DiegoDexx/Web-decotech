@@ -807,9 +807,8 @@
       "items": [
         { "label": "Reformas de cocina", "href": "/es/service/reformas_de_cocina" },
         { "label": "Reformas de baños", "href": "/es/service/reformas_de_baños" },
-        { "label": "Rehabilitación de fachada", "href": "/es/service/reformas_integrales" },
+        { "label": "Rehabilitación de fachada", "href": "/es/service/albanyileria" },
         { "label": "Interiores", "href": "/es/service/reformas_integrales" },
-        { "label": "Instalación de parquet", "href": "/es/service/reformas_integrales" },
         { "label": "Pintura & decoración", "href": "/es/service/pintura" }
       ]
     },

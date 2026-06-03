@@ -9,6 +9,7 @@ import Gallery from '../components/layouts/gallery';
 import Footer from '../components/layouts/footer';
 import ServiceProcess from '../components/layouts/serviceProcess';
 import HelmetSEO from '../components/seo/helmet';
+import RenovyChatbot from '../components/ui/renovyChatBot';
 
 import es from '../locales/es.json';
 import en from '../locales/en.json';
@@ -39,7 +40,7 @@ const seoTexts = t.seo.home;
             <ServiceProcess lang={language} />
             <Contact id="contact-section-homepage" /> 
             <Footer language={language} />
-            
+            <RenovyChatbot />
         </>
     );
  

@@ -1,25 +1,16 @@
-import  albanileria from "../../public/servicios/albanileria.webp";
-import  antenas from "../../public/servicios/antenas.webp";
-import  reformas_de_baños from "../../public/servicios/reformas-de-baños.webp";
-import  reformas_de_cocina from "../../public/servicios/reformas-de-cocina.webp";
-import  electricidad from "../../public/servicios/electridad.webp";
-import  fontaneria from "../../public/servicios/fontaneria.webp";
-import  limpieza from "../../public/servicios/limpieza.webp";
-import  pintura from "../../public/servicios/pintura.webp";
-import  reformas_integrales from "../../public/servicios/reformas-integrales.webp";
+
 
 export const servicesImages = {
-    reformas_de_baños,
-    albanileria,
-    antenas,
-    reformas_de_cocina,
-    electricidad,
-    fontaneria,
-    limpieza,
-    pintura,
-    reformas_integrales
+  reformas_de_baños: "/servicios/reformas-de-baños.webp",
+  albanileria: "/servicios/albanileria.webp",
+  antenas: "/servicios/antenas.webp",
+  reformas_de_cocina: "/servicios/reformas-de-cocina.webp",
+  electricidad: "/servicios/electridad.webp",
+  fontaneria: "/servicios/fontaneria.webp",
+  limpieza: "/servicios/limpieza.webp",
+  pintura: "/servicios/pintura.webp",
+  reformas_integrales: "/servicios/reformas-integrales.webp",
 };
-
 /**
  * Reformas de baños
 Acabados profesionales en interiores y exteriores, con materiales de calidad y resultados limpios.

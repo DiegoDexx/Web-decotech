@@ -78,10 +78,11 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold">{footer.quick_links.title}</h4>
             <ul className="mt-4 space-y-2 text-sm list-none p-0 m-0">
-              {footer.quick_links.items.map((item) => (
+              {footer.quick_links.items.map((item, index) => (
                 <li key={item.href}>
                   {/* Si usas anclas en Home, puedes usar <a href> */}
                   <Link
+                   key={`${item.href}-${index}`}
                     to={item.href}
                     className="no-underline text-inherit hover:underline underline-offset-4"
                   >
@@ -96,9 +97,10 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold">{footer.services.title}</h4>
             <ul className="mt-4 space-y-2 text-sm list-none p-0 m-0">
-              {footer.services.items.map((item) => (
+              {footer.services.items.map((item, index) => (
                 <li key={item.href}>
                   <Link
+                   key={`${item.href}-${index}`}
                     to={item.href}
                     className="no-underline text-inherit hover:underline underline-offset-4"
                   >
