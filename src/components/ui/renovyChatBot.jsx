@@ -167,7 +167,7 @@ export default function RenovyChatbot() {
 
       const text = await response.text();
       //comprobar que llega al componenete desde n8b
-      console.log("Respuesta del webhook:", text);
+      // console.log("Respuesta del webhook:", text);
 
       const data = text ? JSON.parse(text) : {}; // Maneja respuesta vacía o no JSON
       const { reply, accion } = extractReply(data);
