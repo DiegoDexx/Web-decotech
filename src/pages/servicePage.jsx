@@ -53,6 +53,7 @@ export default function ServicePage() {
       <Subcategories category={category} lang={language} />
       <Contact id="contact-section-servicepage" />
       <Footer language={language} />
+      
 
          {/* Helmet lo ideal es ponerlo arriba para que quede claro, pero funciona igual */}
       <HelmetSEO
