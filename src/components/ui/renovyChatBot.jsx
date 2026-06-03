@@ -4,7 +4,7 @@ const MAX_MSGS = 15;
 const STORAGE_KEY = "renovy_chat_v1";
 const SESSION_KEY = "renovy_session_id";
 
-const N8N_WEBHOOK_URL = import.meta.env.VITE_TEST_CHAT_WEBHOOK_URL;
+const N8N_WEBHOOK_URL = import.meta.env.VITE_PROD_CHAT_WEBHOOK_URL;
 
 const SYSTEM_PROMPT = `Eres el asistente de Renovy, empresa de reformas en Murcia, Alicante y provincias colindantes, no trabajamos fuera de esas áreas.
 Responde SOLO sobre reformas y servicios de Renovy - Ante ciudades pequeñas o pueblos, pregunta la provincia antes de 
